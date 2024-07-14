@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Linq;
 using Renci.SshNet;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
@@ -14,6 +19,11 @@ namespace ScreensAPP
 {
     public partial class InventoryScreens : Form
     {
+        DataTable pingTable = new DataTable();
+        List<string> IPaddressss = new List<string>();
+        List<PictureBox> pictureboxlist = new List<PictureBox>();
+        List<string> labellist = new List<string>();
+        private System.Timers.Timer timer;
         public InventoryScreens()
         {
             InitializeComponent();
@@ -133,7 +143,93 @@ namespace ScreensAPP
 
         private void InventoryScreens_Load(object sender, EventArgs e)
         {
+            using (var reader = new StreamReader(@"C:\IP\IPaddressss.csv"))
+            {
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split('\n');
 
+                    IPaddressss.Add(values[0]);
+                    
+                    
+                }
+
+                for (int i = 1; i < IPaddressss.Count + 1; i++)
+                {
+                    pictureboxlist.Add((PictureBox)Controls.Find("PictureBox" + i, true)[0]);
+                    labellist.Add("label"+(110+i).ToString());
+                }
+                FillPingTable();
+
+                backgroundWorker1.RunWorkerAsync();
+            }
+        }
+
+        private void FillPingTable()
+        {
+            pingTable.Columns.Add("ip", typeof(string));
+            pingTable.Columns.Add("picturebox", typeof(string));
+            pingTable.Rows.Add();
+
+            for (int i = 0; i < IPaddressss.Count; i++)
+            {
+                pingTable.Rows.Add(IPaddressss[i], pictureboxlist[i]);
+                
+            }
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            Thread.Sleep(1000);
+            Parallel.For(0, IPaddressss.Count(), (i, loopState) =>
+            {
+                Ping ping = new Ping();
+                PingReply pingReply = ping.Send(IPaddressss[i].ToString());
+                this.BeginInvoke((Action)delegate ()
+                {
+                    pictureboxlist[i].SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureboxlist[i].BackColor = (pingReply.Status == IPStatus.Success) ? Color.Green : Color.Red;
+                });
+                string lbl = "label11";
+                string user = "root";
+                string pass = "123456";
+                string host = IPaddressss[i];
+                //Set up the SSH connection
+                using (var client = new SshClient(host, user, pass))
+                {
+                    //Start the connection
+                    client.Connect();
+                    var output = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
+                    client.Disconnect();
+                    lbl = labellist[i];
+
+                    foreach (Control c in this.Controls)
+                    {
+                        if (c.Name == labellist[i])
+                        {
+                            c.Invoke((Action)delegate
+                            {
+                                c.Text = output.Result;
+                            });
+                            break;
+                        }
+                    }
+
+                    
+                }
+            });
+        }
+        void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            
+                    
+                    
+
+                
+
+                
+            
         }
     }
 }
