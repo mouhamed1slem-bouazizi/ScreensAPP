@@ -14,6 +14,7 @@ using System.Windows.Forms;
 using System.Linq;
 using Renci.SshNet;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.LinkLabel;
 
 namespace ScreensAPP
 {
@@ -22,7 +23,10 @@ namespace ScreensAPP
         DataTable pingTable = new DataTable();
         List<string> IPaddressss = new List<string>();
         List<PictureBox> pictureboxlist = new List<PictureBox>();
-        List<string> labellist = new List<string>();
+        List<string> Uplabellist = new List<string>();
+        List<string> Memlabellist = new List<string>();
+        List<string> timelabellist = new List<string>();
+        List<string> maclabellist = new List<string>();
         private System.Timers.Timer timer;
         public InventoryScreens()
         {
@@ -49,22 +53,6 @@ namespace ScreensAPP
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string user = "root";
-            string pass = "123456";
-            string host = "10.82.130.139";
-
-            //Set up the SSH connection
-            using (var client = new SshClient(host, user, pass))
-            {
-                //Start the connection
-                client.Connect();
-                var output = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
-                client.Disconnect();
-                MessageBox.Show(output.Result);
-            }
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -83,64 +71,6 @@ namespace ScreensAPP
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string user = "root";
-            string pass = "123456";
-            string host = "10.82.130.139";
-
-            //Set up the SSH connection
-            using (var client = new SshClient(host, user, pass))
-            {
-                //Start the connection
-                client.Connect();
-                var output1 = client.RunCommand("free -m | grep Mem: | awk '{print $3}'");
-                var output2 = client.RunCommand("free -m | grep Mem: | awk '{print $2}'");
-                var output3 = client.RunCommand("df -h | head -4 | grep /dev/ | awk '{print $5}'");
-
-                double n1 = Int32.Parse(output1.Result);
-                double n2 = Int32.Parse(output2.Result);
-
-                client.Disconnect();
-                double result = ((n1 * 100) / n2);
-                double result1 = Math.Round(result, 2);
-                string result2 = result1.ToString();
-                string result44 = "Mem used: " + result2 + "%";
-                string result55 = "DSK used: " + output3.Result;
-                string result66 = result44 + "\n" + result55;
-
-                MessageBox.Show(result66);
-            }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            string user = "root";
-            string pass = "123456";
-            string host = "10.82.130.139";
-
-            //Set up the SSH connection
-            using (var client = new SshClient(host, user, pass))
-            {
-                //Start the connection
-                client.Connect();
-                var output1 = client.RunCommand("free -m | grep Mem: | awk '{print $4}'");
-                var output2 = client.RunCommand("sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches");
-                var output3 = client.RunCommand("free -m | grep Mem: | awk '{print $4}'");
-                client.Disconnect();
-                double n1 = Int32.Parse(output1.Result);
-                double n2 = Int32.Parse(output3.Result);
-                string mem1 = n1.ToString();
-                string mem2 = n2.ToString();
-
-                string result44 = $"Mem before refresh: {mem1} Mg";
-                string result55 = $"Mem before refresh: {mem2} Mg";
-                string result66 = result44 + "\n" + result55;
-
-                MessageBox.Show(result66);
-            }
-        }
-
         private void InventoryScreens_Load(object sender, EventArgs e)
         {
             using (var reader = new StreamReader(@"C:\IP\IPaddressss.csv"))
@@ -151,15 +81,19 @@ namespace ScreensAPP
                     var values = line.Split('\n');
 
                     IPaddressss.Add(values[0]);
-                    
-                    
+
+
                 }
 
                 for (int i = 1; i < IPaddressss.Count + 1; i++)
                 {
                     pictureboxlist.Add((PictureBox)Controls.Find("PictureBox" + i, true)[0]);
-                    labellist.Add("label"+(110+i).ToString());
+                    Uplabellist.Add("label" + (2000 + i).ToString());
+                    Memlabellist.Add("label" + (3000 + i).ToString());
+                    timelabellist.Add("label" + (4000 + i).ToString());
+                    maclabellist.Add("label" + (5000 + i).ToString());
                 }
+
                 FillPingTable();
 
                 backgroundWorker1.RunWorkerAsync();
@@ -175,7 +109,7 @@ namespace ScreensAPP
             for (int i = 0; i < IPaddressss.Count; i++)
             {
                 pingTable.Rows.Add(IPaddressss[i], pictureboxlist[i]);
-                
+
             }
         }
 
@@ -200,36 +134,82 @@ namespace ScreensAPP
                 {
                     //Start the connection
                     client.Connect();
-                    var output = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
+                    var Upoutput = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
+                    var output1 = client.RunCommand("free -m | grep Mem: | awk '{print $2}'");
+                    var output2 = client.RunCommand("sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches");
+                    var output3 = client.RunCommand("free -m | grep Mem: | awk '{print $4}'");
+                    var timeoutput = client.RunCommand("date +\"Time now: %A %d %B %T\"");
+                    var macoutput = client.RunCommand("ip address show | grep link/ether | awk '{print $2}'");
                     client.Disconnect();
-                    lbl = labellist[i];
+                    
 
-                    foreach (Control c in this.Controls)
+                    foreach (Control c in tabPage1.Controls)
                     {
-                        if (c.Name == labellist[i])
+                        if (c.Name == Uplabellist[i])
                         {
                             c.Invoke((Action)delegate
                             {
-                                c.Text = output.Result;
+                                c.Text = Upoutput.Result;
+                            });
+                            break;
+                        }
+                    }
+                    double n1 = Int32.Parse(output1.Result);
+                    double n2 = Int32.Parse(output3.Result);
+                    double n3 = (n2 * 100) / n1;
+                    string mem1 = n3.ToString("0.00");
+                    string result44 = $"Mem Free: {mem1}%";
+                    
+                    foreach (Control c in tabPage1.Controls)
+                    {
+                        if (c.Name == Memlabellist[i])
+                        {
+                            c.Invoke((Action)delegate
+                            {
+                                c.Text = result44;
                             });
                             break;
                         }
                     }
 
-                    
+                    foreach (Control c in tabPage1.Controls)
+                    {
+                        if (c.Name == timelabellist[i])
+                        {
+                            c.Invoke((Action)delegate
+                            {
+                                c.Text = timeoutput.Result;
+                            });
+                            break;
+                        }
+                    }
+                    foreach (Control c in tabPage1.Controls)
+                    {
+                        if (c.Name == maclabellist[i])
+                        {
+                            c.Invoke((Action)delegate
+                            {
+                                c.Text = macoutput.Result;
+                            });
+                            break;
+                        }
+                    }
+
                 }
             });
         }
         void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            
-                    
-                    
 
-                
 
-                
-            
+
+
+
+
+
+
         }
+
+        
     }
 }
