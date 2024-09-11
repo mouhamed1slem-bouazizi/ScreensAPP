@@ -20,7 +20,6 @@ namespace ScreensAPP
         {
             pingTable.Columns.Add("ip", typeof(string));
             pingTable.Columns.Add("picturebox", typeof(string));
-            pingTable.Rows.Add();
 
             for (int i = 0; i < IPaddress.Count; i++)
             {
@@ -35,14 +34,12 @@ namespace ScreensAPP
                 while (!reader.EndOfStream)
                 {
                     var line = reader.ReadLine();
-                    var values = line.Split('\n');
-
-                    IPaddress.Add(values[0]);
+                    IPaddress.Add(line.Trim());
                 }
 
-                for (int i = 1; i < IPaddress.Count + 1; i++)
+                for (int i = 0; i < IPaddress.Count; i++)
                 {
-                    pictureboxlist.Add((PictureBox)Controls.Find("PictureBox" + i, true)[0]);
+                    pictureboxlist.Add((PictureBox)Controls.Find("PictureBox" + (i + 1), true)[0]);
                 }
                 FillPingTable();
 
@@ -53,19 +50,19 @@ namespace ScreensAPP
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             Thread.Sleep(1000);
-            Parallel.For(0, IPaddress.Count(), (i, loopState) =>
+            Parallel.For(0, IPaddress.Count, (i) =>
             {
                 Ping ping = new Ping();
-                PingReply pingReply = ping.Send(IPaddress[i].ToString());
-                this.BeginInvoke((Action)delegate ()
+                PingReply pingReply = ping.Send(IPaddress[i]);
+                if (this.IsHandleCreated)
                 {
-                    pictureboxlist[i].SizeMode = PictureBoxSizeMode.Zoom;
-                    pictureboxlist[i].BackColor = (pingReply.Status == IPStatus.Success) ? Color.Green : Color.Red;
-                });
-
+                    this.BeginInvoke((Action)delegate ()
+                    {
+                        pictureboxlist[i].SizeMode = PictureBoxSizeMode.Zoom;
+                        pictureboxlist[i].BackColor = (pingReply.Status == IPStatus.Success) ? Color.Green : Color.Red;
+                    });
+                }
             });
         }
-
-        
     }
 }

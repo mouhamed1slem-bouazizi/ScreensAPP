@@ -15,6 +15,7 @@ using System.Linq;
 using Renci.SshNet;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.LinkLabel;
+using static System.Windows.Forms.DataFormats;
 
 namespace ScreensAPP
 {
@@ -27,6 +28,7 @@ namespace ScreensAPP
         List<string> Memlabellist = new List<string>();
         List<string> timelabellist = new List<string>();
         List<string> maclabellist = new List<string>();
+        List<string> fidslabellist = new List<string>();
         private System.Timers.Timer timer;
         public InventoryScreens()
         {
@@ -52,7 +54,6 @@ namespace ScreensAPP
         {
 
         }
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -81,8 +82,6 @@ namespace ScreensAPP
                     var values = line.Split('\n');
 
                     IPaddressss.Add(values[0]);
-
-
                 }
 
                 for (int i = 1; i < IPaddressss.Count + 1; i++)
@@ -92,6 +91,7 @@ namespace ScreensAPP
                     Memlabellist.Add("label" + (3000 + i).ToString());
                     timelabellist.Add("label" + (4000 + i).ToString());
                     maclabellist.Add("label" + (5000 + i).ToString());
+                    fidslabellist.Add("label" + (6000 + i).ToString());
                 }
 
                 FillPingTable();
@@ -109,107 +109,86 @@ namespace ScreensAPP
             for (int i = 0; i < IPaddressss.Count; i++)
             {
                 pingTable.Rows.Add(IPaddressss[i], pictureboxlist[i]);
-
             }
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             Thread.Sleep(1000);
-            Parallel.For(0, IPaddressss.Count(), (i, loopState) =>
+            Parallel.For(0, IPaddressss.Count, (i, loopState) =>
             {
                 Ping ping = new Ping();
-                PingReply pingReply = ping.Send(IPaddressss[i].ToString());
+                PingReply pingReply = ping.Send(IPaddressss[i]);
                 this.BeginInvoke((Action)delegate ()
                 {
                     pictureboxlist[i].SizeMode = PictureBoxSizeMode.Zoom;
                     pictureboxlist[i].BackColor = (pingReply.Status == IPStatus.Success) ? Color.Green : Color.Red;
                 });
-                string lbl = "label11";
+
+                // Skip SSH connection if ping fails
+                if (pingReply.Status != IPStatus.Success)
+                {
+                    return;
+                }
+
                 string user = "root";
                 string pass = "123456";
                 string host = IPaddressss[i];
-                //Set up the SSH connection
+
+                // Set up the SSH connection
                 using (var client = new SshClient(host, user, pass))
                 {
-                    //Start the connection
-                    client.Connect();
-                    var Upoutput = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
-                    var output1 = client.RunCommand("free -m | grep Mem: | awk '{print $2}'");
-                    var output2 = client.RunCommand("sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches");
-                    var output3 = client.RunCommand("free -m | grep Mem: | awk '{print $4}'");
-                    var timeoutput = client.RunCommand("date +\"Time now: %A %d %B %T\"");
-                    var macoutput = client.RunCommand("ip address show | grep link/ether | awk '{print $2}'");
-                    client.Disconnect();
-                    
+                    try
+                    {
+                        // Start the connection
+                        client.Connect();
+                        var Upoutput = client.RunCommand("uptime | awk -F'( |,|:)+' '{print $6,$7\",\",$8,\"hours,\",$9,\"minutes.\"}'");
+                        var output1 = client.RunCommand("free -m | grep Mem: | awk '{print $2}'");
+                        var output2 = client.RunCommand("sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches");
+                        var output3 = client.RunCommand("free -m | grep Mem: | awk '{print $4}'");
+                        var timeoutput = client.RunCommand("date +\"Time: %d %B %T\"");
+                        var macoutput = client.RunCommand("ip address show | grep -m 1 ether | awk '{print $2}'");
+                        var fidsoutput = client.RunCommand("/opt/fids/fidsclient status | grep FIDS | awk '{print $1,$2,$3,$4}'");
 
-                    foreach (Control c in tabPage1.Controls)
-                    {
-                        if (c.Name == Uplabellist[i])
-                        {
-                            c.Invoke((Action)delegate
-                            {
-                                c.Text = Upoutput.Result;
-                            });
-                            break;
-                        }
-                    }
-                    double n1 = Int32.Parse(output1.Result);
-                    double n2 = Int32.Parse(output3.Result);
-                    double n3 = (n2 * 100) / n1;
-                    string mem1 = n3.ToString("0.00");
-                    string result44 = $"Mem Free: {mem1}%";
-                    
-                    foreach (Control c in tabPage1.Controls)
-                    {
-                        if (c.Name == Memlabellist[i])
-                        {
-                            c.Invoke((Action)delegate
-                            {
-                                c.Text = result44;
-                            });
-                            break;
-                        }
-                    }
+                        client.Disconnect();
 
-                    foreach (Control c in tabPage1.Controls)
-                    {
-                        if (c.Name == timelabellist[i])
-                        {
-                            c.Invoke((Action)delegate
-                            {
-                                c.Text = timeoutput.Result;
-                            });
-                            break;
-                        }
+                        UpdateControlText(Uplabellist[i], Upoutput.Result);
+                        UpdateControlText(Memlabellist[i], $"Mem Free: {((double)Int32.Parse(output3.Result) * 100 / Int32.Parse(output1.Result)).ToString("0.00")}%");
+                        UpdateControlText(timelabellist[i], timeoutput.Result);
+                        UpdateControlText(maclabellist[i], macoutput.Result);
+                        UpdateControlText(fidslabellist[i], fidsoutput.Result);
                     }
-                    foreach (Control c in tabPage1.Controls)
+                    catch (Exception ex)
                     {
-                        if (c.Name == maclabellist[i])
-                        {
-                            c.Invoke((Action)delegate
-                            {
-                                c.Text = macoutput.Result;
-                            });
-                            break;
-                        }
+                        // Log or handle the exception as needed
+                        Console.WriteLine($"Failed to connect to {host}: {ex.Message}");
                     }
-
                 }
             });
         }
-        void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+
+        private void UpdateControlText(string controlName, string text)
         {
-
-
-
-
-
-
-
-
+            foreach (var tabPage in new[] { tabPage1, tabPage2, tabPage3, tabPage4, tabPage5, tabPage6, tabPage7 })
+            {
+                var control = tabPage.Controls.Find(controlName, true).FirstOrDefault();
+                if (control != null)
+                {
+                    control.Invoke((Action)delegate
+                    {
+                        control.Text = text;
+                    });
+                    break;
+                }
+            }
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
         
     }
 }

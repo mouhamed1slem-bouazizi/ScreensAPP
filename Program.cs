@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 namespace ScreensAPP
 {
     internal static class Program
