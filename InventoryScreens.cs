@@ -33,8 +33,19 @@ namespace ScreensAPP
         public InventoryScreens()
         {
             InitializeComponent();
+            label5031.Click += new EventHandler(label_Click);
+            label5001.Click += new EventHandler(label_Click);
         }
 
+        private void label_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Label clickedLabel = sender as System.Windows.Forms.Label;
+            if (clickedLabel != null)
+            {
+                Clipboard.SetText(clickedLabel.Text);
+                MessageBox.Show("Text copied to clipboard: " + clickedLabel.Text);
+            }
+        }
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -74,7 +85,7 @@ namespace ScreensAPP
 
         private void InventoryScreens_Load(object sender, EventArgs e)
         {
-            using (var reader = new StreamReader(@"C:\IP\IPaddressss.csv"))
+            using (var reader = new StreamReader(@"C:\IP\IP_Screens_List.csv"))
             {
                 while (!reader.EndOfStream)
                 {
@@ -190,5 +201,8 @@ namespace ScreensAPP
             this.Hide();
         }
         
+            
+        
+
     }
 }

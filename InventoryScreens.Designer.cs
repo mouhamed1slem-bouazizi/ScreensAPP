@@ -272,6 +272,9 @@
             label17 = new Label();
             label18 = new Label();
             panel1 = new Panel();
+            button12 = new Button();
+            button11 = new Button();
+            button10 = new Button();
             label1 = new Label();
             label2 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -357,8 +360,8 @@
             label135 = new Label();
             label136 = new Label();
             pictureBox60 = new PictureBox();
-            label139 = new Label();
-            label140 = new Label();
+            label5047 = new Label();
+            label5046 = new Label();
             pictureBox59 = new PictureBox();
             pictureBox58 = new PictureBox();
             pictureBox57 = new PictureBox();
@@ -393,24 +396,24 @@
             pictureBox48 = new PictureBox();
             label168 = new Label();
             pictureBox49 = new PictureBox();
-            label169 = new Label();
+            label5048 = new Label();
             pictureBox50 = new PictureBox();
-            label170 = new Label();
+            label5049 = new Label();
             pictureBox51 = new PictureBox();
-            label171 = new Label();
+            label5050 = new Label();
             pictureBox52 = new PictureBox();
-            label172 = new Label();
+            label5051 = new Label();
             pictureBox53 = new PictureBox();
-            label173 = new Label();
+            label5052 = new Label();
             pictureBox54 = new PictureBox();
-            label174 = new Label();
-            label175 = new Label();
-            label176 = new Label();
-            label177 = new Label();
-            label178 = new Label();
-            label179 = new Label();
-            label180 = new Label();
-            label181 = new Label();
+            label5053 = new Label();
+            label5054 = new Label();
+            label5060 = new Label();
+            label5055 = new Label();
+            label5059 = new Label();
+            label5056 = new Label();
+            label5058 = new Label();
+            label5057 = new Label();
             button1 = new Button();
             label6031 = new Label();
             label4031 = new Label();
@@ -463,14 +466,14 @@
             pictureBox38 = new PictureBox();
             pictureBox37 = new PictureBox();
             pictureBox36 = new PictureBox();
-            label223 = new Label();
-            label224 = new Label();
-            label225 = new Label();
-            label226 = new Label();
-            label227 = new Label();
-            label228 = new Label();
-            label229 = new Label();
-            label230 = new Label();
+            label5045 = new Label();
+            label5044 = new Label();
+            label5043 = new Label();
+            label5042 = new Label();
+            label5041 = new Label();
+            label5040 = new Label();
+            label5039 = new Label();
+            label5038 = new Label();
             label5037 = new Label();
             label5036 = new Label();
             label5035 = new Label();
@@ -600,8 +603,8 @@
             label349 = new Label();
             label350 = new Label();
             pictureBox90 = new PictureBox();
-            label351 = new Label();
-            label352 = new Label();
+            label5077 = new Label();
+            label5076 = new Label();
             pictureBox89 = new PictureBox();
             pictureBox88 = new PictureBox();
             pictureBox87 = new PictureBox();
@@ -636,24 +639,24 @@
             pictureBox78 = new PictureBox();
             label378 = new Label();
             pictureBox79 = new PictureBox();
-            label379 = new Label();
+            label5078 = new Label();
             pictureBox80 = new PictureBox();
-            label380 = new Label();
+            label5079 = new Label();
             pictureBox81 = new PictureBox();
-            label381 = new Label();
+            label5080 = new Label();
             pictureBox82 = new PictureBox();
-            label382 = new Label();
+            label5081 = new Label();
             pictureBox83 = new PictureBox();
-            label383 = new Label();
+            label5082 = new Label();
             pictureBox84 = new PictureBox();
-            label384 = new Label();
-            label385 = new Label();
-            label386 = new Label();
-            label387 = new Label();
-            label388 = new Label();
-            label389 = new Label();
-            label390 = new Label();
-            label391 = new Label();
+            label5083 = new Label();
+            label5084 = new Label();
+            label5090 = new Label();
+            label5085 = new Label();
+            label5089 = new Label();
+            label5086 = new Label();
+            label5088 = new Label();
+            label5087 = new Label();
             button5 = new Button();
             label6061 = new Label();
             label4061 = new Label();
@@ -706,19 +709,19 @@
             pictureBox68 = new PictureBox();
             pictureBox67 = new PictureBox();
             pictureBox66 = new PictureBox();
-            label433 = new Label();
-            label434 = new Label();
-            label435 = new Label();
-            label436 = new Label();
-            label437 = new Label();
-            label438 = new Label();
-            label439 = new Label();
-            label440 = new Label();
-            label441 = new Label();
-            label442 = new Label();
-            label443 = new Label();
-            label444 = new Label();
-            label445 = new Label();
+            label5075 = new Label();
+            label5074 = new Label();
+            label5073 = new Label();
+            label5072 = new Label();
+            label5071 = new Label();
+            label5070 = new Label();
+            label5069 = new Label();
+            label5068 = new Label();
+            label5067 = new Label();
+            label5066 = new Label();
+            label5065 = new Label();
+            label5064 = new Label();
+            label5063 = new Label();
             label446 = new Label();
             label447 = new Label();
             label448 = new Label();
@@ -746,7 +749,7 @@
             pictureBox62 = new PictureBox();
             pictureBox64 = new PictureBox();
             label5061 = new Label();
-            label468 = new Label();
+            label5062 = new Label();
             pictureBox61 = new PictureBox();
             label469 = new Label();
             label470 = new Label();
@@ -793,12 +796,12 @@
             pictureBox98 = new PictureBox();
             pictureBox97 = new PictureBox();
             pictureBox96 = new PictureBox();
-            label650 = new Label();
-            label651 = new Label();
-            label652 = new Label();
-            label653 = new Label();
-            label654 = new Label();
-            label655 = new Label();
+            label5098 = new Label();
+            label5097 = new Label();
+            label5096 = new Label();
+            label5095 = new Label();
+            label5094 = new Label();
+            label5093 = new Label();
             label663 = new Label();
             label664 = new Label();
             label665 = new Label();
@@ -818,7 +821,7 @@
             pictureBox92 = new PictureBox();
             pictureBox94 = new PictureBox();
             label5091 = new Label();
-            label678 = new Label();
+            label5092 = new Label();
             pictureBox91 = new PictureBox();
             label679 = new Label();
             label680 = new Label();
@@ -865,8 +868,8 @@
             label517 = new Label();
             label525 = new Label();
             label526 = new Label();
-            label527 = new Label();
-            label528 = new Label();
+            label5117 = new Label();
+            label5114 = new Label();
             label529 = new Label();
             label530 = new Label();
             label531 = new Label();
@@ -878,10 +881,10 @@
             pictureBox117 = new PictureBox();
             pictureBox115 = new PictureBox();
             pictureBox118 = new PictureBox();
-            label536 = new Label();
+            label5115 = new Label();
             pictureBox116 = new PictureBox();
-            label537 = new Label();
-            label538 = new Label();
+            label5118 = new Label();
+            label5116 = new Label();
             button7 = new Button();
             label6099 = new Label();
             label4099 = new Label();
@@ -934,19 +937,19 @@
             pictureBox106 = new PictureBox();
             pictureBox105 = new PictureBox();
             pictureBox104 = new PictureBox();
-            label580 = new Label();
-            label581 = new Label();
-            label582 = new Label();
-            label583 = new Label();
-            label584 = new Label();
-            label585 = new Label();
-            label586 = new Label();
-            label587 = new Label();
-            label588 = new Label();
-            label589 = new Label();
-            label590 = new Label();
-            label591 = new Label();
-            label592 = new Label();
+            label5113 = new Label();
+            label5112 = new Label();
+            label5111 = new Label();
+            label5110 = new Label();
+            label5109 = new Label();
+            label5108 = new Label();
+            label5107 = new Label();
+            label5106 = new Label();
+            label5105 = new Label();
+            label5104 = new Label();
+            label5103 = new Label();
+            label5102 = new Label();
+            label5101 = new Label();
             label593 = new Label();
             label594 = new Label();
             label595 = new Label();
@@ -974,7 +977,7 @@
             pictureBox100 = new PictureBox();
             pictureBox102 = new PictureBox();
             label5099 = new Label();
-            label632 = new Label();
+            label5100 = new Label();
             pictureBox99 = new PictureBox();
             label633 = new Label();
             label634 = new Label();
@@ -996,7 +999,249 @@
             tabPage9 = new TabPage();
             tabPage10 = new TabPage();
             tabPage11 = new TabPage();
+            tabPage12 = new TabPage();
+            tabPage13 = new TabPage();
             button9 = new Button();
+            label139 = new Label();
+            label140 = new Label();
+            label169 = new Label();
+            label170 = new Label();
+            label171 = new Label();
+            label172 = new Label();
+            label173 = new Label();
+            label174 = new Label();
+            label175 = new Label();
+            label176 = new Label();
+            label177 = new Label();
+            label178 = new Label();
+            label179 = new Label();
+            label180 = new Label();
+            label181 = new Label();
+            label182 = new Label();
+            label183 = new Label();
+            label184 = new Label();
+            label223 = new Label();
+            label224 = new Label();
+            label225 = new Label();
+            label226 = new Label();
+            label227 = new Label();
+            label228 = new Label();
+            label229 = new Label();
+            label230 = new Label();
+            label231 = new Label();
+            label232 = new Label();
+            label233 = new Label();
+            label234 = new Label();
+            label235 = new Label();
+            label249 = new Label();
+            label257 = new Label();
+            label258 = new Label();
+            label351 = new Label();
+            label352 = new Label();
+            label379 = new Label();
+            label380 = new Label();
+            label381 = new Label();
+            label382 = new Label();
+            label383 = new Label();
+            label384 = new Label();
+            label385 = new Label();
+            label386 = new Label();
+            label387 = new Label();
+            label388 = new Label();
+            label389 = new Label();
+            label390 = new Label();
+            label391 = new Label();
+            label392 = new Label();
+            label393 = new Label();
+            label394 = new Label();
+            label433 = new Label();
+            label434 = new Label();
+            label435 = new Label();
+            label436 = new Label();
+            label437 = new Label();
+            label438 = new Label();
+            label439 = new Label();
+            label440 = new Label();
+            label441 = new Label();
+            pictureBox1190 = new PictureBox();
+            label442 = new Label();
+            label443 = new Label();
+            label444 = new Label();
+            label445 = new Label();
+            label459 = new Label();
+            label467 = new Label();
+            label468 = new Label();
+            label527 = new Label();
+            label528 = new Label();
+            label536 = new Label();
+            label537 = new Label();
+            label538 = new Label();
+            label539 = new Label();
+            label540 = new Label();
+            label541 = new Label();
+            label580 = new Label();
+            label581 = new Label();
+            pictureBox1200 = new PictureBox();
+            label582 = new Label();
+            label583 = new Label();
+            pictureBox1210 = new PictureBox();
+            pictureBox1220 = new PictureBox();
+            pictureBox1230 = new PictureBox();
+            label584 = new Label();
+            label585 = new Label();
+            pictureBox1240 = new PictureBox();
+            label586 = new Label();
+            label587 = new Label();
+            label588 = new Label();
+            label589 = new Label();
+            label590 = new Label();
+            label591 = new Label();
+            label592 = new Label();
+            label602 = new Label();
+            label603 = new Label();
+            label604 = new Label();
+            label609 = new Label();
+            label631 = new Label();
+            label632 = new Label();
+            label650 = new Label();
+            label651 = new Label();
+            label652 = new Label();
+            label653 = new Label();
+            label654 = new Label();
+            label655 = new Label();
+            label656 = new Label();
+            label657 = new Label();
+            pictureBox1250 = new PictureBox();
+            label658 = new Label();
+            pictureBox1260 = new PictureBox();
+            label659 = new Label();
+            pictureBox1270 = new PictureBox();
+            label660 = new Label();
+            pictureBox1280 = new PictureBox();
+            label661 = new Label();
+            pictureBox1290 = new PictureBox();
+            label662 = new Label();
+            pictureBox1300 = new PictureBox();
+            label669 = new Label();
+            pictureBox1310 = new PictureBox();
+            label677 = new Label();
+            pictureBox1320 = new PictureBox();
+            label678 = new Label();
+            pictureBox1330 = new PictureBox();
+            label686 = new Label();
+            label687 = new Label();
+            label688 = new Label();
+            label689 = new Label();
+            label690 = new Label();
+            label691 = new Label();
+            label692 = new Label();
+            label693 = new Label();
+            label694 = new Label();
+            label695 = new Label();
+            label696 = new Label();
+            label697 = new Label();
+            label698 = new Label();
+            label699 = new Label();
+            label700 = new Label();
+            label701 = new Label();
+            label702 = new Label();
+            label703 = new Label();
+            label704 = new Label();
+            label705 = new Label();
+            label706 = new Label();
+            label707 = new Label();
+            label708 = new Label();
+            label709 = new Label();
+            label710 = new Label();
+            label711 = new Label();
+            label712 = new Label();
+            label713 = new Label();
+            label714 = new Label();
+            label715 = new Label();
+            label716 = new Label();
+            label717 = new Label();
+            label718 = new Label();
+            label719 = new Label();
+            label720 = new Label();
+            label721 = new Label();
+            label722 = new Label();
+            label723 = new Label();
+            label724 = new Label();
+            label725 = new Label();
+            label726 = new Label();
+            label727 = new Label();
+            label728 = new Label();
+            label729 = new Label();
+            label730 = new Label();
+            label731 = new Label();
+            label732 = new Label();
+            label733 = new Label();
+            label734 = new Label();
+            pictureBox133 = new PictureBox();
+            pictureBox132 = new PictureBox();
+            pictureBox131 = new PictureBox();
+            pictureBox130 = new PictureBox();
+            pictureBox129 = new PictureBox();
+            pictureBox128 = new PictureBox();
+            pictureBox127 = new PictureBox();
+            pictureBox126 = new PictureBox();
+            pictureBox125 = new PictureBox();
+            pictureBox124 = new PictureBox();
+            label735 = new Label();
+            label736 = new Label();
+            label737 = new Label();
+            label738 = new Label();
+            label739 = new Label();
+            label740 = new Label();
+            label741 = new Label();
+            label742 = new Label();
+            label743 = new Label();
+            label744 = new Label();
+            label745 = new Label();
+            label746 = new Label();
+            label747 = new Label();
+            label748 = new Label();
+            label749 = new Label();
+            label750 = new Label();
+            label751 = new Label();
+            label752 = new Label();
+            label753 = new Label();
+            label754 = new Label();
+            label755 = new Label();
+            label756 = new Label();
+            label757 = new Label();
+            label758 = new Label();
+            label759 = new Label();
+            label760 = new Label();
+            label761 = new Label();
+            label762 = new Label();
+            label763 = new Label();
+            label764 = new Label();
+            pictureBox121 = new PictureBox();
+            label765 = new Label();
+            label766 = new Label();
+            label767 = new Label();
+            label768 = new Label();
+            pictureBox123 = new PictureBox();
+            pictureBox120 = new PictureBox();
+            pictureBox122 = new PictureBox();
+            label5119 = new Label();
+            label770 = new Label();
+            pictureBox119 = new PictureBox();
+            label771 = new Label();
+            label772 = new Label();
+            label773 = new Label();
+            label774 = new Label();
+            label775 = new Label();
+            label776 = new Label();
+            label777 = new Label();
+            label778 = new Label();
+            label779 = new Label();
+            label780 = new Label();
+            label781 = new Label();
+            label782 = new Label();
+            label783 = new Label();
+            label784 = new Label();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
@@ -1122,6 +1367,37 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox100).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox102).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox99).BeginInit();
+            tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1190).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1200).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1210).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1220).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1230).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1240).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1250).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1260).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1270).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1280).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1290).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1300).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1310).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1320).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1330).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox133).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox132).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox131).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox130).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox129).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox128).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox127).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox126).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox125).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox124).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox121).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox123).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox120).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox122).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox119).BeginInit();
             this.SuspendLayout();
             // 
             // tabPage1
@@ -3654,6 +3930,9 @@
             // panel1
             // 
             panel1.BackColor = Color.Crimson;
+            panel1.Controls.Add(button12);
+            panel1.Controls.Add(button11);
+            panel1.Controls.Add(button10);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Top;
@@ -3661,6 +3940,33 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1782, 125);
             panel1.TabIndex = 1;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(220, 80);
+            button12.Name = "button12";
+            button12.Size = new Size(94, 29);
+            button12.TabIndex = 49;
+            button12.Text = "Deatils";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(40, 80);
+            button11.Name = "button11";
+            button11.Size = new Size(94, 29);
+            button11.TabIndex = 48;
+            button11.Text = "Screen List";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(40, 20);
+            button10.Name = "button10";
+            button10.Size = new Size(94, 29);
+            button10.TabIndex = 47;
+            button10.Text = "Home";
+            button10.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -3708,6 +4014,8 @@
             tabControl1.Controls.Add(tabPage9);
             tabControl1.Controls.Add(tabPage10);
             tabControl1.Controls.Add(tabPage11);
+            tabControl1.Controls.Add(tabPage12);
+            tabControl1.Controls.Add(tabPage13);
             tabControl1.ImeMode = ImeMode.NoControl;
             tabControl1.Location = new Point(243, 131);
             tabControl1.Name = "tabControl1";
@@ -3799,8 +4107,8 @@
             tabPage2.Controls.Add(label135);
             tabPage2.Controls.Add(label136);
             tabPage2.Controls.Add(pictureBox60);
-            tabPage2.Controls.Add(label139);
-            tabPage2.Controls.Add(label140);
+            tabPage2.Controls.Add(label5047);
+            tabPage2.Controls.Add(label5046);
             tabPage2.Controls.Add(pictureBox59);
             tabPage2.Controls.Add(pictureBox58);
             tabPage2.Controls.Add(pictureBox57);
@@ -3835,24 +4143,24 @@
             tabPage2.Controls.Add(pictureBox48);
             tabPage2.Controls.Add(label168);
             tabPage2.Controls.Add(pictureBox49);
-            tabPage2.Controls.Add(label169);
+            tabPage2.Controls.Add(label5048);
             tabPage2.Controls.Add(pictureBox50);
-            tabPage2.Controls.Add(label170);
+            tabPage2.Controls.Add(label5049);
             tabPage2.Controls.Add(pictureBox51);
-            tabPage2.Controls.Add(label171);
+            tabPage2.Controls.Add(label5050);
             tabPage2.Controls.Add(pictureBox52);
-            tabPage2.Controls.Add(label172);
+            tabPage2.Controls.Add(label5051);
             tabPage2.Controls.Add(pictureBox53);
-            tabPage2.Controls.Add(label173);
+            tabPage2.Controls.Add(label5052);
             tabPage2.Controls.Add(pictureBox54);
-            tabPage2.Controls.Add(label174);
-            tabPage2.Controls.Add(label175);
-            tabPage2.Controls.Add(label176);
-            tabPage2.Controls.Add(label177);
-            tabPage2.Controls.Add(label178);
-            tabPage2.Controls.Add(label179);
-            tabPage2.Controls.Add(label180);
-            tabPage2.Controls.Add(label181);
+            tabPage2.Controls.Add(label5053);
+            tabPage2.Controls.Add(label5054);
+            tabPage2.Controls.Add(label5060);
+            tabPage2.Controls.Add(label5055);
+            tabPage2.Controls.Add(label5059);
+            tabPage2.Controls.Add(label5056);
+            tabPage2.Controls.Add(label5058);
+            tabPage2.Controls.Add(label5057);
             tabPage2.Controls.Add(button1);
             tabPage2.Controls.Add(label6031);
             tabPage2.Controls.Add(label4031);
@@ -3905,14 +4213,14 @@
             tabPage2.Controls.Add(pictureBox38);
             tabPage2.Controls.Add(pictureBox37);
             tabPage2.Controls.Add(pictureBox36);
-            tabPage2.Controls.Add(label223);
-            tabPage2.Controls.Add(label224);
-            tabPage2.Controls.Add(label225);
-            tabPage2.Controls.Add(label226);
-            tabPage2.Controls.Add(label227);
-            tabPage2.Controls.Add(label228);
-            tabPage2.Controls.Add(label229);
-            tabPage2.Controls.Add(label230);
+            tabPage2.Controls.Add(label5045);
+            tabPage2.Controls.Add(label5044);
+            tabPage2.Controls.Add(label5043);
+            tabPage2.Controls.Add(label5042);
+            tabPage2.Controls.Add(label5041);
+            tabPage2.Controls.Add(label5040);
+            tabPage2.Controls.Add(label5039);
+            tabPage2.Controls.Add(label5038);
             tabPage2.Controls.Add(label5037);
             tabPage2.Controls.Add(label5036);
             tabPage2.Controls.Add(label5035);
@@ -4706,25 +5014,25 @@
             pictureBox60.TabIndex = 444;
             pictureBox60.TabStop = false;
             // 
-            // label139
+            // label5047
             // 
-            label139.AutoSize = true;
-            label139.Font = new Font("Segoe UI", 10F);
-            label139.Location = new Point(340, 490);
-            label139.Name = "label139";
-            label139.Size = new Size(126, 23);
-            label139.TabIndex = 455;
-            label139.Text = "??:??:??:??:??:??";
+            label5047.AutoSize = true;
+            label5047.Font = new Font("Segoe UI", 10F);
+            label5047.Location = new Point(340, 490);
+            label5047.Name = "label5047";
+            label5047.Size = new Size(126, 23);
+            label5047.TabIndex = 455;
+            label5047.Text = "??:??:??:??:??:??";
             // 
-            // label140
+            // label5046
             // 
-            label140.AutoSize = true;
-            label140.Font = new Font("Segoe UI", 10F);
-            label140.Location = new Point(340, 460);
-            label140.Name = "label140";
-            label140.Size = new Size(126, 23);
-            label140.TabIndex = 443;
-            label140.Text = "??:??:??:??:??:??";
+            label5046.AutoSize = true;
+            label5046.Font = new Font("Segoe UI", 10F);
+            label5046.Location = new Point(340, 460);
+            label5046.Name = "label5046";
+            label5046.Size = new Size(126, 23);
+            label5046.TabIndex = 443;
+            label5046.Text = "??:??:??:??:??:??";
             // 
             // pictureBox59
             // 
@@ -5045,15 +5353,15 @@
             pictureBox49.TabIndex = 500;
             pictureBox49.TabStop = false;
             // 
-            // label169
+            // label5048
             // 
-            label169.AutoSize = true;
-            label169.Font = new Font("Segoe UI", 10F);
-            label169.Location = new Point(340, 520);
-            label169.Name = "label169";
-            label169.Size = new Size(126, 23);
-            label169.TabIndex = 482;
-            label169.Text = "??:??:??:??:??:??";
+            label5048.AutoSize = true;
+            label5048.Font = new Font("Segoe UI", 10F);
+            label5048.Location = new Point(340, 520);
+            label5048.Name = "label5048";
+            label5048.Size = new Size(126, 23);
+            label5048.TabIndex = 482;
+            label5048.Text = "??:??:??:??:??:??";
             // 
             // pictureBox50
             // 
@@ -5064,15 +5372,15 @@
             pictureBox50.TabIndex = 499;
             pictureBox50.TabStop = false;
             // 
-            // label170
+            // label5049
             // 
-            label170.AutoSize = true;
-            label170.Font = new Font("Segoe UI", 10F);
-            label170.Location = new Point(340, 550);
-            label170.Name = "label170";
-            label170.Size = new Size(126, 23);
-            label170.TabIndex = 483;
-            label170.Text = "??:??:??:??:??:??";
+            label5049.AutoSize = true;
+            label5049.Font = new Font("Segoe UI", 10F);
+            label5049.Location = new Point(340, 550);
+            label5049.Name = "label5049";
+            label5049.Size = new Size(126, 23);
+            label5049.TabIndex = 483;
+            label5049.Text = "??:??:??:??:??:??";
             // 
             // pictureBox51
             // 
@@ -5083,15 +5391,15 @@
             pictureBox51.TabIndex = 498;
             pictureBox51.TabStop = false;
             // 
-            // label171
+            // label5050
             // 
-            label171.AutoSize = true;
-            label171.Font = new Font("Segoe UI", 10F);
-            label171.Location = new Point(340, 580);
-            label171.Name = "label171";
-            label171.Size = new Size(126, 23);
-            label171.TabIndex = 484;
-            label171.Text = "??:??:??:??:??:??";
+            label5050.AutoSize = true;
+            label5050.Font = new Font("Segoe UI", 10F);
+            label5050.Location = new Point(340, 580);
+            label5050.Name = "label5050";
+            label5050.Size = new Size(126, 23);
+            label5050.TabIndex = 484;
+            label5050.Text = "??:??:??:??:??:??";
             // 
             // pictureBox52
             // 
@@ -5102,15 +5410,15 @@
             pictureBox52.TabIndex = 497;
             pictureBox52.TabStop = false;
             // 
-            // label172
+            // label5051
             // 
-            label172.AutoSize = true;
-            label172.Font = new Font("Segoe UI", 10F);
-            label172.Location = new Point(340, 610);
-            label172.Name = "label172";
-            label172.Size = new Size(126, 23);
-            label172.TabIndex = 485;
-            label172.Text = "??:??:??:??:??:??";
+            label5051.AutoSize = true;
+            label5051.Font = new Font("Segoe UI", 10F);
+            label5051.Location = new Point(340, 610);
+            label5051.Name = "label5051";
+            label5051.Size = new Size(126, 23);
+            label5051.TabIndex = 485;
+            label5051.Text = "??:??:??:??:??:??";
             // 
             // pictureBox53
             // 
@@ -5121,15 +5429,15 @@
             pictureBox53.TabIndex = 496;
             pictureBox53.TabStop = false;
             // 
-            // label173
+            // label5052
             // 
-            label173.AutoSize = true;
-            label173.Font = new Font("Segoe UI", 10F);
-            label173.Location = new Point(340, 640);
-            label173.Name = "label173";
-            label173.Size = new Size(126, 23);
-            label173.TabIndex = 486;
-            label173.Text = "??:??:??:??:??:??";
+            label5052.AutoSize = true;
+            label5052.Font = new Font("Segoe UI", 10F);
+            label5052.Location = new Point(340, 640);
+            label5052.Name = "label5052";
+            label5052.Size = new Size(126, 23);
+            label5052.TabIndex = 486;
+            label5052.Text = "??:??:??:??:??:??";
             // 
             // pictureBox54
             // 
@@ -5140,85 +5448,85 @@
             pictureBox54.TabIndex = 495;
             pictureBox54.TabStop = false;
             // 
-            // label174
+            // label5053
             // 
-            label174.AutoSize = true;
-            label174.Font = new Font("Segoe UI", 10F);
-            label174.Location = new Point(340, 670);
-            label174.Name = "label174";
-            label174.Size = new Size(126, 23);
-            label174.TabIndex = 487;
-            label174.Text = "??:??:??:??:??:??";
+            label5053.AutoSize = true;
+            label5053.Font = new Font("Segoe UI", 10F);
+            label5053.Location = new Point(340, 670);
+            label5053.Name = "label5053";
+            label5053.Size = new Size(126, 23);
+            label5053.TabIndex = 487;
+            label5053.Text = "??:??:??:??:??:??";
             // 
-            // label175
+            // label5054
             // 
-            label175.AutoSize = true;
-            label175.Font = new Font("Segoe UI", 10F);
-            label175.Location = new Point(340, 700);
-            label175.Name = "label175";
-            label175.Size = new Size(126, 23);
-            label175.TabIndex = 488;
-            label175.Text = "??:??:??:??:??:??";
+            label5054.AutoSize = true;
+            label5054.Font = new Font("Segoe UI", 10F);
+            label5054.Location = new Point(340, 700);
+            label5054.Name = "label5054";
+            label5054.Size = new Size(126, 23);
+            label5054.TabIndex = 488;
+            label5054.Text = "??:??:??:??:??:??";
             // 
-            // label176
+            // label5060
             // 
-            label176.AutoSize = true;
-            label176.Font = new Font("Segoe UI", 10F);
-            label176.Location = new Point(340, 880);
-            label176.Name = "label176";
-            label176.Size = new Size(126, 23);
-            label176.TabIndex = 494;
-            label176.Text = "??:??:??:??:??:??";
+            label5060.AutoSize = true;
+            label5060.Font = new Font("Segoe UI", 10F);
+            label5060.Location = new Point(340, 880);
+            label5060.Name = "label5060";
+            label5060.Size = new Size(126, 23);
+            label5060.TabIndex = 494;
+            label5060.Text = "??:??:??:??:??:??";
             // 
-            // label177
+            // label5055
             // 
-            label177.AutoSize = true;
-            label177.Font = new Font("Segoe UI", 10F);
-            label177.Location = new Point(340, 730);
-            label177.Name = "label177";
-            label177.Size = new Size(126, 23);
-            label177.TabIndex = 489;
-            label177.Text = "??:??:??:??:??:??";
+            label5055.AutoSize = true;
+            label5055.Font = new Font("Segoe UI", 10F);
+            label5055.Location = new Point(340, 730);
+            label5055.Name = "label5055";
+            label5055.Size = new Size(126, 23);
+            label5055.TabIndex = 489;
+            label5055.Text = "??:??:??:??:??:??";
             // 
-            // label178
+            // label5059
             // 
-            label178.AutoSize = true;
-            label178.Font = new Font("Segoe UI", 10F);
-            label178.Location = new Point(340, 850);
-            label178.Name = "label178";
-            label178.Size = new Size(126, 23);
-            label178.TabIndex = 493;
-            label178.Text = "??:??:??:??:??:??";
+            label5059.AutoSize = true;
+            label5059.Font = new Font("Segoe UI", 10F);
+            label5059.Location = new Point(340, 850);
+            label5059.Name = "label5059";
+            label5059.Size = new Size(126, 23);
+            label5059.TabIndex = 493;
+            label5059.Text = "??:??:??:??:??:??";
             // 
-            // label179
+            // label5056
             // 
-            label179.AutoSize = true;
-            label179.Font = new Font("Segoe UI", 10F);
-            label179.Location = new Point(340, 760);
-            label179.Name = "label179";
-            label179.Size = new Size(126, 23);
-            label179.TabIndex = 490;
-            label179.Text = "??:??:??:??:??:??";
+            label5056.AutoSize = true;
+            label5056.Font = new Font("Segoe UI", 10F);
+            label5056.Location = new Point(340, 760);
+            label5056.Name = "label5056";
+            label5056.Size = new Size(126, 23);
+            label5056.TabIndex = 490;
+            label5056.Text = "??:??:??:??:??:??";
             // 
-            // label180
+            // label5058
             // 
-            label180.AutoSize = true;
-            label180.Font = new Font("Segoe UI", 10F);
-            label180.Location = new Point(340, 820);
-            label180.Name = "label180";
-            label180.Size = new Size(126, 23);
-            label180.TabIndex = 492;
-            label180.Text = "??:??:??:??:??:??";
+            label5058.AutoSize = true;
+            label5058.Font = new Font("Segoe UI", 10F);
+            label5058.Location = new Point(340, 820);
+            label5058.Name = "label5058";
+            label5058.Size = new Size(126, 23);
+            label5058.TabIndex = 492;
+            label5058.Text = "??:??:??:??:??:??";
             // 
-            // label181
+            // label5057
             // 
-            label181.AutoSize = true;
-            label181.Font = new Font("Segoe UI", 10F);
-            label181.Location = new Point(340, 790);
-            label181.Name = "label181";
-            label181.Size = new Size(126, 23);
-            label181.TabIndex = 491;
-            label181.Text = "??:??:??:??:??:??";
+            label5057.AutoSize = true;
+            label5057.Font = new Font("Segoe UI", 10F);
+            label5057.Location = new Point(340, 790);
+            label5057.Name = "label5057";
+            label5057.Size = new Size(126, 23);
+            label5057.TabIndex = 491;
+            label5057.Text = "??:??:??:??:??:??";
             // 
             // button1
             // 
@@ -5690,85 +5998,85 @@
             pictureBox36.TabIndex = 389;
             pictureBox36.TabStop = false;
             // 
-            // label223
+            // label5045
             // 
-            label223.AutoSize = true;
-            label223.Font = new Font("Segoe UI", 10F);
-            label223.Location = new Point(340, 430);
-            label223.Name = "label223";
-            label223.Size = new Size(126, 23);
-            label223.TabIndex = 388;
-            label223.Text = "??:??:??:??:??:??";
+            label5045.AutoSize = true;
+            label5045.Font = new Font("Segoe UI", 10F);
+            label5045.Location = new Point(340, 430);
+            label5045.Name = "label5045";
+            label5045.Size = new Size(126, 23);
+            label5045.TabIndex = 388;
+            label5045.Text = "??:??:??:??:??:??";
             // 
-            // label224
+            // label5044
             // 
-            label224.AutoSize = true;
-            label224.Font = new Font("Segoe UI", 10F);
-            label224.Location = new Point(340, 400);
-            label224.Name = "label224";
-            label224.Size = new Size(126, 23);
-            label224.TabIndex = 387;
-            label224.Text = "??:??:??:??:??:??";
+            label5044.AutoSize = true;
+            label5044.Font = new Font("Segoe UI", 10F);
+            label5044.Location = new Point(340, 400);
+            label5044.Name = "label5044";
+            label5044.Size = new Size(126, 23);
+            label5044.TabIndex = 387;
+            label5044.Text = "??:??:??:??:??:??";
             // 
-            // label225
+            // label5043
             // 
-            label225.AutoSize = true;
-            label225.Font = new Font("Segoe UI", 10F);
-            label225.Location = new Point(340, 370);
-            label225.Name = "label225";
-            label225.Size = new Size(126, 23);
-            label225.TabIndex = 386;
-            label225.Text = "??:??:??:??:??:??";
+            label5043.AutoSize = true;
+            label5043.Font = new Font("Segoe UI", 10F);
+            label5043.Location = new Point(340, 370);
+            label5043.Name = "label5043";
+            label5043.Size = new Size(126, 23);
+            label5043.TabIndex = 386;
+            label5043.Text = "??:??:??:??:??:??";
             // 
-            // label226
+            // label5042
             // 
-            label226.AutoSize = true;
-            label226.Font = new Font("Segoe UI", 10F);
-            label226.Location = new Point(340, 340);
-            label226.Name = "label226";
-            label226.Size = new Size(126, 23);
-            label226.TabIndex = 385;
-            label226.Text = "??:??:??:??:??:??";
+            label5042.AutoSize = true;
+            label5042.Font = new Font("Segoe UI", 10F);
+            label5042.Location = new Point(340, 340);
+            label5042.Name = "label5042";
+            label5042.Size = new Size(126, 23);
+            label5042.TabIndex = 385;
+            label5042.Text = "??:??:??:??:??:??";
             // 
-            // label227
+            // label5041
             // 
-            label227.AutoSize = true;
-            label227.Font = new Font("Segoe UI", 10F);
-            label227.Location = new Point(340, 310);
-            label227.Name = "label227";
-            label227.Size = new Size(126, 23);
-            label227.TabIndex = 384;
-            label227.Text = "??:??:??:??:??:??";
+            label5041.AutoSize = true;
+            label5041.Font = new Font("Segoe UI", 10F);
+            label5041.Location = new Point(340, 310);
+            label5041.Name = "label5041";
+            label5041.Size = new Size(126, 23);
+            label5041.TabIndex = 384;
+            label5041.Text = "??:??:??:??:??:??";
             // 
-            // label228
+            // label5040
             // 
-            label228.AutoSize = true;
-            label228.Font = new Font("Segoe UI", 10F);
-            label228.Location = new Point(340, 280);
-            label228.Name = "label228";
-            label228.Size = new Size(126, 23);
-            label228.TabIndex = 383;
-            label228.Text = "??:??:??:??:??:??";
+            label5040.AutoSize = true;
+            label5040.Font = new Font("Segoe UI", 10F);
+            label5040.Location = new Point(340, 280);
+            label5040.Name = "label5040";
+            label5040.Size = new Size(126, 23);
+            label5040.TabIndex = 383;
+            label5040.Text = "??:??:??:??:??:??";
             // 
-            // label229
+            // label5039
             // 
-            label229.AutoSize = true;
-            label229.Font = new Font("Segoe UI", 10F);
-            label229.Location = new Point(340, 250);
-            label229.Name = "label229";
-            label229.Size = new Size(126, 23);
-            label229.TabIndex = 382;
-            label229.Text = "??:??:??:??:??:??";
+            label5039.AutoSize = true;
+            label5039.Font = new Font("Segoe UI", 10F);
+            label5039.Location = new Point(340, 250);
+            label5039.Name = "label5039";
+            label5039.Size = new Size(126, 23);
+            label5039.TabIndex = 382;
+            label5039.Text = "??:??:??:??:??:??";
             // 
-            // label230
+            // label5038
             // 
-            label230.AutoSize = true;
-            label230.Font = new Font("Segoe UI", 10F);
-            label230.Location = new Point(340, 220);
-            label230.Name = "label230";
-            label230.Size = new Size(126, 23);
-            label230.TabIndex = 381;
-            label230.Text = "??:??:??:??:??:??";
+            label5038.AutoSize = true;
+            label5038.Font = new Font("Segoe UI", 10F);
+            label5038.Location = new Point(340, 220);
+            label5038.Name = "label5038";
+            label5038.Size = new Size(126, 23);
+            label5038.TabIndex = 381;
+            label5038.Text = "??:??:??:??:??:??";
             // 
             // label5037
             // 
@@ -6324,8 +6632,8 @@
             tabPage3.Controls.Add(label349);
             tabPage3.Controls.Add(label350);
             tabPage3.Controls.Add(pictureBox90);
-            tabPage3.Controls.Add(label351);
-            tabPage3.Controls.Add(label352);
+            tabPage3.Controls.Add(label5077);
+            tabPage3.Controls.Add(label5076);
             tabPage3.Controls.Add(pictureBox89);
             tabPage3.Controls.Add(pictureBox88);
             tabPage3.Controls.Add(pictureBox87);
@@ -6360,24 +6668,24 @@
             tabPage3.Controls.Add(pictureBox78);
             tabPage3.Controls.Add(label378);
             tabPage3.Controls.Add(pictureBox79);
-            tabPage3.Controls.Add(label379);
+            tabPage3.Controls.Add(label5078);
             tabPage3.Controls.Add(pictureBox80);
-            tabPage3.Controls.Add(label380);
+            tabPage3.Controls.Add(label5079);
             tabPage3.Controls.Add(pictureBox81);
-            tabPage3.Controls.Add(label381);
+            tabPage3.Controls.Add(label5080);
             tabPage3.Controls.Add(pictureBox82);
-            tabPage3.Controls.Add(label382);
+            tabPage3.Controls.Add(label5081);
             tabPage3.Controls.Add(pictureBox83);
-            tabPage3.Controls.Add(label383);
+            tabPage3.Controls.Add(label5082);
             tabPage3.Controls.Add(pictureBox84);
-            tabPage3.Controls.Add(label384);
-            tabPage3.Controls.Add(label385);
-            tabPage3.Controls.Add(label386);
-            tabPage3.Controls.Add(label387);
-            tabPage3.Controls.Add(label388);
-            tabPage3.Controls.Add(label389);
-            tabPage3.Controls.Add(label390);
-            tabPage3.Controls.Add(label391);
+            tabPage3.Controls.Add(label5083);
+            tabPage3.Controls.Add(label5084);
+            tabPage3.Controls.Add(label5090);
+            tabPage3.Controls.Add(label5085);
+            tabPage3.Controls.Add(label5089);
+            tabPage3.Controls.Add(label5086);
+            tabPage3.Controls.Add(label5088);
+            tabPage3.Controls.Add(label5087);
             tabPage3.Controls.Add(button5);
             tabPage3.Controls.Add(label6061);
             tabPage3.Controls.Add(label4061);
@@ -6430,19 +6738,19 @@
             tabPage3.Controls.Add(pictureBox68);
             tabPage3.Controls.Add(pictureBox67);
             tabPage3.Controls.Add(pictureBox66);
-            tabPage3.Controls.Add(label433);
-            tabPage3.Controls.Add(label434);
-            tabPage3.Controls.Add(label435);
-            tabPage3.Controls.Add(label436);
-            tabPage3.Controls.Add(label437);
-            tabPage3.Controls.Add(label438);
-            tabPage3.Controls.Add(label439);
-            tabPage3.Controls.Add(label440);
-            tabPage3.Controls.Add(label441);
-            tabPage3.Controls.Add(label442);
-            tabPage3.Controls.Add(label443);
-            tabPage3.Controls.Add(label444);
-            tabPage3.Controls.Add(label445);
+            tabPage3.Controls.Add(label5075);
+            tabPage3.Controls.Add(label5074);
+            tabPage3.Controls.Add(label5073);
+            tabPage3.Controls.Add(label5072);
+            tabPage3.Controls.Add(label5071);
+            tabPage3.Controls.Add(label5070);
+            tabPage3.Controls.Add(label5069);
+            tabPage3.Controls.Add(label5068);
+            tabPage3.Controls.Add(label5067);
+            tabPage3.Controls.Add(label5066);
+            tabPage3.Controls.Add(label5065);
+            tabPage3.Controls.Add(label5064);
+            tabPage3.Controls.Add(label5063);
             tabPage3.Controls.Add(label446);
             tabPage3.Controls.Add(label447);
             tabPage3.Controls.Add(label448);
@@ -6470,7 +6778,7 @@
             tabPage3.Controls.Add(pictureBox62);
             tabPage3.Controls.Add(pictureBox64);
             tabPage3.Controls.Add(label5061);
-            tabPage3.Controls.Add(label468);
+            tabPage3.Controls.Add(label5062);
             tabPage3.Controls.Add(pictureBox61);
             tabPage3.Controls.Add(label469);
             tabPage3.Controls.Add(label470);
@@ -7231,25 +7539,25 @@
             pictureBox90.TabIndex = 444;
             pictureBox90.TabStop = false;
             // 
-            // label351
+            // label5077
             // 
-            label351.AutoSize = true;
-            label351.Font = new Font("Segoe UI", 10F);
-            label351.Location = new Point(340, 490);
-            label351.Name = "label351";
-            label351.Size = new Size(126, 23);
-            label351.TabIndex = 455;
-            label351.Text = "??:??:??:??:??:??";
+            label5077.AutoSize = true;
+            label5077.Font = new Font("Segoe UI", 10F);
+            label5077.Location = new Point(340, 490);
+            label5077.Name = "label5077";
+            label5077.Size = new Size(126, 23);
+            label5077.TabIndex = 455;
+            label5077.Text = "??:??:??:??:??:??";
             // 
-            // label352
+            // label5076
             // 
-            label352.AutoSize = true;
-            label352.Font = new Font("Segoe UI", 10F);
-            label352.Location = new Point(340, 460);
-            label352.Name = "label352";
-            label352.Size = new Size(126, 23);
-            label352.TabIndex = 443;
-            label352.Text = "??:??:??:??:??:??";
+            label5076.AutoSize = true;
+            label5076.Font = new Font("Segoe UI", 10F);
+            label5076.Location = new Point(340, 460);
+            label5076.Name = "label5076";
+            label5076.Size = new Size(126, 23);
+            label5076.TabIndex = 443;
+            label5076.Text = "??:??:??:??:??:??";
             // 
             // pictureBox89
             // 
@@ -7570,15 +7878,15 @@
             pictureBox79.TabIndex = 500;
             pictureBox79.TabStop = false;
             // 
-            // label379
+            // label5078
             // 
-            label379.AutoSize = true;
-            label379.Font = new Font("Segoe UI", 10F);
-            label379.Location = new Point(340, 520);
-            label379.Name = "label379";
-            label379.Size = new Size(126, 23);
-            label379.TabIndex = 482;
-            label379.Text = "??:??:??:??:??:??";
+            label5078.AutoSize = true;
+            label5078.Font = new Font("Segoe UI", 10F);
+            label5078.Location = new Point(340, 520);
+            label5078.Name = "label5078";
+            label5078.Size = new Size(126, 23);
+            label5078.TabIndex = 482;
+            label5078.Text = "??:??:??:??:??:??";
             // 
             // pictureBox80
             // 
@@ -7589,15 +7897,15 @@
             pictureBox80.TabIndex = 499;
             pictureBox80.TabStop = false;
             // 
-            // label380
+            // label5079
             // 
-            label380.AutoSize = true;
-            label380.Font = new Font("Segoe UI", 10F);
-            label380.Location = new Point(340, 550);
-            label380.Name = "label380";
-            label380.Size = new Size(126, 23);
-            label380.TabIndex = 483;
-            label380.Text = "??:??:??:??:??:??";
+            label5079.AutoSize = true;
+            label5079.Font = new Font("Segoe UI", 10F);
+            label5079.Location = new Point(340, 550);
+            label5079.Name = "label5079";
+            label5079.Size = new Size(126, 23);
+            label5079.TabIndex = 483;
+            label5079.Text = "??:??:??:??:??:??";
             // 
             // pictureBox81
             // 
@@ -7608,15 +7916,15 @@
             pictureBox81.TabIndex = 498;
             pictureBox81.TabStop = false;
             // 
-            // label381
+            // label5080
             // 
-            label381.AutoSize = true;
-            label381.Font = new Font("Segoe UI", 10F);
-            label381.Location = new Point(340, 580);
-            label381.Name = "label381";
-            label381.Size = new Size(126, 23);
-            label381.TabIndex = 484;
-            label381.Text = "??:??:??:??:??:??";
+            label5080.AutoSize = true;
+            label5080.Font = new Font("Segoe UI", 10F);
+            label5080.Location = new Point(340, 580);
+            label5080.Name = "label5080";
+            label5080.Size = new Size(126, 23);
+            label5080.TabIndex = 484;
+            label5080.Text = "??:??:??:??:??:??";
             // 
             // pictureBox82
             // 
@@ -7627,15 +7935,15 @@
             pictureBox82.TabIndex = 497;
             pictureBox82.TabStop = false;
             // 
-            // label382
+            // label5081
             // 
-            label382.AutoSize = true;
-            label382.Font = new Font("Segoe UI", 10F);
-            label382.Location = new Point(340, 610);
-            label382.Name = "label382";
-            label382.Size = new Size(126, 23);
-            label382.TabIndex = 485;
-            label382.Text = "??:??:??:??:??:??";
+            label5081.AutoSize = true;
+            label5081.Font = new Font("Segoe UI", 10F);
+            label5081.Location = new Point(340, 610);
+            label5081.Name = "label5081";
+            label5081.Size = new Size(126, 23);
+            label5081.TabIndex = 485;
+            label5081.Text = "??:??:??:??:??:??";
             // 
             // pictureBox83
             // 
@@ -7646,15 +7954,15 @@
             pictureBox83.TabIndex = 496;
             pictureBox83.TabStop = false;
             // 
-            // label383
+            // label5082
             // 
-            label383.AutoSize = true;
-            label383.Font = new Font("Segoe UI", 10F);
-            label383.Location = new Point(340, 640);
-            label383.Name = "label383";
-            label383.Size = new Size(126, 23);
-            label383.TabIndex = 486;
-            label383.Text = "??:??:??:??:??:??";
+            label5082.AutoSize = true;
+            label5082.Font = new Font("Segoe UI", 10F);
+            label5082.Location = new Point(340, 640);
+            label5082.Name = "label5082";
+            label5082.Size = new Size(126, 23);
+            label5082.TabIndex = 486;
+            label5082.Text = "??:??:??:??:??:??";
             // 
             // pictureBox84
             // 
@@ -7665,85 +7973,85 @@
             pictureBox84.TabIndex = 495;
             pictureBox84.TabStop = false;
             // 
-            // label384
+            // label5083
             // 
-            label384.AutoSize = true;
-            label384.Font = new Font("Segoe UI", 10F);
-            label384.Location = new Point(340, 670);
-            label384.Name = "label384";
-            label384.Size = new Size(126, 23);
-            label384.TabIndex = 487;
-            label384.Text = "??:??:??:??:??:??";
+            label5083.AutoSize = true;
+            label5083.Font = new Font("Segoe UI", 10F);
+            label5083.Location = new Point(340, 670);
+            label5083.Name = "label5083";
+            label5083.Size = new Size(126, 23);
+            label5083.TabIndex = 487;
+            label5083.Text = "??:??:??:??:??:??";
             // 
-            // label385
+            // label5084
             // 
-            label385.AutoSize = true;
-            label385.Font = new Font("Segoe UI", 10F);
-            label385.Location = new Point(340, 700);
-            label385.Name = "label385";
-            label385.Size = new Size(126, 23);
-            label385.TabIndex = 488;
-            label385.Text = "??:??:??:??:??:??";
+            label5084.AutoSize = true;
+            label5084.Font = new Font("Segoe UI", 10F);
+            label5084.Location = new Point(340, 700);
+            label5084.Name = "label5084";
+            label5084.Size = new Size(126, 23);
+            label5084.TabIndex = 488;
+            label5084.Text = "??:??:??:??:??:??";
             // 
-            // label386
+            // label5090
             // 
-            label386.AutoSize = true;
-            label386.Font = new Font("Segoe UI", 10F);
-            label386.Location = new Point(340, 880);
-            label386.Name = "label386";
-            label386.Size = new Size(126, 23);
-            label386.TabIndex = 494;
-            label386.Text = "??:??:??:??:??:??";
+            label5090.AutoSize = true;
+            label5090.Font = new Font("Segoe UI", 10F);
+            label5090.Location = new Point(340, 880);
+            label5090.Name = "label5090";
+            label5090.Size = new Size(126, 23);
+            label5090.TabIndex = 494;
+            label5090.Text = "??:??:??:??:??:??";
             // 
-            // label387
+            // label5085
             // 
-            label387.AutoSize = true;
-            label387.Font = new Font("Segoe UI", 10F);
-            label387.Location = new Point(340, 730);
-            label387.Name = "label387";
-            label387.Size = new Size(126, 23);
-            label387.TabIndex = 489;
-            label387.Text = "??:??:??:??:??:??";
+            label5085.AutoSize = true;
+            label5085.Font = new Font("Segoe UI", 10F);
+            label5085.Location = new Point(340, 730);
+            label5085.Name = "label5085";
+            label5085.Size = new Size(126, 23);
+            label5085.TabIndex = 489;
+            label5085.Text = "??:??:??:??:??:??";
             // 
-            // label388
+            // label5089
             // 
-            label388.AutoSize = true;
-            label388.Font = new Font("Segoe UI", 10F);
-            label388.Location = new Point(340, 850);
-            label388.Name = "label388";
-            label388.Size = new Size(126, 23);
-            label388.TabIndex = 493;
-            label388.Text = "??:??:??:??:??:??";
+            label5089.AutoSize = true;
+            label5089.Font = new Font("Segoe UI", 10F);
+            label5089.Location = new Point(340, 850);
+            label5089.Name = "label5089";
+            label5089.Size = new Size(126, 23);
+            label5089.TabIndex = 493;
+            label5089.Text = "??:??:??:??:??:??";
             // 
-            // label389
+            // label5086
             // 
-            label389.AutoSize = true;
-            label389.Font = new Font("Segoe UI", 10F);
-            label389.Location = new Point(340, 760);
-            label389.Name = "label389";
-            label389.Size = new Size(126, 23);
-            label389.TabIndex = 490;
-            label389.Text = "??:??:??:??:??:??";
+            label5086.AutoSize = true;
+            label5086.Font = new Font("Segoe UI", 10F);
+            label5086.Location = new Point(340, 760);
+            label5086.Name = "label5086";
+            label5086.Size = new Size(126, 23);
+            label5086.TabIndex = 490;
+            label5086.Text = "??:??:??:??:??:??";
             // 
-            // label390
+            // label5088
             // 
-            label390.AutoSize = true;
-            label390.Font = new Font("Segoe UI", 10F);
-            label390.Location = new Point(340, 820);
-            label390.Name = "label390";
-            label390.Size = new Size(126, 23);
-            label390.TabIndex = 492;
-            label390.Text = "??:??:??:??:??:??";
+            label5088.AutoSize = true;
+            label5088.Font = new Font("Segoe UI", 10F);
+            label5088.Location = new Point(340, 820);
+            label5088.Name = "label5088";
+            label5088.Size = new Size(126, 23);
+            label5088.TabIndex = 492;
+            label5088.Text = "??:??:??:??:??:??";
             // 
-            // label391
+            // label5087
             // 
-            label391.AutoSize = true;
-            label391.Font = new Font("Segoe UI", 10F);
-            label391.Location = new Point(340, 790);
-            label391.Name = "label391";
-            label391.Size = new Size(126, 23);
-            label391.TabIndex = 491;
-            label391.Text = "??:??:??:??:??:??";
+            label5087.AutoSize = true;
+            label5087.Font = new Font("Segoe UI", 10F);
+            label5087.Location = new Point(340, 790);
+            label5087.Name = "label5087";
+            label5087.Size = new Size(126, 23);
+            label5087.TabIndex = 491;
+            label5087.Text = "??:??:??:??:??:??";
             // 
             // button5
             // 
@@ -8215,135 +8523,135 @@
             pictureBox66.TabIndex = 389;
             pictureBox66.TabStop = false;
             // 
-            // label433
+            // label5075
             // 
-            label433.AutoSize = true;
-            label433.Font = new Font("Segoe UI", 10F);
-            label433.Location = new Point(340, 430);
-            label433.Name = "label433";
-            label433.Size = new Size(126, 23);
-            label433.TabIndex = 388;
-            label433.Text = "??:??:??:??:??:??";
+            label5075.AutoSize = true;
+            label5075.Font = new Font("Segoe UI", 10F);
+            label5075.Location = new Point(340, 430);
+            label5075.Name = "label5075";
+            label5075.Size = new Size(126, 23);
+            label5075.TabIndex = 388;
+            label5075.Text = "??:??:??:??:??:??";
             // 
-            // label434
+            // label5074
             // 
-            label434.AutoSize = true;
-            label434.Font = new Font("Segoe UI", 10F);
-            label434.Location = new Point(340, 400);
-            label434.Name = "label434";
-            label434.Size = new Size(126, 23);
-            label434.TabIndex = 387;
-            label434.Text = "??:??:??:??:??:??";
+            label5074.AutoSize = true;
+            label5074.Font = new Font("Segoe UI", 10F);
+            label5074.Location = new Point(340, 400);
+            label5074.Name = "label5074";
+            label5074.Size = new Size(126, 23);
+            label5074.TabIndex = 387;
+            label5074.Text = "??:??:??:??:??:??";
             // 
-            // label435
+            // label5073
             // 
-            label435.AutoSize = true;
-            label435.Font = new Font("Segoe UI", 10F);
-            label435.Location = new Point(340, 370);
-            label435.Name = "label435";
-            label435.Size = new Size(126, 23);
-            label435.TabIndex = 386;
-            label435.Text = "??:??:??:??:??:??";
+            label5073.AutoSize = true;
+            label5073.Font = new Font("Segoe UI", 10F);
+            label5073.Location = new Point(340, 370);
+            label5073.Name = "label5073";
+            label5073.Size = new Size(126, 23);
+            label5073.TabIndex = 386;
+            label5073.Text = "??:??:??:??:??:??";
             // 
-            // label436
+            // label5072
             // 
-            label436.AutoSize = true;
-            label436.Font = new Font("Segoe UI", 10F);
-            label436.Location = new Point(340, 340);
-            label436.Name = "label436";
-            label436.Size = new Size(126, 23);
-            label436.TabIndex = 385;
-            label436.Text = "??:??:??:??:??:??";
+            label5072.AutoSize = true;
+            label5072.Font = new Font("Segoe UI", 10F);
+            label5072.Location = new Point(340, 340);
+            label5072.Name = "label5072";
+            label5072.Size = new Size(126, 23);
+            label5072.TabIndex = 385;
+            label5072.Text = "??:??:??:??:??:??";
             // 
-            // label437
+            // label5071
             // 
-            label437.AutoSize = true;
-            label437.Font = new Font("Segoe UI", 10F);
-            label437.Location = new Point(340, 310);
-            label437.Name = "label437";
-            label437.Size = new Size(126, 23);
-            label437.TabIndex = 384;
-            label437.Text = "??:??:??:??:??:??";
+            label5071.AutoSize = true;
+            label5071.Font = new Font("Segoe UI", 10F);
+            label5071.Location = new Point(340, 310);
+            label5071.Name = "label5071";
+            label5071.Size = new Size(126, 23);
+            label5071.TabIndex = 384;
+            label5071.Text = "??:??:??:??:??:??";
             // 
-            // label438
+            // label5070
             // 
-            label438.AutoSize = true;
-            label438.Font = new Font("Segoe UI", 10F);
-            label438.Location = new Point(340, 280);
-            label438.Name = "label438";
-            label438.Size = new Size(126, 23);
-            label438.TabIndex = 383;
-            label438.Text = "??:??:??:??:??:??";
+            label5070.AutoSize = true;
+            label5070.Font = new Font("Segoe UI", 10F);
+            label5070.Location = new Point(340, 280);
+            label5070.Name = "label5070";
+            label5070.Size = new Size(126, 23);
+            label5070.TabIndex = 383;
+            label5070.Text = "??:??:??:??:??:??";
             // 
-            // label439
+            // label5069
             // 
-            label439.AutoSize = true;
-            label439.Font = new Font("Segoe UI", 10F);
-            label439.Location = new Point(340, 250);
-            label439.Name = "label439";
-            label439.Size = new Size(126, 23);
-            label439.TabIndex = 382;
-            label439.Text = "??:??:??:??:??:??";
+            label5069.AutoSize = true;
+            label5069.Font = new Font("Segoe UI", 10F);
+            label5069.Location = new Point(340, 250);
+            label5069.Name = "label5069";
+            label5069.Size = new Size(126, 23);
+            label5069.TabIndex = 382;
+            label5069.Text = "??:??:??:??:??:??";
             // 
-            // label440
+            // label5068
             // 
-            label440.AutoSize = true;
-            label440.Font = new Font("Segoe UI", 10F);
-            label440.Location = new Point(340, 220);
-            label440.Name = "label440";
-            label440.Size = new Size(126, 23);
-            label440.TabIndex = 381;
-            label440.Text = "??:??:??:??:??:??";
+            label5068.AutoSize = true;
+            label5068.Font = new Font("Segoe UI", 10F);
+            label5068.Location = new Point(340, 220);
+            label5068.Name = "label5068";
+            label5068.Size = new Size(126, 23);
+            label5068.TabIndex = 381;
+            label5068.Text = "??:??:??:??:??:??";
             // 
-            // label441
+            // label5067
             // 
-            label441.AutoSize = true;
-            label441.Font = new Font("Segoe UI", 10F);
-            label441.Location = new Point(340, 190);
-            label441.Name = "label441";
-            label441.Size = new Size(126, 23);
-            label441.TabIndex = 380;
-            label441.Text = "??:??:??:??:??:??";
+            label5067.AutoSize = true;
+            label5067.Font = new Font("Segoe UI", 10F);
+            label5067.Location = new Point(340, 190);
+            label5067.Name = "label5067";
+            label5067.Size = new Size(126, 23);
+            label5067.TabIndex = 380;
+            label5067.Text = "??:??:??:??:??:??";
             // 
-            // label442
+            // label5066
             // 
-            label442.AutoSize = true;
-            label442.Font = new Font("Segoe UI", 10F);
-            label442.Location = new Point(340, 160);
-            label442.Name = "label442";
-            label442.Size = new Size(126, 23);
-            label442.TabIndex = 379;
-            label442.Text = "??:??:??:??:??:??";
+            label5066.AutoSize = true;
+            label5066.Font = new Font("Segoe UI", 10F);
+            label5066.Location = new Point(340, 160);
+            label5066.Name = "label5066";
+            label5066.Size = new Size(126, 23);
+            label5066.TabIndex = 379;
+            label5066.Text = "??:??:??:??:??:??";
             // 
-            // label443
+            // label5065
             // 
-            label443.AutoSize = true;
-            label443.Font = new Font("Segoe UI", 10F);
-            label443.Location = new Point(340, 130);
-            label443.Name = "label443";
-            label443.Size = new Size(126, 23);
-            label443.TabIndex = 378;
-            label443.Text = "??:??:??:??:??:??";
+            label5065.AutoSize = true;
+            label5065.Font = new Font("Segoe UI", 10F);
+            label5065.Location = new Point(340, 130);
+            label5065.Name = "label5065";
+            label5065.Size = new Size(126, 23);
+            label5065.TabIndex = 378;
+            label5065.Text = "??:??:??:??:??:??";
             // 
-            // label444
+            // label5064
             // 
-            label444.AutoSize = true;
-            label444.Font = new Font("Segoe UI", 10F);
-            label444.Location = new Point(340, 100);
-            label444.Name = "label444";
-            label444.Size = new Size(126, 23);
-            label444.TabIndex = 377;
-            label444.Text = "??:??:??:??:??:??";
+            label5064.AutoSize = true;
+            label5064.Font = new Font("Segoe UI", 10F);
+            label5064.Location = new Point(340, 100);
+            label5064.Name = "label5064";
+            label5064.Size = new Size(126, 23);
+            label5064.TabIndex = 377;
+            label5064.Text = "??:??:??:??:??:??";
             // 
-            // label445
+            // label5063
             // 
-            label445.AutoSize = true;
-            label445.Font = new Font("Segoe UI", 10F);
-            label445.Location = new Point(340, 70);
-            label445.Name = "label445";
-            label445.Size = new Size(126, 23);
-            label445.TabIndex = 376;
-            label445.Text = "??:??:??:??:??:??";
+            label5063.AutoSize = true;
+            label5063.Font = new Font("Segoe UI", 10F);
+            label5063.Location = new Point(340, 70);
+            label5063.Name = "label5063";
+            label5063.Size = new Size(126, 23);
+            label5063.TabIndex = 376;
+            label5063.Text = "??:??:??:??:??:??";
             // 
             // label446
             // 
@@ -8607,15 +8915,15 @@
             label5061.TabIndex = 335;
             label5061.Text = "??:??:??:??:??:??";
             // 
-            // label468
+            // label5062
             // 
-            label468.AutoSize = true;
-            label468.Font = new Font("Segoe UI", 10F);
-            label468.Location = new Point(340, 40);
-            label468.Name = "label468";
-            label468.Size = new Size(126, 23);
-            label468.TabIndex = 349;
-            label468.Text = "??:??:??:??:??:??";
+            label5062.AutoSize = true;
+            label5062.Font = new Font("Segoe UI", 10F);
+            label5062.Location = new Point(340, 40);
+            label5062.Name = "label5062";
+            label5062.Size = new Size(126, 23);
+            label5062.TabIndex = 349;
+            label5062.Text = "??:??:??:??:??:??";
             // 
             // pictureBox61
             // 
@@ -8799,12 +9107,12 @@
             tabPage4.Controls.Add(pictureBox98);
             tabPage4.Controls.Add(pictureBox97);
             tabPage4.Controls.Add(pictureBox96);
-            tabPage4.Controls.Add(label650);
-            tabPage4.Controls.Add(label651);
-            tabPage4.Controls.Add(label652);
-            tabPage4.Controls.Add(label653);
-            tabPage4.Controls.Add(label654);
-            tabPage4.Controls.Add(label655);
+            tabPage4.Controls.Add(label5098);
+            tabPage4.Controls.Add(label5097);
+            tabPage4.Controls.Add(label5096);
+            tabPage4.Controls.Add(label5095);
+            tabPage4.Controls.Add(label5094);
+            tabPage4.Controls.Add(label5093);
             tabPage4.Controls.Add(label663);
             tabPage4.Controls.Add(label664);
             tabPage4.Controls.Add(label665);
@@ -8824,7 +9132,7 @@
             tabPage4.Controls.Add(pictureBox92);
             tabPage4.Controls.Add(pictureBox94);
             tabPage4.Controls.Add(label5091);
-            tabPage4.Controls.Add(label678);
+            tabPage4.Controls.Add(label5092);
             tabPage4.Controls.Add(pictureBox91);
             tabPage4.Controls.Add(label679);
             tabPage4.Controls.Add(label680);
@@ -9110,65 +9418,65 @@
             pictureBox96.TabIndex = 389;
             pictureBox96.TabStop = false;
             // 
-            // label650
+            // label5098
             // 
-            label650.AutoSize = true;
-            label650.Font = new Font("Segoe UI", 10F);
-            label650.Location = new Point(340, 220);
-            label650.Name = "label650";
-            label650.Size = new Size(126, 23);
-            label650.TabIndex = 381;
-            label650.Text = "??:??:??:??:??:??";
+            label5098.AutoSize = true;
+            label5098.Font = new Font("Segoe UI", 10F);
+            label5098.Location = new Point(340, 220);
+            label5098.Name = "label5098";
+            label5098.Size = new Size(126, 23);
+            label5098.TabIndex = 381;
+            label5098.Text = "??:??:??:??:??:??";
             // 
-            // label651
+            // label5097
             // 
-            label651.AutoSize = true;
-            label651.Font = new Font("Segoe UI", 10F);
-            label651.Location = new Point(340, 190);
-            label651.Name = "label651";
-            label651.Size = new Size(126, 23);
-            label651.TabIndex = 380;
-            label651.Text = "??:??:??:??:??:??";
+            label5097.AutoSize = true;
+            label5097.Font = new Font("Segoe UI", 10F);
+            label5097.Location = new Point(340, 190);
+            label5097.Name = "label5097";
+            label5097.Size = new Size(126, 23);
+            label5097.TabIndex = 380;
+            label5097.Text = "??:??:??:??:??:??";
             // 
-            // label652
+            // label5096
             // 
-            label652.AutoSize = true;
-            label652.Font = new Font("Segoe UI", 10F);
-            label652.Location = new Point(340, 160);
-            label652.Name = "label652";
-            label652.Size = new Size(126, 23);
-            label652.TabIndex = 379;
-            label652.Text = "??:??:??:??:??:??";
+            label5096.AutoSize = true;
+            label5096.Font = new Font("Segoe UI", 10F);
+            label5096.Location = new Point(340, 160);
+            label5096.Name = "label5096";
+            label5096.Size = new Size(126, 23);
+            label5096.TabIndex = 379;
+            label5096.Text = "??:??:??:??:??:??";
             // 
-            // label653
+            // label5095
             // 
-            label653.AutoSize = true;
-            label653.Font = new Font("Segoe UI", 10F);
-            label653.Location = new Point(340, 130);
-            label653.Name = "label653";
-            label653.Size = new Size(126, 23);
-            label653.TabIndex = 378;
-            label653.Text = "??:??:??:??:??:??";
+            label5095.AutoSize = true;
+            label5095.Font = new Font("Segoe UI", 10F);
+            label5095.Location = new Point(340, 130);
+            label5095.Name = "label5095";
+            label5095.Size = new Size(126, 23);
+            label5095.TabIndex = 378;
+            label5095.Text = "??:??:??:??:??:??";
             // 
-            // label654
+            // label5094
             // 
-            label654.AutoSize = true;
-            label654.Font = new Font("Segoe UI", 10F);
-            label654.Location = new Point(340, 100);
-            label654.Name = "label654";
-            label654.Size = new Size(126, 23);
-            label654.TabIndex = 377;
-            label654.Text = "??:??:??:??:??:??";
+            label5094.AutoSize = true;
+            label5094.Font = new Font("Segoe UI", 10F);
+            label5094.Location = new Point(340, 100);
+            label5094.Name = "label5094";
+            label5094.Size = new Size(126, 23);
+            label5094.TabIndex = 377;
+            label5094.Text = "??:??:??:??:??:??";
             // 
-            // label655
+            // label5093
             // 
-            label655.AutoSize = true;
-            label655.Font = new Font("Segoe UI", 10F);
-            label655.Location = new Point(340, 70);
-            label655.Name = "label655";
-            label655.Size = new Size(126, 23);
-            label655.TabIndex = 376;
-            label655.Text = "??:??:??:??:??:??";
+            label5093.AutoSize = true;
+            label5093.Font = new Font("Segoe UI", 10F);
+            label5093.Location = new Point(340, 70);
+            label5093.Name = "label5093";
+            label5093.Size = new Size(126, 23);
+            label5093.TabIndex = 376;
+            label5093.Text = "??:??:??:??:??:??";
             // 
             // label663
             // 
@@ -9351,15 +9659,15 @@
             label5091.TabIndex = 335;
             label5091.Text = "??:??:??:??:??:??";
             // 
-            // label678
+            // label5092
             // 
-            label678.AutoSize = true;
-            label678.Font = new Font("Segoe UI", 10F);
-            label678.Location = new Point(340, 40);
-            label678.Name = "label678";
-            label678.Size = new Size(126, 23);
-            label678.TabIndex = 349;
-            label678.Text = "??:??:??:??:??:??";
+            label5092.AutoSize = true;
+            label5092.Font = new Font("Segoe UI", 10F);
+            label5092.Location = new Point(340, 40);
+            label5092.Name = "label5092";
+            label5092.Size = new Size(126, 23);
+            label5092.TabIndex = 349;
+            label5092.Text = "??:??:??:??:??:??";
             // 
             // pictureBox91
             // 
@@ -9480,8 +9788,8 @@
             tabPage5.Controls.Add(label517);
             tabPage5.Controls.Add(label525);
             tabPage5.Controls.Add(label526);
-            tabPage5.Controls.Add(label527);
-            tabPage5.Controls.Add(label528);
+            tabPage5.Controls.Add(label5117);
+            tabPage5.Controls.Add(label5114);
             tabPage5.Controls.Add(label529);
             tabPage5.Controls.Add(label530);
             tabPage5.Controls.Add(label531);
@@ -9493,10 +9801,10 @@
             tabPage5.Controls.Add(pictureBox117);
             tabPage5.Controls.Add(pictureBox115);
             tabPage5.Controls.Add(pictureBox118);
-            tabPage5.Controls.Add(label536);
+            tabPage5.Controls.Add(label5115);
             tabPage5.Controls.Add(pictureBox116);
-            tabPage5.Controls.Add(label537);
-            tabPage5.Controls.Add(label538);
+            tabPage5.Controls.Add(label5118);
+            tabPage5.Controls.Add(label5116);
             tabPage5.Controls.Add(button7);
             tabPage5.Controls.Add(label6099);
             tabPage5.Controls.Add(label4099);
@@ -9549,19 +9857,19 @@
             tabPage5.Controls.Add(pictureBox106);
             tabPage5.Controls.Add(pictureBox105);
             tabPage5.Controls.Add(pictureBox104);
-            tabPage5.Controls.Add(label580);
-            tabPage5.Controls.Add(label581);
-            tabPage5.Controls.Add(label582);
-            tabPage5.Controls.Add(label583);
-            tabPage5.Controls.Add(label584);
-            tabPage5.Controls.Add(label585);
-            tabPage5.Controls.Add(label586);
-            tabPage5.Controls.Add(label587);
-            tabPage5.Controls.Add(label588);
-            tabPage5.Controls.Add(label589);
-            tabPage5.Controls.Add(label590);
-            tabPage5.Controls.Add(label591);
-            tabPage5.Controls.Add(label592);
+            tabPage5.Controls.Add(label5113);
+            tabPage5.Controls.Add(label5112);
+            tabPage5.Controls.Add(label5111);
+            tabPage5.Controls.Add(label5110);
+            tabPage5.Controls.Add(label5109);
+            tabPage5.Controls.Add(label5108);
+            tabPage5.Controls.Add(label5107);
+            tabPage5.Controls.Add(label5106);
+            tabPage5.Controls.Add(label5105);
+            tabPage5.Controls.Add(label5104);
+            tabPage5.Controls.Add(label5103);
+            tabPage5.Controls.Add(label5102);
+            tabPage5.Controls.Add(label5101);
             tabPage5.Controls.Add(label593);
             tabPage5.Controls.Add(label594);
             tabPage5.Controls.Add(label595);
@@ -9589,7 +9897,7 @@
             tabPage5.Controls.Add(pictureBox100);
             tabPage5.Controls.Add(pictureBox102);
             tabPage5.Controls.Add(label5099);
-            tabPage5.Controls.Add(label632);
+            tabPage5.Controls.Add(label5100);
             tabPage5.Controls.Add(pictureBox99);
             tabPage5.Controls.Add(label633);
             tabPage5.Controls.Add(label634);
@@ -9957,25 +10265,25 @@
             label526.TabIndex = 691;
             label526.Text = "10.82.130.81";
             // 
-            // label527
+            // label5117
             // 
-            label527.AutoSize = true;
-            label527.Font = new Font("Segoe UI", 10F);
-            label527.Location = new Point(340, 640);
-            label527.Name = "label527";
-            label527.Size = new Size(126, 23);
-            label527.TabIndex = 692;
-            label527.Text = "??:??:??:??:??:??";
+            label5117.AutoSize = true;
+            label5117.Font = new Font("Segoe UI", 10F);
+            label5117.Location = new Point(340, 640);
+            label5117.Name = "label5117";
+            label5117.Size = new Size(126, 23);
+            label5117.TabIndex = 692;
+            label5117.Text = "??:??:??:??:??:??";
             // 
-            // label528
+            // label5114
             // 
-            label528.AutoSize = true;
-            label528.Font = new Font("Segoe UI", 10F);
-            label528.Location = new Point(340, 460);
-            label528.Name = "label528";
-            label528.Size = new Size(126, 23);
-            label528.TabIndex = 685;
-            label528.Text = "??:??:??:??:??:??";
+            label5114.AutoSize = true;
+            label5114.Font = new Font("Segoe UI", 10F);
+            label5114.Location = new Point(340, 460);
+            label5114.Name = "label5114";
+            label5114.Size = new Size(126, 23);
+            label5114.TabIndex = 685;
+            label5114.Text = "??:??:??:??:??:??";
             // 
             // label529
             // 
@@ -10079,15 +10387,15 @@
             pictureBox118.TabIndex = 703;
             pictureBox118.TabStop = false;
             // 
-            // label536
+            // label5115
             // 
-            label536.AutoSize = true;
-            label536.Font = new Font("Segoe UI", 10F);
-            label536.Location = new Point(340, 520);
-            label536.Name = "label536";
-            label536.Size = new Size(126, 23);
-            label536.TabIndex = 699;
-            label536.Text = "??:??:??:??:??:??";
+            label5115.AutoSize = true;
+            label5115.Font = new Font("Segoe UI", 10F);
+            label5115.Location = new Point(340, 520);
+            label5115.Name = "label5115";
+            label5115.Size = new Size(126, 23);
+            label5115.TabIndex = 699;
+            label5115.Text = "??:??:??:??:??:??";
             // 
             // pictureBox116
             // 
@@ -10098,25 +10406,25 @@
             pictureBox116.TabIndex = 702;
             pictureBox116.TabStop = false;
             // 
-            // label537
+            // label5118
             // 
-            label537.AutoSize = true;
-            label537.Font = new Font("Segoe UI", 10F);
-            label537.Location = new Point(340, 700);
-            label537.Name = "label537";
-            label537.Size = new Size(126, 23);
-            label537.TabIndex = 700;
-            label537.Text = "??:??:??:??:??:??";
+            label5118.AutoSize = true;
+            label5118.Font = new Font("Segoe UI", 10F);
+            label5118.Location = new Point(340, 700);
+            label5118.Name = "label5118";
+            label5118.Size = new Size(126, 23);
+            label5118.TabIndex = 700;
+            label5118.Text = "??:??:??:??:??:??";
             // 
-            // label538
+            // label5116
             // 
-            label538.AutoSize = true;
-            label538.Font = new Font("Segoe UI", 10F);
-            label538.Location = new Point(340, 580);
-            label538.Name = "label538";
-            label538.Size = new Size(126, 23);
-            label538.TabIndex = 701;
-            label538.Text = "??:??:??:??:??:??";
+            label5116.AutoSize = true;
+            label5116.Font = new Font("Segoe UI", 10F);
+            label5116.Location = new Point(340, 580);
+            label5116.Name = "label5116";
+            label5116.Size = new Size(126, 23);
+            label5116.TabIndex = 701;
+            label5116.Text = "??:??:??:??:??:??";
             // 
             // button7
             // 
@@ -10588,135 +10896,135 @@
             pictureBox104.TabIndex = 631;
             pictureBox104.TabStop = false;
             // 
-            // label580
+            // label5113
             // 
-            label580.AutoSize = true;
-            label580.Font = new Font("Segoe UI", 10F);
-            label580.Location = new Point(340, 430);
-            label580.Name = "label580";
-            label580.Size = new Size(126, 23);
-            label580.TabIndex = 630;
-            label580.Text = "??:??:??:??:??:??";
+            label5113.AutoSize = true;
+            label5113.Font = new Font("Segoe UI", 10F);
+            label5113.Location = new Point(340, 430);
+            label5113.Name = "label5113";
+            label5113.Size = new Size(126, 23);
+            label5113.TabIndex = 630;
+            label5113.Text = "??:??:??:??:??:??";
             // 
-            // label581
+            // label5112
             // 
-            label581.AutoSize = true;
-            label581.Font = new Font("Segoe UI", 10F);
-            label581.Location = new Point(340, 400);
-            label581.Name = "label581";
-            label581.Size = new Size(126, 23);
-            label581.TabIndex = 629;
-            label581.Text = "??:??:??:??:??:??";
+            label5112.AutoSize = true;
+            label5112.Font = new Font("Segoe UI", 10F);
+            label5112.Location = new Point(340, 400);
+            label5112.Name = "label5112";
+            label5112.Size = new Size(126, 23);
+            label5112.TabIndex = 629;
+            label5112.Text = "??:??:??:??:??:??";
             // 
-            // label582
+            // label5111
             // 
-            label582.AutoSize = true;
-            label582.Font = new Font("Segoe UI", 10F);
-            label582.Location = new Point(340, 370);
-            label582.Name = "label582";
-            label582.Size = new Size(126, 23);
-            label582.TabIndex = 628;
-            label582.Text = "??:??:??:??:??:??";
+            label5111.AutoSize = true;
+            label5111.Font = new Font("Segoe UI", 10F);
+            label5111.Location = new Point(340, 370);
+            label5111.Name = "label5111";
+            label5111.Size = new Size(126, 23);
+            label5111.TabIndex = 628;
+            label5111.Text = "??:??:??:??:??:??";
             // 
-            // label583
+            // label5110
             // 
-            label583.AutoSize = true;
-            label583.Font = new Font("Segoe UI", 10F);
-            label583.Location = new Point(340, 340);
-            label583.Name = "label583";
-            label583.Size = new Size(126, 23);
-            label583.TabIndex = 627;
-            label583.Text = "??:??:??:??:??:??";
+            label5110.AutoSize = true;
+            label5110.Font = new Font("Segoe UI", 10F);
+            label5110.Location = new Point(340, 340);
+            label5110.Name = "label5110";
+            label5110.Size = new Size(126, 23);
+            label5110.TabIndex = 627;
+            label5110.Text = "??:??:??:??:??:??";
             // 
-            // label584
+            // label5109
             // 
-            label584.AutoSize = true;
-            label584.Font = new Font("Segoe UI", 10F);
-            label584.Location = new Point(340, 310);
-            label584.Name = "label584";
-            label584.Size = new Size(126, 23);
-            label584.TabIndex = 626;
-            label584.Text = "??:??:??:??:??:??";
+            label5109.AutoSize = true;
+            label5109.Font = new Font("Segoe UI", 10F);
+            label5109.Location = new Point(340, 310);
+            label5109.Name = "label5109";
+            label5109.Size = new Size(126, 23);
+            label5109.TabIndex = 626;
+            label5109.Text = "??:??:??:??:??:??";
             // 
-            // label585
+            // label5108
             // 
-            label585.AutoSize = true;
-            label585.Font = new Font("Segoe UI", 10F);
-            label585.Location = new Point(340, 280);
-            label585.Name = "label585";
-            label585.Size = new Size(126, 23);
-            label585.TabIndex = 625;
-            label585.Text = "??:??:??:??:??:??";
+            label5108.AutoSize = true;
+            label5108.Font = new Font("Segoe UI", 10F);
+            label5108.Location = new Point(340, 280);
+            label5108.Name = "label5108";
+            label5108.Size = new Size(126, 23);
+            label5108.TabIndex = 625;
+            label5108.Text = "??:??:??:??:??:??";
             // 
-            // label586
+            // label5107
             // 
-            label586.AutoSize = true;
-            label586.Font = new Font("Segoe UI", 10F);
-            label586.Location = new Point(340, 250);
-            label586.Name = "label586";
-            label586.Size = new Size(126, 23);
-            label586.TabIndex = 624;
-            label586.Text = "??:??:??:??:??:??";
+            label5107.AutoSize = true;
+            label5107.Font = new Font("Segoe UI", 10F);
+            label5107.Location = new Point(340, 250);
+            label5107.Name = "label5107";
+            label5107.Size = new Size(126, 23);
+            label5107.TabIndex = 624;
+            label5107.Text = "??:??:??:??:??:??";
             // 
-            // label587
+            // label5106
             // 
-            label587.AutoSize = true;
-            label587.Font = new Font("Segoe UI", 10F);
-            label587.Location = new Point(340, 220);
-            label587.Name = "label587";
-            label587.Size = new Size(126, 23);
-            label587.TabIndex = 623;
-            label587.Text = "??:??:??:??:??:??";
+            label5106.AutoSize = true;
+            label5106.Font = new Font("Segoe UI", 10F);
+            label5106.Location = new Point(340, 220);
+            label5106.Name = "label5106";
+            label5106.Size = new Size(126, 23);
+            label5106.TabIndex = 623;
+            label5106.Text = "??:??:??:??:??:??";
             // 
-            // label588
+            // label5105
             // 
-            label588.AutoSize = true;
-            label588.Font = new Font("Segoe UI", 10F);
-            label588.Location = new Point(340, 190);
-            label588.Name = "label588";
-            label588.Size = new Size(126, 23);
-            label588.TabIndex = 622;
-            label588.Text = "??:??:??:??:??:??";
+            label5105.AutoSize = true;
+            label5105.Font = new Font("Segoe UI", 10F);
+            label5105.Location = new Point(340, 190);
+            label5105.Name = "label5105";
+            label5105.Size = new Size(126, 23);
+            label5105.TabIndex = 622;
+            label5105.Text = "??:??:??:??:??:??";
             // 
-            // label589
+            // label5104
             // 
-            label589.AutoSize = true;
-            label589.Font = new Font("Segoe UI", 10F);
-            label589.Location = new Point(340, 160);
-            label589.Name = "label589";
-            label589.Size = new Size(126, 23);
-            label589.TabIndex = 621;
-            label589.Text = "??:??:??:??:??:??";
+            label5104.AutoSize = true;
+            label5104.Font = new Font("Segoe UI", 10F);
+            label5104.Location = new Point(340, 160);
+            label5104.Name = "label5104";
+            label5104.Size = new Size(126, 23);
+            label5104.TabIndex = 621;
+            label5104.Text = "??:??:??:??:??:??";
             // 
-            // label590
+            // label5103
             // 
-            label590.AutoSize = true;
-            label590.Font = new Font("Segoe UI", 10F);
-            label590.Location = new Point(340, 130);
-            label590.Name = "label590";
-            label590.Size = new Size(126, 23);
-            label590.TabIndex = 620;
-            label590.Text = "??:??:??:??:??:??";
+            label5103.AutoSize = true;
+            label5103.Font = new Font("Segoe UI", 10F);
+            label5103.Location = new Point(340, 130);
+            label5103.Name = "label5103";
+            label5103.Size = new Size(126, 23);
+            label5103.TabIndex = 620;
+            label5103.Text = "??:??:??:??:??:??";
             // 
-            // label591
+            // label5102
             // 
-            label591.AutoSize = true;
-            label591.Font = new Font("Segoe UI", 10F);
-            label591.Location = new Point(340, 100);
-            label591.Name = "label591";
-            label591.Size = new Size(126, 23);
-            label591.TabIndex = 619;
-            label591.Text = "??:??:??:??:??:??";
+            label5102.AutoSize = true;
+            label5102.Font = new Font("Segoe UI", 10F);
+            label5102.Location = new Point(340, 100);
+            label5102.Name = "label5102";
+            label5102.Size = new Size(126, 23);
+            label5102.TabIndex = 619;
+            label5102.Text = "??:??:??:??:??:??";
             // 
-            // label592
+            // label5101
             // 
-            label592.AutoSize = true;
-            label592.Font = new Font("Segoe UI", 10F);
-            label592.Location = new Point(340, 70);
-            label592.Name = "label592";
-            label592.Size = new Size(126, 23);
-            label592.TabIndex = 618;
-            label592.Text = "??:??:??:??:??:??";
+            label5101.AutoSize = true;
+            label5101.Font = new Font("Segoe UI", 10F);
+            label5101.Location = new Point(340, 70);
+            label5101.Name = "label5101";
+            label5101.Size = new Size(126, 23);
+            label5101.TabIndex = 618;
+            label5101.Text = "??:??:??:??:??:??";
             // 
             // label593
             // 
@@ -10980,15 +11288,15 @@
             label5099.TabIndex = 577;
             label5099.Text = "??:??:??:??:??:??";
             // 
-            // label632
+            // label5100
             // 
-            label632.AutoSize = true;
-            label632.Font = new Font("Segoe UI", 10F);
-            label632.Location = new Point(340, 40);
-            label632.Name = "label632";
-            label632.Size = new Size(126, 23);
-            label632.TabIndex = 591;
-            label632.Text = "??:??:??:??:??:??";
+            label5100.AutoSize = true;
+            label5100.Font = new Font("Segoe UI", 10F);
+            label5100.Location = new Point(340, 40);
+            label5100.Name = "label5100";
+            label5100.Size = new Size(126, 23);
+            label5100.TabIndex = 591;
+            label5100.Text = "??:??:??:??:??:??";
             // 
             // pictureBox99
             // 
@@ -11142,6 +11450,246 @@
             // tabPage6
             // 
             tabPage6.BorderStyle = BorderStyle.FixedSingle;
+            tabPage6.Controls.Add(label139);
+            tabPage6.Controls.Add(label140);
+            tabPage6.Controls.Add(label169);
+            tabPage6.Controls.Add(label170);
+            tabPage6.Controls.Add(label171);
+            tabPage6.Controls.Add(label172);
+            tabPage6.Controls.Add(label173);
+            tabPage6.Controls.Add(label174);
+            tabPage6.Controls.Add(label175);
+            tabPage6.Controls.Add(label176);
+            tabPage6.Controls.Add(label177);
+            tabPage6.Controls.Add(label178);
+            tabPage6.Controls.Add(label179);
+            tabPage6.Controls.Add(label180);
+            tabPage6.Controls.Add(label181);
+            tabPage6.Controls.Add(label182);
+            tabPage6.Controls.Add(label183);
+            tabPage6.Controls.Add(label184);
+            tabPage6.Controls.Add(label223);
+            tabPage6.Controls.Add(label224);
+            tabPage6.Controls.Add(label225);
+            tabPage6.Controls.Add(label226);
+            tabPage6.Controls.Add(label227);
+            tabPage6.Controls.Add(label228);
+            tabPage6.Controls.Add(label229);
+            tabPage6.Controls.Add(label230);
+            tabPage6.Controls.Add(label231);
+            tabPage6.Controls.Add(label232);
+            tabPage6.Controls.Add(label233);
+            tabPage6.Controls.Add(label234);
+            tabPage6.Controls.Add(label235);
+            tabPage6.Controls.Add(label249);
+            tabPage6.Controls.Add(label257);
+            tabPage6.Controls.Add(label258);
+            tabPage6.Controls.Add(label351);
+            tabPage6.Controls.Add(label352);
+            tabPage6.Controls.Add(label379);
+            tabPage6.Controls.Add(label380);
+            tabPage6.Controls.Add(label381);
+            tabPage6.Controls.Add(label382);
+            tabPage6.Controls.Add(label383);
+            tabPage6.Controls.Add(label384);
+            tabPage6.Controls.Add(label385);
+            tabPage6.Controls.Add(label386);
+            tabPage6.Controls.Add(label387);
+            tabPage6.Controls.Add(label388);
+            tabPage6.Controls.Add(label389);
+            tabPage6.Controls.Add(label390);
+            tabPage6.Controls.Add(label391);
+            tabPage6.Controls.Add(label392);
+            tabPage6.Controls.Add(label393);
+            tabPage6.Controls.Add(label394);
+            tabPage6.Controls.Add(label433);
+            tabPage6.Controls.Add(label434);
+            tabPage6.Controls.Add(label435);
+            tabPage6.Controls.Add(label436);
+            tabPage6.Controls.Add(label437);
+            tabPage6.Controls.Add(label438);
+            tabPage6.Controls.Add(label439);
+            tabPage6.Controls.Add(label440);
+            tabPage6.Controls.Add(label441);
+            tabPage6.Controls.Add(pictureBox1190);
+            tabPage6.Controls.Add(label442);
+            tabPage6.Controls.Add(label443);
+            tabPage6.Controls.Add(label444);
+            tabPage6.Controls.Add(label445);
+            tabPage6.Controls.Add(label459);
+            tabPage6.Controls.Add(label467);
+            tabPage6.Controls.Add(label468);
+            tabPage6.Controls.Add(label527);
+            tabPage6.Controls.Add(label528);
+            tabPage6.Controls.Add(label536);
+            tabPage6.Controls.Add(label537);
+            tabPage6.Controls.Add(label538);
+            tabPage6.Controls.Add(label539);
+            tabPage6.Controls.Add(label540);
+            tabPage6.Controls.Add(label541);
+            tabPage6.Controls.Add(label580);
+            tabPage6.Controls.Add(label581);
+            tabPage6.Controls.Add(pictureBox1200);
+            tabPage6.Controls.Add(label582);
+            tabPage6.Controls.Add(label583);
+            tabPage6.Controls.Add(pictureBox1210);
+            tabPage6.Controls.Add(pictureBox1220);
+            tabPage6.Controls.Add(pictureBox1230);
+            tabPage6.Controls.Add(label584);
+            tabPage6.Controls.Add(label585);
+            tabPage6.Controls.Add(pictureBox1240);
+            tabPage6.Controls.Add(label586);
+            tabPage6.Controls.Add(label587);
+            tabPage6.Controls.Add(label588);
+            tabPage6.Controls.Add(label589);
+            tabPage6.Controls.Add(label590);
+            tabPage6.Controls.Add(label591);
+            tabPage6.Controls.Add(label592);
+            tabPage6.Controls.Add(label602);
+            tabPage6.Controls.Add(label603);
+            tabPage6.Controls.Add(label604);
+            tabPage6.Controls.Add(label609);
+            tabPage6.Controls.Add(label631);
+            tabPage6.Controls.Add(label632);
+            tabPage6.Controls.Add(label650);
+            tabPage6.Controls.Add(label651);
+            tabPage6.Controls.Add(label652);
+            tabPage6.Controls.Add(label653);
+            tabPage6.Controls.Add(label654);
+            tabPage6.Controls.Add(label655);
+            tabPage6.Controls.Add(label656);
+            tabPage6.Controls.Add(label657);
+            tabPage6.Controls.Add(pictureBox1250);
+            tabPage6.Controls.Add(label658);
+            tabPage6.Controls.Add(pictureBox1260);
+            tabPage6.Controls.Add(label659);
+            tabPage6.Controls.Add(pictureBox1270);
+            tabPage6.Controls.Add(label660);
+            tabPage6.Controls.Add(pictureBox1280);
+            tabPage6.Controls.Add(label661);
+            tabPage6.Controls.Add(pictureBox1290);
+            tabPage6.Controls.Add(label662);
+            tabPage6.Controls.Add(pictureBox1300);
+            tabPage6.Controls.Add(label669);
+            tabPage6.Controls.Add(pictureBox1310);
+            tabPage6.Controls.Add(label677);
+            tabPage6.Controls.Add(pictureBox1320);
+            tabPage6.Controls.Add(label678);
+            tabPage6.Controls.Add(pictureBox1330);
+            tabPage6.Controls.Add(label686);
+            tabPage6.Controls.Add(label687);
+            tabPage6.Controls.Add(label688);
+            tabPage6.Controls.Add(label689);
+            tabPage6.Controls.Add(label690);
+            tabPage6.Controls.Add(label691);
+            tabPage6.Controls.Add(label692);
+            tabPage6.Controls.Add(label693);
+            tabPage6.Controls.Add(label694);
+            tabPage6.Controls.Add(label695);
+            tabPage6.Controls.Add(label696);
+            tabPage6.Controls.Add(label697);
+            tabPage6.Controls.Add(label698);
+            tabPage6.Controls.Add(label699);
+            tabPage6.Controls.Add(label700);
+            tabPage6.Controls.Add(label701);
+            tabPage6.Controls.Add(label702);
+            tabPage6.Controls.Add(label703);
+            tabPage6.Controls.Add(label704);
+            tabPage6.Controls.Add(label705);
+            tabPage6.Controls.Add(label706);
+            tabPage6.Controls.Add(label707);
+            tabPage6.Controls.Add(label708);
+            tabPage6.Controls.Add(label709);
+            tabPage6.Controls.Add(label710);
+            tabPage6.Controls.Add(label711);
+            tabPage6.Controls.Add(label712);
+            tabPage6.Controls.Add(label713);
+            tabPage6.Controls.Add(label714);
+            tabPage6.Controls.Add(label715);
+            tabPage6.Controls.Add(label716);
+            tabPage6.Controls.Add(label717);
+            tabPage6.Controls.Add(label718);
+            tabPage6.Controls.Add(label719);
+            tabPage6.Controls.Add(label720);
+            tabPage6.Controls.Add(label721);
+            tabPage6.Controls.Add(label722);
+            tabPage6.Controls.Add(label723);
+            tabPage6.Controls.Add(label724);
+            tabPage6.Controls.Add(label725);
+            tabPage6.Controls.Add(label726);
+            tabPage6.Controls.Add(label727);
+            tabPage6.Controls.Add(label728);
+            tabPage6.Controls.Add(label729);
+            tabPage6.Controls.Add(label730);
+            tabPage6.Controls.Add(label731);
+            tabPage6.Controls.Add(label732);
+            tabPage6.Controls.Add(label733);
+            tabPage6.Controls.Add(label734);
+            tabPage6.Controls.Add(pictureBox133);
+            tabPage6.Controls.Add(pictureBox132);
+            tabPage6.Controls.Add(pictureBox131);
+            tabPage6.Controls.Add(pictureBox130);
+            tabPage6.Controls.Add(pictureBox129);
+            tabPage6.Controls.Add(pictureBox128);
+            tabPage6.Controls.Add(pictureBox127);
+            tabPage6.Controls.Add(pictureBox126);
+            tabPage6.Controls.Add(pictureBox125);
+            tabPage6.Controls.Add(pictureBox124);
+            tabPage6.Controls.Add(label735);
+            tabPage6.Controls.Add(label736);
+            tabPage6.Controls.Add(label737);
+            tabPage6.Controls.Add(label738);
+            tabPage6.Controls.Add(label739);
+            tabPage6.Controls.Add(label740);
+            tabPage6.Controls.Add(label741);
+            tabPage6.Controls.Add(label742);
+            tabPage6.Controls.Add(label743);
+            tabPage6.Controls.Add(label744);
+            tabPage6.Controls.Add(label745);
+            tabPage6.Controls.Add(label746);
+            tabPage6.Controls.Add(label747);
+            tabPage6.Controls.Add(label748);
+            tabPage6.Controls.Add(label749);
+            tabPage6.Controls.Add(label750);
+            tabPage6.Controls.Add(label751);
+            tabPage6.Controls.Add(label752);
+            tabPage6.Controls.Add(label753);
+            tabPage6.Controls.Add(label754);
+            tabPage6.Controls.Add(label755);
+            tabPage6.Controls.Add(label756);
+            tabPage6.Controls.Add(label757);
+            tabPage6.Controls.Add(label758);
+            tabPage6.Controls.Add(label759);
+            tabPage6.Controls.Add(label760);
+            tabPage6.Controls.Add(label761);
+            tabPage6.Controls.Add(label762);
+            tabPage6.Controls.Add(label763);
+            tabPage6.Controls.Add(label764);
+            tabPage6.Controls.Add(pictureBox121);
+            tabPage6.Controls.Add(label765);
+            tabPage6.Controls.Add(label766);
+            tabPage6.Controls.Add(label767);
+            tabPage6.Controls.Add(label768);
+            tabPage6.Controls.Add(pictureBox123);
+            tabPage6.Controls.Add(pictureBox120);
+            tabPage6.Controls.Add(pictureBox122);
+            tabPage6.Controls.Add(label5119);
+            tabPage6.Controls.Add(label770);
+            tabPage6.Controls.Add(pictureBox119);
+            tabPage6.Controls.Add(label771);
+            tabPage6.Controls.Add(label772);
+            tabPage6.Controls.Add(label773);
+            tabPage6.Controls.Add(label774);
+            tabPage6.Controls.Add(label775);
+            tabPage6.Controls.Add(label776);
+            tabPage6.Controls.Add(label777);
+            tabPage6.Controls.Add(label778);
+            tabPage6.Controls.Add(label779);
+            tabPage6.Controls.Add(label780);
+            tabPage6.Controls.Add(label781);
+            tabPage6.Controls.Add(label782);
+            tabPage6.Controls.Add(label783);
+            tabPage6.Controls.Add(label784);
             tabPage6.Location = new Point(4, 29);
             tabPage6.Name = "tabPage6";
             tabPage6.Size = new Size(1531, 908);
@@ -11161,49 +11709,2323 @@
             // 
             // tabPage8
             // 
+            tabPage8.BorderStyle = BorderStyle.FixedSingle;
             tabPage8.Location = new Point(4, 29);
             tabPage8.Name = "tabPage8";
             tabPage8.Size = new Size(1531, 908);
             tabPage8.TabIndex = 7;
-            tabPage8.Text = "Gates";
+            tabPage8.Text = "Public 1";
             tabPage8.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
+            tabPage9.BorderStyle = BorderStyle.FixedSingle;
             tabPage9.Location = new Point(4, 29);
             tabPage9.Name = "tabPage9";
             tabPage9.Size = new Size(1531, 908);
             tabPage9.TabIndex = 8;
-            tabPage9.Text = "Carousel";
+            tabPage9.Text = "Public 2";
             tabPage9.UseVisualStyleBackColor = true;
             // 
             // tabPage10
             // 
+            tabPage10.BorderStyle = BorderStyle.Fixed3D;
             tabPage10.Location = new Point(4, 29);
             tabPage10.Name = "tabPage10";
             tabPage10.Size = new Size(1531, 908);
             tabPage10.TabIndex = 9;
-            tabPage10.Text = "GVIP";
+            tabPage10.Text = "Public 3";
             tabPage10.UseVisualStyleBackColor = true;
             // 
             // tabPage11
             // 
+            tabPage11.BorderStyle = BorderStyle.FixedSingle;
             tabPage11.Location = new Point(4, 29);
             tabPage11.Name = "tabPage11";
             tabPage11.Size = new Size(1531, 908);
             tabPage11.TabIndex = 10;
-            tabPage11.Text = "VW";
+            tabPage11.Text = "Public 4";
             tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tabPage12
+            // 
+            tabPage12.BorderStyle = BorderStyle.FixedSingle;
+            tabPage12.Location = new Point(4, 29);
+            tabPage12.Name = "tabPage12";
+            tabPage12.Size = new Size(1531, 908);
+            tabPage12.TabIndex = 11;
+            tabPage12.Text = "AQI";
+            tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            tabPage13.BorderStyle = BorderStyle.FixedSingle;
+            tabPage13.Location = new Point(4, 29);
+            tabPage13.Name = "tabPage13";
+            tabPage13.Size = new Size(1531, 908);
+            tabPage13.TabIndex = 12;
+            tabPage13.Text = "Al Ahsa";
+            tabPage13.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            button9.Location = new Point(71, 179);
+            button9.Location = new Point(220, 20);
             button9.Name = "button9";
             button9.Size = new Size(94, 29);
             button9.TabIndex = 46;
             button9.Text = "Server List";
             button9.UseVisualStyleBackColor = true;
             button9.Click += (this.button9_Click);
+            // 
+            // label139
+            // 
+            label139.AutoSize = true;
+            label139.Location = new Point(1180, 460);
+            label139.Name = "label139";
+            label139.Size = new Size(42, 20);
+            label139.TabIndex = 558;
+            label139.Text = "Time";
+            // 
+            // label140
+            // 
+            label140.AutoSize = true;
+            label140.Location = new Point(1180, 880);
+            label140.Name = "label140";
+            label140.Size = new Size(42, 20);
+            label140.TabIndex = 572;
+            label140.Text = "Time";
+            // 
+            // label169
+            // 
+            label169.AutoSize = true;
+            label169.Location = new Point(1180, 850);
+            label169.Name = "label169";
+            label169.Size = new Size(42, 20);
+            label169.TabIndex = 571;
+            label169.Text = "Time";
+            // 
+            // label170
+            // 
+            label170.AutoSize = true;
+            label170.Location = new Point(1180, 820);
+            label170.Name = "label170";
+            label170.Size = new Size(42, 20);
+            label170.TabIndex = 570;
+            label170.Text = "Time";
+            // 
+            // label171
+            // 
+            label171.AutoSize = true;
+            label171.Location = new Point(1180, 790);
+            label171.Name = "label171";
+            label171.Size = new Size(42, 20);
+            label171.TabIndex = 569;
+            label171.Text = "Time";
+            // 
+            // label172
+            // 
+            label172.AutoSize = true;
+            label172.Location = new Point(1180, 760);
+            label172.Name = "label172";
+            label172.Size = new Size(42, 20);
+            label172.TabIndex = 568;
+            label172.Text = "Time";
+            // 
+            // label173
+            // 
+            label173.AutoSize = true;
+            label173.Location = new Point(1180, 730);
+            label173.Name = "label173";
+            label173.Size = new Size(42, 20);
+            label173.TabIndex = 567;
+            label173.Text = "Time";
+            // 
+            // label174
+            // 
+            label174.AutoSize = true;
+            label174.Location = new Point(1180, 700);
+            label174.Name = "label174";
+            label174.Size = new Size(42, 20);
+            label174.TabIndex = 566;
+            label174.Text = "Time";
+            // 
+            // label175
+            // 
+            label175.AutoSize = true;
+            label175.Location = new Point(1180, 670);
+            label175.Name = "label175";
+            label175.Size = new Size(42, 20);
+            label175.TabIndex = 565;
+            label175.Text = "Time";
+            // 
+            // label176
+            // 
+            label176.AutoSize = true;
+            label176.Location = new Point(1180, 640);
+            label176.Name = "label176";
+            label176.Size = new Size(42, 20);
+            label176.TabIndex = 564;
+            label176.Text = "Time";
+            // 
+            // label177
+            // 
+            label177.AutoSize = true;
+            label177.Location = new Point(1180, 610);
+            label177.Name = "label177";
+            label177.Size = new Size(42, 20);
+            label177.TabIndex = 563;
+            label177.Text = "Time";
+            // 
+            // label178
+            // 
+            label178.AutoSize = true;
+            label178.Location = new Point(1180, 580);
+            label178.Name = "label178";
+            label178.Size = new Size(42, 20);
+            label178.TabIndex = 562;
+            label178.Text = "Time";
+            // 
+            // label179
+            // 
+            label179.AutoSize = true;
+            label179.Location = new Point(1180, 550);
+            label179.Name = "label179";
+            label179.Size = new Size(42, 20);
+            label179.TabIndex = 561;
+            label179.Text = "Time";
+            // 
+            // label180
+            // 
+            label180.AutoSize = true;
+            label180.Location = new Point(1180, 520);
+            label180.Name = "label180";
+            label180.Size = new Size(42, 20);
+            label180.TabIndex = 560;
+            label180.Text = "Time";
+            // 
+            // label181
+            // 
+            label181.AutoSize = true;
+            label181.Location = new Point(1180, 490);
+            label181.Name = "label181";
+            label181.Size = new Size(42, 20);
+            label181.TabIndex = 559;
+            label181.Text = "Time";
+            // 
+            // label182
+            // 
+            label182.AutoSize = true;
+            label182.Location = new Point(830, 640);
+            label182.Name = "label182";
+            label182.Size = new Size(83, 20);
+            label182.TabIndex = 557;
+            label182.Text = "FIDS Status";
+            // 
+            // label183
+            // 
+            label183.AutoSize = true;
+            label183.Location = new Point(830, 670);
+            label183.Name = "label183";
+            label183.Size = new Size(83, 20);
+            label183.TabIndex = 556;
+            label183.Text = "FIDS Status";
+            // 
+            // label184
+            // 
+            label184.AutoSize = true;
+            label184.Location = new Point(830, 700);
+            label184.Name = "label184";
+            label184.Size = new Size(83, 20);
+            label184.TabIndex = 555;
+            label184.Text = "FIDS Status";
+            // 
+            // label223
+            // 
+            label223.AutoSize = true;
+            label223.Location = new Point(830, 730);
+            label223.Name = "label223";
+            label223.Size = new Size(83, 20);
+            label223.TabIndex = 554;
+            label223.Text = "FIDS Status";
+            // 
+            // label224
+            // 
+            label224.AutoSize = true;
+            label224.Location = new Point(830, 760);
+            label224.Name = "label224";
+            label224.Size = new Size(83, 20);
+            label224.TabIndex = 553;
+            label224.Text = "FIDS Status";
+            // 
+            // label225
+            // 
+            label225.AutoSize = true;
+            label225.Location = new Point(830, 790);
+            label225.Name = "label225";
+            label225.Size = new Size(83, 20);
+            label225.TabIndex = 552;
+            label225.Text = "FIDS Status";
+            // 
+            // label226
+            // 
+            label226.AutoSize = true;
+            label226.Location = new Point(830, 820);
+            label226.Name = "label226";
+            label226.Size = new Size(83, 20);
+            label226.TabIndex = 551;
+            label226.Text = "FIDS Status";
+            // 
+            // label227
+            // 
+            label227.AutoSize = true;
+            label227.Location = new Point(830, 850);
+            label227.Name = "label227";
+            label227.Size = new Size(83, 20);
+            label227.TabIndex = 550;
+            label227.Text = "FIDS Status";
+            // 
+            // label228
+            // 
+            label228.AutoSize = true;
+            label228.Location = new Point(830, 880);
+            label228.Name = "label228";
+            label228.Size = new Size(83, 20);
+            label228.TabIndex = 549;
+            label228.Text = "FIDS Status";
+            // 
+            // label229
+            // 
+            label229.AutoSize = true;
+            label229.Location = new Point(830, 310);
+            label229.Name = "label229";
+            label229.Size = new Size(83, 20);
+            label229.TabIndex = 548;
+            label229.Text = "FIDS Status";
+            // 
+            // label230
+            // 
+            label230.AutoSize = true;
+            label230.Location = new Point(830, 340);
+            label230.Name = "label230";
+            label230.Size = new Size(83, 20);
+            label230.TabIndex = 547;
+            label230.Text = "FIDS Status";
+            // 
+            // label231
+            // 
+            label231.AutoSize = true;
+            label231.Location = new Point(830, 370);
+            label231.Name = "label231";
+            label231.Size = new Size(83, 20);
+            label231.TabIndex = 546;
+            label231.Text = "FIDS Status";
+            // 
+            // label232
+            // 
+            label232.AutoSize = true;
+            label232.Location = new Point(830, 400);
+            label232.Name = "label232";
+            label232.Size = new Size(83, 20);
+            label232.TabIndex = 545;
+            label232.Text = "FIDS Status";
+            // 
+            // label233
+            // 
+            label233.AutoSize = true;
+            label233.Location = new Point(830, 430);
+            label233.Name = "label233";
+            label233.Size = new Size(83, 20);
+            label233.TabIndex = 544;
+            label233.Text = "FIDS Status";
+            // 
+            // label234
+            // 
+            label234.AutoSize = true;
+            label234.Location = new Point(830, 460);
+            label234.Name = "label234";
+            label234.Size = new Size(83, 20);
+            label234.TabIndex = 543;
+            label234.Text = "FIDS Status";
+            // 
+            // label235
+            // 
+            label235.AutoSize = true;
+            label235.Location = new Point(830, 490);
+            label235.Name = "label235";
+            label235.Size = new Size(83, 20);
+            label235.TabIndex = 542;
+            label235.Text = "FIDS Status";
+            // 
+            // label249
+            // 
+            label249.AutoSize = true;
+            label249.Location = new Point(830, 520);
+            label249.Name = "label249";
+            label249.Size = new Size(83, 20);
+            label249.TabIndex = 541;
+            label249.Text = "FIDS Status";
+            // 
+            // label257
+            // 
+            label257.AutoSize = true;
+            label257.Location = new Point(830, 550);
+            label257.Name = "label257";
+            label257.Size = new Size(83, 20);
+            label257.TabIndex = 540;
+            label257.Text = "FIDS Status";
+            // 
+            // label258
+            // 
+            label258.AutoSize = true;
+            label258.Location = new Point(830, 580);
+            label258.Name = "label258";
+            label258.Size = new Size(83, 20);
+            label258.TabIndex = 539;
+            label258.Text = "FIDS Status";
+            // 
+            // label351
+            // 
+            label351.AutoSize = true;
+            label351.Location = new Point(830, 610);
+            label351.Name = "label351";
+            label351.Size = new Size(83, 20);
+            label351.TabIndex = 538;
+            label351.Text = "FIDS Status";
+            // 
+            // label352
+            // 
+            label352.AutoSize = true;
+            label352.Location = new Point(830, 40);
+            label352.Name = "label352";
+            label352.Size = new Size(83, 20);
+            label352.TabIndex = 537;
+            label352.Text = "FIDS Status";
+            // 
+            // label379
+            // 
+            label379.AutoSize = true;
+            label379.Location = new Point(830, 70);
+            label379.Name = "label379";
+            label379.Size = new Size(83, 20);
+            label379.TabIndex = 536;
+            label379.Text = "FIDS Status";
+            // 
+            // label380
+            // 
+            label380.AutoSize = true;
+            label380.Location = new Point(830, 100);
+            label380.Name = "label380";
+            label380.Size = new Size(83, 20);
+            label380.TabIndex = 535;
+            label380.Text = "FIDS Status";
+            // 
+            // label381
+            // 
+            label381.AutoSize = true;
+            label381.Location = new Point(830, 130);
+            label381.Name = "label381";
+            label381.Size = new Size(83, 20);
+            label381.TabIndex = 534;
+            label381.Text = "FIDS Status";
+            // 
+            // label382
+            // 
+            label382.AutoSize = true;
+            label382.Location = new Point(830, 160);
+            label382.Name = "label382";
+            label382.Size = new Size(83, 20);
+            label382.TabIndex = 533;
+            label382.Text = "FIDS Status";
+            // 
+            // label383
+            // 
+            label383.AutoSize = true;
+            label383.Location = new Point(830, 190);
+            label383.Name = "label383";
+            label383.Size = new Size(83, 20);
+            label383.TabIndex = 532;
+            label383.Text = "FIDS Status";
+            // 
+            // label384
+            // 
+            label384.AutoSize = true;
+            label384.Location = new Point(830, 220);
+            label384.Name = "label384";
+            label384.Size = new Size(83, 20);
+            label384.TabIndex = 531;
+            label384.Text = "FIDS Status";
+            // 
+            // label385
+            // 
+            label385.AutoSize = true;
+            label385.Location = new Point(830, 250);
+            label385.Name = "label385";
+            label385.Size = new Size(83, 20);
+            label385.TabIndex = 530;
+            label385.Text = "FIDS Status";
+            // 
+            // label386
+            // 
+            label386.AutoSize = true;
+            label386.Location = new Point(830, 280);
+            label386.Name = "label386";
+            label386.Size = new Size(83, 20);
+            label386.TabIndex = 529;
+            label386.Text = "FIDS Status";
+            // 
+            // label387
+            // 
+            label387.AutoSize = true;
+            label387.Location = new Point(600, 820);
+            label387.Name = "label387";
+            label387.Size = new Size(174, 20);
+            label387.TabIndex = 528;
+            label387.Text = "System operational since";
+            // 
+            // label388
+            // 
+            label388.AutoSize = true;
+            label388.Location = new Point(600, 460);
+            label388.Name = "label388";
+            label388.Size = new Size(174, 20);
+            label388.TabIndex = 527;
+            label388.Text = "System operational since";
+            // 
+            // label389
+            // 
+            label389.AutoSize = true;
+            label389.Location = new Point(1010, 460);
+            label389.Name = "label389";
+            label389.Size = new Size(99, 20);
+            label389.TabIndex = 512;
+            label389.Text = "Memorie Info";
+            // 
+            // label390
+            // 
+            label390.AutoSize = true;
+            label390.Location = new Point(1010, 490);
+            label390.Name = "label390";
+            label390.Size = new Size(99, 20);
+            label390.TabIndex = 526;
+            label390.Text = "Memorie Info";
+            // 
+            // label391
+            // 
+            label391.AutoSize = true;
+            label391.Location = new Point(1010, 520);
+            label391.Name = "label391";
+            label391.Size = new Size(99, 20);
+            label391.TabIndex = 525;
+            label391.Text = "Memorie Info";
+            // 
+            // label392
+            // 
+            label392.AutoSize = true;
+            label392.Location = new Point(1010, 550);
+            label392.Name = "label392";
+            label392.Size = new Size(99, 20);
+            label392.TabIndex = 524;
+            label392.Text = "Memorie Info";
+            // 
+            // label393
+            // 
+            label393.AutoSize = true;
+            label393.Location = new Point(1010, 580);
+            label393.Name = "label393";
+            label393.Size = new Size(99, 20);
+            label393.TabIndex = 523;
+            label393.Text = "Memorie Info";
+            // 
+            // label394
+            // 
+            label394.AutoSize = true;
+            label394.Location = new Point(1010, 610);
+            label394.Name = "label394";
+            label394.Size = new Size(99, 20);
+            label394.TabIndex = 522;
+            label394.Text = "Memorie Info";
+            // 
+            // label433
+            // 
+            label433.AutoSize = true;
+            label433.Location = new Point(1010, 640);
+            label433.Name = "label433";
+            label433.Size = new Size(99, 20);
+            label433.TabIndex = 521;
+            label433.Text = "Memorie Info";
+            // 
+            // label434
+            // 
+            label434.AutoSize = true;
+            label434.Location = new Point(1010, 670);
+            label434.Name = "label434";
+            label434.Size = new Size(99, 20);
+            label434.TabIndex = 520;
+            label434.Text = "Memorie Info";
+            // 
+            // label435
+            // 
+            label435.AutoSize = true;
+            label435.Location = new Point(1010, 700);
+            label435.Name = "label435";
+            label435.Size = new Size(99, 20);
+            label435.TabIndex = 519;
+            label435.Text = "Memorie Info";
+            // 
+            // label436
+            // 
+            label436.AutoSize = true;
+            label436.Location = new Point(1010, 730);
+            label436.Name = "label436";
+            label436.Size = new Size(99, 20);
+            label436.TabIndex = 518;
+            label436.Text = "Memorie Info";
+            // 
+            // label437
+            // 
+            label437.AutoSize = true;
+            label437.Location = new Point(1010, 760);
+            label437.Name = "label437";
+            label437.Size = new Size(99, 20);
+            label437.TabIndex = 517;
+            label437.Text = "Memorie Info";
+            // 
+            // label438
+            // 
+            label438.AutoSize = true;
+            label438.Location = new Point(1010, 790);
+            label438.Name = "label438";
+            label438.Size = new Size(99, 20);
+            label438.TabIndex = 516;
+            label438.Text = "Memorie Info";
+            // 
+            // label439
+            // 
+            label439.AutoSize = true;
+            label439.Location = new Point(1010, 820);
+            label439.Name = "label439";
+            label439.Size = new Size(99, 20);
+            label439.TabIndex = 515;
+            label439.Text = "Memorie Info";
+            // 
+            // label440
+            // 
+            label440.AutoSize = true;
+            label440.Location = new Point(1010, 850);
+            label440.Name = "label440";
+            label440.Size = new Size(99, 20);
+            label440.TabIndex = 514;
+            label440.Text = "Memorie Info";
+            // 
+            // label441
+            // 
+            label441.AutoSize = true;
+            label441.Location = new Point(1010, 880);
+            label441.Name = "label441";
+            label441.Size = new Size(99, 20);
+            label441.TabIndex = 513;
+            label441.Text = "Memorie Info";
+            // 
+            // pictureBox1190
+            // 
+            pictureBox1190.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1190.Location = new Point(500, 730);
+            pictureBox1190.Name = "pictureBox1190";
+            pictureBox1190.Size = new Size(70, 23);
+            pictureBox1190.TabIndex = 511;
+            pictureBox1190.TabStop = false;
+            // 
+            // label442
+            // 
+            label442.AutoSize = true;
+            label442.Font = new Font("Segoe UI", 10F);
+            label442.Location = new Point(6, 460);
+            label442.Name = "label442";
+            label442.Size = new Size(177, 23);
+            label442.TabIndex = 439;
+            label442.Text = "Line B - Counter SB01";
+            // 
+            // label443
+            // 
+            label443.AutoSize = true;
+            label443.Font = new Font("Segoe UI", 10F);
+            label443.Location = new Point(6, 790);
+            label443.Name = "label443";
+            label443.Size = new Size(168, 23);
+            label443.TabIndex = 463;
+            label443.Text = "Line B - Counter B11";
+            // 
+            // label444
+            // 
+            label444.AutoSize = true;
+            label444.Font = new Font("Segoe UI", 10F);
+            label444.Location = new Point(6, 760);
+            label444.Name = "label444";
+            label444.Size = new Size(168, 23);
+            label444.TabIndex = 462;
+            label444.Text = "Line B - Counter B10";
+            // 
+            // label445
+            // 
+            label445.AutoSize = true;
+            label445.Font = new Font("Segoe UI", 10F);
+            label445.Location = new Point(6, 730);
+            label445.Name = "label445";
+            label445.Size = new Size(168, 23);
+            label445.TabIndex = 461;
+            label445.Text = "Line B - Counter B09";
+            // 
+            // label459
+            // 
+            label459.AutoSize = true;
+            label459.Font = new Font("Segoe UI", 10F);
+            label459.Location = new Point(6, 820);
+            label459.Name = "label459";
+            label459.Size = new Size(168, 23);
+            label459.TabIndex = 466;
+            label459.Text = "Line B - Counter B12";
+            // 
+            // label467
+            // 
+            label467.AutoSize = true;
+            label467.Font = new Font("Segoe UI", 10F);
+            label467.Location = new Point(6, 700);
+            label467.Name = "label467";
+            label467.Size = new Size(168, 23);
+            label467.TabIndex = 459;
+            label467.Text = "Line B - Counter B08";
+            // 
+            // label468
+            // 
+            label468.AutoSize = true;
+            label468.Font = new Font("Segoe UI", 10F);
+            label468.Location = new Point(6, 850);
+            label468.Name = "label468";
+            label468.Size = new Size(168, 23);
+            label468.TabIndex = 465;
+            label468.Text = "Line B - Counter B13";
+            // 
+            // label527
+            // 
+            label527.AutoSize = true;
+            label527.Font = new Font("Segoe UI", 10F);
+            label527.Location = new Point(6, 880);
+            label527.Name = "label527";
+            label527.Size = new Size(168, 23);
+            label527.TabIndex = 464;
+            label527.Text = "Line B - Counter B14";
+            // 
+            // label528
+            // 
+            label528.AutoSize = true;
+            label528.Font = new Font("Segoe UI", 10F);
+            label528.Location = new Point(6, 670);
+            label528.Name = "label528";
+            label528.Size = new Size(168, 23);
+            label528.TabIndex = 460;
+            label528.Text = "Line B - Counter B07";
+            // 
+            // label536
+            // 
+            label536.AutoSize = true;
+            label536.Font = new Font("Segoe UI", 10F);
+            label536.Location = new Point(6, 640);
+            label536.Name = "label536";
+            label536.Size = new Size(168, 23);
+            label536.TabIndex = 458;
+            label536.Text = "Line B - Counter B06";
+            // 
+            // label537
+            // 
+            label537.AutoSize = true;
+            label537.Font = new Font("Segoe UI", 10F);
+            label537.Location = new Point(6, 610);
+            label537.Name = "label537";
+            label537.Size = new Size(168, 23);
+            label537.TabIndex = 457;
+            label537.Text = "Line B - Counter B05";
+            // 
+            // label538
+            // 
+            label538.AutoSize = true;
+            label538.Font = new Font("Segoe UI", 10F);
+            label538.Location = new Point(6, 580);
+            label538.Name = "label538";
+            label538.Size = new Size(168, 23);
+            label538.TabIndex = 456;
+            label538.Text = "Line B - Counter B04";
+            // 
+            // label539
+            // 
+            label539.AutoSize = true;
+            label539.Font = new Font("Segoe UI", 10F);
+            label539.Location = new Point(6, 550);
+            label539.Name = "label539";
+            label539.Size = new Size(168, 23);
+            label539.TabIndex = 455;
+            label539.Text = "Line B - Counter B03";
+            // 
+            // label540
+            // 
+            label540.AutoSize = true;
+            label540.Font = new Font("Segoe UI", 10F);
+            label540.Location = new Point(6, 490);
+            label540.Name = "label540";
+            label540.Size = new Size(168, 23);
+            label540.TabIndex = 451;
+            label540.Text = "Line B - Counter B01";
+            // 
+            // label541
+            // 
+            label541.AutoSize = true;
+            label541.Font = new Font("Segoe UI", 10F);
+            label541.Location = new Point(6, 520);
+            label541.Name = "label541";
+            label541.Size = new Size(168, 23);
+            label541.TabIndex = 454;
+            label541.Text = "Line B - Counter B02";
+            // 
+            // label580
+            // 
+            label580.AutoSize = true;
+            label580.Font = new Font("Segoe UI", 10F);
+            label580.Location = new Point(210, 460);
+            label580.Name = "label580";
+            label580.Size = new Size(103, 23);
+            label580.TabIndex = 440;
+            label580.Text = "10.82.130.25";
+            // 
+            // label581
+            // 
+            label581.AutoSize = true;
+            label581.Font = new Font("Segoe UI", 10F);
+            label581.Location = new Point(210, 490);
+            label581.Name = "label581";
+            label581.Size = new Size(103, 23);
+            label581.TabIndex = 452;
+            label581.Text = "10.82.130.26";
+            // 
+            // pictureBox1200
+            // 
+            pictureBox1200.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1200.Location = new Point(500, 880);
+            pictureBox1200.Name = "pictureBox1200";
+            pictureBox1200.Size = new Size(70, 23);
+            pictureBox1200.TabIndex = 442;
+            pictureBox1200.TabStop = false;
+            // 
+            // label582
+            // 
+            label582.AutoSize = true;
+            label582.Font = new Font("Segoe UI", 10F);
+            label582.Location = new Point(340, 490);
+            label582.Name = "label582";
+            label582.Size = new Size(126, 23);
+            label582.TabIndex = 453;
+            label582.Text = "??:??:??:??:??:??";
+            // 
+            // label583
+            // 
+            label583.AutoSize = true;
+            label583.Font = new Font("Segoe UI", 10F);
+            label583.Location = new Point(340, 460);
+            label583.Name = "label583";
+            label583.Size = new Size(126, 23);
+            label583.TabIndex = 441;
+            label583.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1210
+            // 
+            pictureBox1210.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1210.Location = new Point(500, 850);
+            pictureBox1210.Name = "pictureBox1210";
+            pictureBox1210.Size = new Size(70, 23);
+            pictureBox1210.TabIndex = 445;
+            pictureBox1210.TabStop = false;
+            // 
+            // pictureBox1220
+            // 
+            pictureBox1220.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1220.Location = new Point(500, 820);
+            pictureBox1220.Name = "pictureBox1220";
+            pictureBox1220.Size = new Size(70, 23);
+            pictureBox1220.TabIndex = 443;
+            pictureBox1220.TabStop = false;
+            // 
+            // pictureBox1230
+            // 
+            pictureBox1230.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1230.Location = new Point(500, 790);
+            pictureBox1230.Name = "pictureBox1230";
+            pictureBox1230.Size = new Size(70, 23);
+            pictureBox1230.TabIndex = 446;
+            pictureBox1230.TabStop = false;
+            // 
+            // label584
+            // 
+            label584.AutoSize = true;
+            label584.Location = new Point(600, 490);
+            label584.Name = "label584";
+            label584.Size = new Size(174, 20);
+            label584.TabIndex = 447;
+            label584.Text = "System operational since";
+            // 
+            // label585
+            // 
+            label585.AutoSize = true;
+            label585.Location = new Point(600, 580);
+            label585.Name = "label585";
+            label585.Size = new Size(174, 20);
+            label585.TabIndex = 449;
+            label585.Text = "System operational since";
+            // 
+            // pictureBox1240
+            // 
+            pictureBox1240.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1240.Location = new Point(500, 760);
+            pictureBox1240.Name = "pictureBox1240";
+            pictureBox1240.Size = new Size(70, 23);
+            pictureBox1240.TabIndex = 444;
+            pictureBox1240.TabStop = false;
+            // 
+            // label586
+            // 
+            label586.AutoSize = true;
+            label586.Location = new Point(600, 550);
+            label586.Name = "label586";
+            label586.Size = new Size(174, 20);
+            label586.TabIndex = 450;
+            label586.Text = "System operational since";
+            // 
+            // label587
+            // 
+            label587.AutoSize = true;
+            label587.Location = new Point(600, 520);
+            label587.Name = "label587";
+            label587.Size = new Size(174, 20);
+            label587.TabIndex = 448;
+            label587.Text = "System operational since";
+            // 
+            // label588
+            // 
+            label588.AutoSize = true;
+            label588.Location = new Point(600, 880);
+            label588.Name = "label588";
+            label588.Size = new Size(174, 20);
+            label588.TabIndex = 510;
+            label588.Text = "System operational since";
+            // 
+            // label589
+            // 
+            label589.AutoSize = true;
+            label589.Font = new Font("Segoe UI", 10F);
+            label589.Location = new Point(210, 520);
+            label589.Name = "label589";
+            label589.Size = new Size(103, 23);
+            label589.TabIndex = 467;
+            label589.Text = "10.82.130.27";
+            // 
+            // label590
+            // 
+            label590.AutoSize = true;
+            label590.Location = new Point(600, 850);
+            label590.Name = "label590";
+            label590.Size = new Size(174, 20);
+            label590.TabIndex = 509;
+            label590.Text = "System operational since";
+            // 
+            // label591
+            // 
+            label591.AutoSize = true;
+            label591.Font = new Font("Segoe UI", 10F);
+            label591.Location = new Point(210, 550);
+            label591.Name = "label591";
+            label591.Size = new Size(103, 23);
+            label591.TabIndex = 468;
+            label591.Text = "10.82.130.28";
+            // 
+            // label592
+            // 
+            label592.AutoSize = true;
+            label592.Location = new Point(600, 610);
+            label592.Name = "label592";
+            label592.Size = new Size(174, 20);
+            label592.TabIndex = 508;
+            label592.Text = "System operational since";
+            // 
+            // label602
+            // 
+            label602.AutoSize = true;
+            label602.Font = new Font("Segoe UI", 10F);
+            label602.Location = new Point(210, 580);
+            label602.Name = "label602";
+            label602.Size = new Size(103, 23);
+            label602.TabIndex = 469;
+            label602.Text = "10.82.130.29";
+            // 
+            // label603
+            // 
+            label603.AutoSize = true;
+            label603.Location = new Point(600, 640);
+            label603.Name = "label603";
+            label603.Size = new Size(174, 20);
+            label603.TabIndex = 507;
+            label603.Text = "System operational since";
+            // 
+            // label604
+            // 
+            label604.AutoSize = true;
+            label604.Font = new Font("Segoe UI", 10F);
+            label604.Location = new Point(210, 610);
+            label604.Name = "label604";
+            label604.Size = new Size(103, 23);
+            label604.TabIndex = 470;
+            label604.Text = "10.82.130.30";
+            // 
+            // label609
+            // 
+            label609.AutoSize = true;
+            label609.Location = new Point(600, 670);
+            label609.Name = "label609";
+            label609.Size = new Size(174, 20);
+            label609.TabIndex = 506;
+            label609.Text = "System operational since";
+            // 
+            // label631
+            // 
+            label631.AutoSize = true;
+            label631.Font = new Font("Segoe UI", 10F);
+            label631.Location = new Point(210, 640);
+            label631.Name = "label631";
+            label631.Size = new Size(103, 23);
+            label631.TabIndex = 471;
+            label631.Text = "10.82.130.31";
+            // 
+            // label632
+            // 
+            label632.AutoSize = true;
+            label632.Location = new Point(600, 700);
+            label632.Name = "label632";
+            label632.Size = new Size(174, 20);
+            label632.TabIndex = 505;
+            label632.Text = "System operational since";
+            // 
+            // label650
+            // 
+            label650.AutoSize = true;
+            label650.Font = new Font("Segoe UI", 10F);
+            label650.Location = new Point(210, 670);
+            label650.Name = "label650";
+            label650.Size = new Size(103, 23);
+            label650.TabIndex = 472;
+            label650.Text = "10.82.130.43";
+            // 
+            // label651
+            // 
+            label651.AutoSize = true;
+            label651.Location = new Point(600, 730);
+            label651.Name = "label651";
+            label651.Size = new Size(174, 20);
+            label651.TabIndex = 504;
+            label651.Text = "System operational since";
+            // 
+            // label652
+            // 
+            label652.AutoSize = true;
+            label652.Font = new Font("Segoe UI", 10F);
+            label652.Location = new Point(210, 700);
+            label652.Name = "label652";
+            label652.Size = new Size(103, 23);
+            label652.TabIndex = 473;
+            label652.Text = "10.82.130.59";
+            // 
+            // label653
+            // 
+            label653.AutoSize = true;
+            label653.Location = new Point(600, 760);
+            label653.Name = "label653";
+            label653.Size = new Size(174, 20);
+            label653.TabIndex = 503;
+            label653.Text = "System operational since";
+            // 
+            // label654
+            // 
+            label654.AutoSize = true;
+            label654.Font = new Font("Segoe UI", 10F);
+            label654.Location = new Point(210, 730);
+            label654.Name = "label654";
+            label654.Size = new Size(103, 23);
+            label654.TabIndex = 474;
+            label654.Text = "10.82.130.61";
+            // 
+            // label655
+            // 
+            label655.AutoSize = true;
+            label655.Location = new Point(600, 790);
+            label655.Name = "label655";
+            label655.Size = new Size(174, 20);
+            label655.TabIndex = 502;
+            label655.Text = "System operational since";
+            // 
+            // label656
+            // 
+            label656.AutoSize = true;
+            label656.Font = new Font("Segoe UI", 10F);
+            label656.Location = new Point(210, 760);
+            label656.Name = "label656";
+            label656.Size = new Size(103, 23);
+            label656.TabIndex = 475;
+            label656.Text = "10.82.130.66";
+            // 
+            // label657
+            // 
+            label657.AutoSize = true;
+            label657.Font = new Font("Segoe UI", 10F);
+            label657.Location = new Point(210, 790);
+            label657.Name = "label657";
+            label657.Size = new Size(103, 23);
+            label657.TabIndex = 476;
+            label657.Text = "10.82.130.68";
+            // 
+            // pictureBox1250
+            // 
+            pictureBox1250.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1250.Location = new Point(500, 460);
+            pictureBox1250.Name = "pictureBox1250";
+            pictureBox1250.Size = new Size(70, 23);
+            pictureBox1250.TabIndex = 501;
+            pictureBox1250.TabStop = false;
+            // 
+            // label658
+            // 
+            label658.AutoSize = true;
+            label658.Font = new Font("Segoe UI", 10F);
+            label658.Location = new Point(210, 820);
+            label658.Name = "label658";
+            label658.Size = new Size(103, 23);
+            label658.TabIndex = 477;
+            label658.Text = "10.82.130.71";
+            // 
+            // pictureBox1260
+            // 
+            pictureBox1260.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1260.Location = new Point(500, 490);
+            pictureBox1260.Name = "pictureBox1260";
+            pictureBox1260.Size = new Size(70, 23);
+            pictureBox1260.TabIndex = 500;
+            pictureBox1260.TabStop = false;
+            // 
+            // label659
+            // 
+            label659.AutoSize = true;
+            label659.Font = new Font("Segoe UI", 10F);
+            label659.Location = new Point(210, 850);
+            label659.Name = "label659";
+            label659.Size = new Size(103, 23);
+            label659.TabIndex = 478;
+            label659.Text = "10.82.130.75";
+            // 
+            // pictureBox1270
+            // 
+            pictureBox1270.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1270.Location = new Point(500, 520);
+            pictureBox1270.Name = "pictureBox1270";
+            pictureBox1270.Size = new Size(70, 23);
+            pictureBox1270.TabIndex = 499;
+            pictureBox1270.TabStop = false;
+            // 
+            // label660
+            // 
+            label660.AutoSize = true;
+            label660.Font = new Font("Segoe UI", 10F);
+            label660.Location = new Point(210, 880);
+            label660.Name = "label660";
+            label660.Size = new Size(103, 23);
+            label660.TabIndex = 479;
+            label660.Text = "10.82.130.99";
+            // 
+            // pictureBox1280
+            // 
+            pictureBox1280.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1280.Location = new Point(500, 550);
+            pictureBox1280.Name = "pictureBox1280";
+            pictureBox1280.Size = new Size(70, 23);
+            pictureBox1280.TabIndex = 498;
+            pictureBox1280.TabStop = false;
+            // 
+            // label661
+            // 
+            label661.AutoSize = true;
+            label661.Font = new Font("Segoe UI", 10F);
+            label661.Location = new Point(340, 520);
+            label661.Name = "label661";
+            label661.Size = new Size(126, 23);
+            label661.TabIndex = 480;
+            label661.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1290
+            // 
+            pictureBox1290.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1290.Location = new Point(500, 580);
+            pictureBox1290.Name = "pictureBox1290";
+            pictureBox1290.Size = new Size(70, 23);
+            pictureBox1290.TabIndex = 497;
+            pictureBox1290.TabStop = false;
+            // 
+            // label662
+            // 
+            label662.AutoSize = true;
+            label662.Font = new Font("Segoe UI", 10F);
+            label662.Location = new Point(340, 550);
+            label662.Name = "label662";
+            label662.Size = new Size(126, 23);
+            label662.TabIndex = 481;
+            label662.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1300
+            // 
+            pictureBox1300.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1300.Location = new Point(500, 610);
+            pictureBox1300.Name = "pictureBox1300";
+            pictureBox1300.Size = new Size(70, 23);
+            pictureBox1300.TabIndex = 496;
+            pictureBox1300.TabStop = false;
+            // 
+            // label669
+            // 
+            label669.AutoSize = true;
+            label669.Font = new Font("Segoe UI", 10F);
+            label669.Location = new Point(340, 580);
+            label669.Name = "label669";
+            label669.Size = new Size(126, 23);
+            label669.TabIndex = 482;
+            label669.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1310
+            // 
+            pictureBox1310.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1310.Location = new Point(500, 640);
+            pictureBox1310.Name = "pictureBox1310";
+            pictureBox1310.Size = new Size(70, 23);
+            pictureBox1310.TabIndex = 495;
+            pictureBox1310.TabStop = false;
+            // 
+            // label677
+            // 
+            label677.AutoSize = true;
+            label677.Font = new Font("Segoe UI", 10F);
+            label677.Location = new Point(340, 610);
+            label677.Name = "label677";
+            label677.Size = new Size(126, 23);
+            label677.TabIndex = 483;
+            label677.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1320
+            // 
+            pictureBox1320.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1320.Location = new Point(500, 670);
+            pictureBox1320.Name = "pictureBox1320";
+            pictureBox1320.Size = new Size(70, 23);
+            pictureBox1320.TabIndex = 494;
+            pictureBox1320.TabStop = false;
+            // 
+            // label678
+            // 
+            label678.AutoSize = true;
+            label678.Font = new Font("Segoe UI", 10F);
+            label678.Location = new Point(340, 640);
+            label678.Name = "label678";
+            label678.Size = new Size(126, 23);
+            label678.TabIndex = 484;
+            label678.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox1330
+            // 
+            pictureBox1330.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1330.Location = new Point(500, 700);
+            pictureBox1330.Name = "pictureBox1330";
+            pictureBox1330.Size = new Size(70, 23);
+            pictureBox1330.TabIndex = 493;
+            pictureBox1330.TabStop = false;
+            // 
+            // label686
+            // 
+            label686.AutoSize = true;
+            label686.Font = new Font("Segoe UI", 10F);
+            label686.Location = new Point(340, 670);
+            label686.Name = "label686";
+            label686.Size = new Size(126, 23);
+            label686.TabIndex = 485;
+            label686.Text = "??:??:??:??:??:??";
+            // 
+            // label687
+            // 
+            label687.AutoSize = true;
+            label687.Font = new Font("Segoe UI", 10F);
+            label687.Location = new Point(340, 700);
+            label687.Name = "label687";
+            label687.Size = new Size(126, 23);
+            label687.TabIndex = 486;
+            label687.Text = "??:??:??:??:??:??";
+            // 
+            // label688
+            // 
+            label688.AutoSize = true;
+            label688.Font = new Font("Segoe UI", 10F);
+            label688.Location = new Point(340, 880);
+            label688.Name = "label688";
+            label688.Size = new Size(126, 23);
+            label688.TabIndex = 492;
+            label688.Text = "??:??:??:??:??:??";
+            // 
+            // label689
+            // 
+            label689.AutoSize = true;
+            label689.Font = new Font("Segoe UI", 10F);
+            label689.Location = new Point(340, 730);
+            label689.Name = "label689";
+            label689.Size = new Size(126, 23);
+            label689.TabIndex = 487;
+            label689.Text = "??:??:??:??:??:??";
+            // 
+            // label690
+            // 
+            label690.AutoSize = true;
+            label690.Font = new Font("Segoe UI", 10F);
+            label690.Location = new Point(340, 850);
+            label690.Name = "label690";
+            label690.Size = new Size(126, 23);
+            label690.TabIndex = 491;
+            label690.Text = "??:??:??:??:??:??";
+            // 
+            // label691
+            // 
+            label691.AutoSize = true;
+            label691.Font = new Font("Segoe UI", 10F);
+            label691.Location = new Point(340, 760);
+            label691.Name = "label691";
+            label691.Size = new Size(126, 23);
+            label691.TabIndex = 488;
+            label691.Text = "??:??:??:??:??:??";
+            // 
+            // label692
+            // 
+            label692.AutoSize = true;
+            label692.Font = new Font("Segoe UI", 10F);
+            label692.Location = new Point(340, 820);
+            label692.Name = "label692";
+            label692.Size = new Size(126, 23);
+            label692.TabIndex = 490;
+            label692.Text = "??:??:??:??:??:??";
+            // 
+            // label693
+            // 
+            label693.AutoSize = true;
+            label693.Font = new Font("Segoe UI", 10F);
+            label693.Location = new Point(340, 790);
+            label693.Name = "label693";
+            label693.Size = new Size(126, 23);
+            label693.TabIndex = 489;
+            label693.Text = "??:??:??:??:??:??";
+            // 
+            // label694
+            // 
+            label694.AutoSize = true;
+            label694.Location = new Point(830, 10);
+            label694.Name = "label694";
+            label694.Size = new Size(83, 20);
+            label694.TabIndex = 438;
+            label694.Text = "FIDS Status";
+            // 
+            // label695
+            // 
+            label695.AutoSize = true;
+            label695.Location = new Point(1180, 10);
+            label695.Name = "label695";
+            label695.Size = new Size(42, 20);
+            label695.TabIndex = 423;
+            label695.Text = "Time";
+            // 
+            // label696
+            // 
+            label696.AutoSize = true;
+            label696.Location = new Point(1010, 10);
+            label696.Name = "label696";
+            label696.Size = new Size(99, 20);
+            label696.TabIndex = 408;
+            label696.Text = "Memorie Info";
+            // 
+            // label697
+            // 
+            label697.AutoSize = true;
+            label697.Location = new Point(1180, 430);
+            label697.Name = "label697";
+            label697.Size = new Size(42, 20);
+            label697.TabIndex = 437;
+            label697.Text = "Time";
+            // 
+            // label698
+            // 
+            label698.AutoSize = true;
+            label698.Location = new Point(1180, 400);
+            label698.Name = "label698";
+            label698.Size = new Size(42, 20);
+            label698.TabIndex = 436;
+            label698.Text = "Time";
+            // 
+            // label699
+            // 
+            label699.AutoSize = true;
+            label699.Location = new Point(1180, 370);
+            label699.Name = "label699";
+            label699.Size = new Size(42, 20);
+            label699.TabIndex = 435;
+            label699.Text = "Time";
+            // 
+            // label700
+            // 
+            label700.AutoSize = true;
+            label700.Location = new Point(1180, 340);
+            label700.Name = "label700";
+            label700.Size = new Size(42, 20);
+            label700.TabIndex = 434;
+            label700.Text = "Time";
+            // 
+            // label701
+            // 
+            label701.AutoSize = true;
+            label701.Location = new Point(1180, 310);
+            label701.Name = "label701";
+            label701.Size = new Size(42, 20);
+            label701.TabIndex = 433;
+            label701.Text = "Time";
+            // 
+            // label702
+            // 
+            label702.AutoSize = true;
+            label702.Location = new Point(1180, 280);
+            label702.Name = "label702";
+            label702.Size = new Size(42, 20);
+            label702.TabIndex = 432;
+            label702.Text = "Time";
+            // 
+            // label703
+            // 
+            label703.AutoSize = true;
+            label703.Location = new Point(1180, 250);
+            label703.Name = "label703";
+            label703.Size = new Size(42, 20);
+            label703.TabIndex = 431;
+            label703.Text = "Time";
+            // 
+            // label704
+            // 
+            label704.AutoSize = true;
+            label704.Location = new Point(1180, 220);
+            label704.Name = "label704";
+            label704.Size = new Size(42, 20);
+            label704.TabIndex = 430;
+            label704.Text = "Time";
+            // 
+            // label705
+            // 
+            label705.AutoSize = true;
+            label705.Location = new Point(1180, 190);
+            label705.Name = "label705";
+            label705.Size = new Size(42, 20);
+            label705.TabIndex = 429;
+            label705.Text = "Time";
+            // 
+            // label706
+            // 
+            label706.AutoSize = true;
+            label706.Location = new Point(1180, 160);
+            label706.Name = "label706";
+            label706.Size = new Size(42, 20);
+            label706.TabIndex = 428;
+            label706.Text = "Time";
+            // 
+            // label707
+            // 
+            label707.AutoSize = true;
+            label707.Location = new Point(1180, 130);
+            label707.Name = "label707";
+            label707.Size = new Size(42, 20);
+            label707.TabIndex = 427;
+            label707.Text = "Time";
+            // 
+            // label708
+            // 
+            label708.AutoSize = true;
+            label708.Location = new Point(1180, 100);
+            label708.Name = "label708";
+            label708.Size = new Size(42, 20);
+            label708.TabIndex = 426;
+            label708.Text = "Time";
+            // 
+            // label709
+            // 
+            label709.AutoSize = true;
+            label709.Location = new Point(1180, 70);
+            label709.Name = "label709";
+            label709.Size = new Size(42, 20);
+            label709.TabIndex = 425;
+            label709.Text = "Time";
+            // 
+            // label710
+            // 
+            label710.AutoSize = true;
+            label710.Location = new Point(1180, 40);
+            label710.Name = "label710";
+            label710.Size = new Size(42, 20);
+            label710.TabIndex = 424;
+            label710.Text = "Time";
+            // 
+            // label711
+            // 
+            label711.AutoSize = true;
+            label711.Location = new Point(1010, 40);
+            label711.Name = "label711";
+            label711.Size = new Size(99, 20);
+            label711.TabIndex = 422;
+            label711.Text = "Memorie Info";
+            // 
+            // label712
+            // 
+            label712.AutoSize = true;
+            label712.Location = new Point(1010, 70);
+            label712.Name = "label712";
+            label712.Size = new Size(99, 20);
+            label712.TabIndex = 421;
+            label712.Text = "Memorie Info";
+            // 
+            // label713
+            // 
+            label713.AutoSize = true;
+            label713.Location = new Point(1010, 100);
+            label713.Name = "label713";
+            label713.Size = new Size(99, 20);
+            label713.TabIndex = 420;
+            label713.Text = "Memorie Info";
+            // 
+            // label714
+            // 
+            label714.AutoSize = true;
+            label714.Location = new Point(1010, 130);
+            label714.Name = "label714";
+            label714.Size = new Size(99, 20);
+            label714.TabIndex = 419;
+            label714.Text = "Memorie Info";
+            // 
+            // label715
+            // 
+            label715.AutoSize = true;
+            label715.Location = new Point(1010, 160);
+            label715.Name = "label715";
+            label715.Size = new Size(99, 20);
+            label715.TabIndex = 418;
+            label715.Text = "Memorie Info";
+            // 
+            // label716
+            // 
+            label716.AutoSize = true;
+            label716.Location = new Point(1010, 190);
+            label716.Name = "label716";
+            label716.Size = new Size(99, 20);
+            label716.TabIndex = 417;
+            label716.Text = "Memorie Info";
+            // 
+            // label717
+            // 
+            label717.AutoSize = true;
+            label717.Location = new Point(1010, 220);
+            label717.Name = "label717";
+            label717.Size = new Size(99, 20);
+            label717.TabIndex = 416;
+            label717.Text = "Memorie Info";
+            // 
+            // label718
+            // 
+            label718.AutoSize = true;
+            label718.Location = new Point(1010, 250);
+            label718.Name = "label718";
+            label718.Size = new Size(99, 20);
+            label718.TabIndex = 415;
+            label718.Text = "Memorie Info";
+            // 
+            // label719
+            // 
+            label719.AutoSize = true;
+            label719.Location = new Point(1010, 280);
+            label719.Name = "label719";
+            label719.Size = new Size(99, 20);
+            label719.TabIndex = 414;
+            label719.Text = "Memorie Info";
+            // 
+            // label720
+            // 
+            label720.AutoSize = true;
+            label720.Location = new Point(1010, 310);
+            label720.Name = "label720";
+            label720.Size = new Size(99, 20);
+            label720.TabIndex = 413;
+            label720.Text = "Memorie Info";
+            // 
+            // label721
+            // 
+            label721.AutoSize = true;
+            label721.Location = new Point(1010, 340);
+            label721.Name = "label721";
+            label721.Size = new Size(99, 20);
+            label721.TabIndex = 412;
+            label721.Text = "Memorie Info";
+            // 
+            // label722
+            // 
+            label722.AutoSize = true;
+            label722.Location = new Point(1010, 370);
+            label722.Name = "label722";
+            label722.Size = new Size(99, 20);
+            label722.TabIndex = 411;
+            label722.Text = "Memorie Info";
+            // 
+            // label723
+            // 
+            label723.AutoSize = true;
+            label723.Location = new Point(1010, 400);
+            label723.Name = "label723";
+            label723.Size = new Size(99, 20);
+            label723.TabIndex = 410;
+            label723.Text = "Memorie Info";
+            // 
+            // label724
+            // 
+            label724.AutoSize = true;
+            label724.Location = new Point(1010, 430);
+            label724.Name = "label724";
+            label724.Size = new Size(99, 20);
+            label724.TabIndex = 409;
+            label724.Text = "Memorie Info";
+            // 
+            // label725
+            // 
+            label725.AutoSize = true;
+            label725.Location = new Point(600, 430);
+            label725.Name = "label725";
+            label725.Size = new Size(174, 20);
+            label725.TabIndex = 407;
+            label725.Text = "System operational since";
+            // 
+            // label726
+            // 
+            label726.AutoSize = true;
+            label726.Location = new Point(600, 400);
+            label726.Name = "label726";
+            label726.Size = new Size(174, 20);
+            label726.TabIndex = 406;
+            label726.Text = "System operational since";
+            // 
+            // label727
+            // 
+            label727.AutoSize = true;
+            label727.Location = new Point(600, 160);
+            label727.Name = "label727";
+            label727.Size = new Size(174, 20);
+            label727.TabIndex = 405;
+            label727.Text = "System operational since";
+            // 
+            // label728
+            // 
+            label728.AutoSize = true;
+            label728.Location = new Point(600, 190);
+            label728.Name = "label728";
+            label728.Size = new Size(174, 20);
+            label728.TabIndex = 404;
+            label728.Text = "System operational since";
+            // 
+            // label729
+            // 
+            label729.AutoSize = true;
+            label729.Location = new Point(600, 220);
+            label729.Name = "label729";
+            label729.Size = new Size(174, 20);
+            label729.TabIndex = 403;
+            label729.Text = "System operational since";
+            // 
+            // label730
+            // 
+            label730.AutoSize = true;
+            label730.Location = new Point(600, 250);
+            label730.Name = "label730";
+            label730.Size = new Size(174, 20);
+            label730.TabIndex = 402;
+            label730.Text = "System operational since";
+            // 
+            // label731
+            // 
+            label731.AutoSize = true;
+            label731.Location = new Point(600, 280);
+            label731.Name = "label731";
+            label731.Size = new Size(174, 20);
+            label731.TabIndex = 401;
+            label731.Text = "System operational since";
+            // 
+            // label732
+            // 
+            label732.AutoSize = true;
+            label732.Location = new Point(600, 310);
+            label732.Name = "label732";
+            label732.Size = new Size(174, 20);
+            label732.TabIndex = 400;
+            label732.Text = "System operational since";
+            // 
+            // label733
+            // 
+            label733.AutoSize = true;
+            label733.Location = new Point(600, 340);
+            label733.Name = "label733";
+            label733.Size = new Size(174, 20);
+            label733.TabIndex = 399;
+            label733.Text = "System operational since";
+            // 
+            // label734
+            // 
+            label734.AutoSize = true;
+            label734.Location = new Point(600, 370);
+            label734.Name = "label734";
+            label734.Size = new Size(174, 20);
+            label734.TabIndex = 398;
+            label734.Text = "System operational since";
+            // 
+            // pictureBox133
+            // 
+            pictureBox133.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox133.Location = new Point(500, 430);
+            pictureBox133.Name = "pictureBox133";
+            pictureBox133.Size = new Size(70, 23);
+            pictureBox133.TabIndex = 397;
+            pictureBox133.TabStop = false;
+            // 
+            // pictureBox132
+            // 
+            pictureBox132.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox132.Location = new Point(500, 400);
+            pictureBox132.Name = "pictureBox132";
+            pictureBox132.Size = new Size(70, 23);
+            pictureBox132.TabIndex = 396;
+            pictureBox132.TabStop = false;
+            // 
+            // pictureBox131
+            // 
+            pictureBox131.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox131.Location = new Point(500, 370);
+            pictureBox131.Name = "pictureBox131";
+            pictureBox131.Size = new Size(70, 23);
+            pictureBox131.TabIndex = 395;
+            pictureBox131.TabStop = false;
+            // 
+            // pictureBox130
+            // 
+            pictureBox130.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox130.Location = new Point(500, 340);
+            pictureBox130.Name = "pictureBox130";
+            pictureBox130.Size = new Size(70, 23);
+            pictureBox130.TabIndex = 394;
+            pictureBox130.TabStop = false;
+            // 
+            // pictureBox129
+            // 
+            pictureBox129.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox129.Location = new Point(500, 310);
+            pictureBox129.Name = "pictureBox129";
+            pictureBox129.Size = new Size(70, 23);
+            pictureBox129.TabIndex = 393;
+            pictureBox129.TabStop = false;
+            // 
+            // pictureBox128
+            // 
+            pictureBox128.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox128.Location = new Point(500, 280);
+            pictureBox128.Name = "pictureBox128";
+            pictureBox128.Size = new Size(70, 23);
+            pictureBox128.TabIndex = 392;
+            pictureBox128.TabStop = false;
+            // 
+            // pictureBox127
+            // 
+            pictureBox127.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox127.Location = new Point(500, 250);
+            pictureBox127.Name = "pictureBox127";
+            pictureBox127.Size = new Size(70, 23);
+            pictureBox127.TabIndex = 391;
+            pictureBox127.TabStop = false;
+            // 
+            // pictureBox126
+            // 
+            pictureBox126.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox126.Location = new Point(500, 220);
+            pictureBox126.Name = "pictureBox126";
+            pictureBox126.Size = new Size(70, 23);
+            pictureBox126.TabIndex = 390;
+            pictureBox126.TabStop = false;
+            // 
+            // pictureBox125
+            // 
+            pictureBox125.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox125.Location = new Point(500, 190);
+            pictureBox125.Name = "pictureBox125";
+            pictureBox125.Size = new Size(70, 23);
+            pictureBox125.TabIndex = 389;
+            pictureBox125.TabStop = false;
+            // 
+            // pictureBox124
+            // 
+            pictureBox124.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox124.Location = new Point(500, 160);
+            pictureBox124.Name = "pictureBox124";
+            pictureBox124.Size = new Size(70, 23);
+            pictureBox124.TabIndex = 388;
+            pictureBox124.TabStop = false;
+            // 
+            // label735
+            // 
+            label735.AutoSize = true;
+            label735.Font = new Font("Segoe UI", 10F);
+            label735.Location = new Point(340, 430);
+            label735.Name = "label735";
+            label735.Size = new Size(126, 23);
+            label735.TabIndex = 387;
+            label735.Text = "??:??:??:??:??:??";
+            // 
+            // label736
+            // 
+            label736.AutoSize = true;
+            label736.Font = new Font("Segoe UI", 10F);
+            label736.Location = new Point(340, 400);
+            label736.Name = "label736";
+            label736.Size = new Size(126, 23);
+            label736.TabIndex = 386;
+            label736.Text = "??:??:??:??:??:??";
+            // 
+            // label737
+            // 
+            label737.AutoSize = true;
+            label737.Font = new Font("Segoe UI", 10F);
+            label737.Location = new Point(340, 370);
+            label737.Name = "label737";
+            label737.Size = new Size(126, 23);
+            label737.TabIndex = 385;
+            label737.Text = "??:??:??:??:??:??";
+            // 
+            // label738
+            // 
+            label738.AutoSize = true;
+            label738.Font = new Font("Segoe UI", 10F);
+            label738.Location = new Point(340, 340);
+            label738.Name = "label738";
+            label738.Size = new Size(126, 23);
+            label738.TabIndex = 384;
+            label738.Text = "??:??:??:??:??:??";
+            // 
+            // label739
+            // 
+            label739.AutoSize = true;
+            label739.Font = new Font("Segoe UI", 10F);
+            label739.Location = new Point(340, 310);
+            label739.Name = "label739";
+            label739.Size = new Size(126, 23);
+            label739.TabIndex = 383;
+            label739.Text = "??:??:??:??:??:??";
+            // 
+            // label740
+            // 
+            label740.AutoSize = true;
+            label740.Font = new Font("Segoe UI", 10F);
+            label740.Location = new Point(340, 280);
+            label740.Name = "label740";
+            label740.Size = new Size(126, 23);
+            label740.TabIndex = 382;
+            label740.Text = "??:??:??:??:??:??";
+            // 
+            // label741
+            // 
+            label741.AutoSize = true;
+            label741.Font = new Font("Segoe UI", 10F);
+            label741.Location = new Point(340, 250);
+            label741.Name = "label741";
+            label741.Size = new Size(126, 23);
+            label741.TabIndex = 381;
+            label741.Text = "??:??:??:??:??:??";
+            // 
+            // label742
+            // 
+            label742.AutoSize = true;
+            label742.Font = new Font("Segoe UI", 10F);
+            label742.Location = new Point(340, 220);
+            label742.Name = "label742";
+            label742.Size = new Size(126, 23);
+            label742.TabIndex = 380;
+            label742.Text = "??:??:??:??:??:??";
+            // 
+            // label743
+            // 
+            label743.AutoSize = true;
+            label743.Font = new Font("Segoe UI", 10F);
+            label743.Location = new Point(340, 190);
+            label743.Name = "label743";
+            label743.Size = new Size(126, 23);
+            label743.TabIndex = 379;
+            label743.Text = "??:??:??:??:??:??";
+            // 
+            // label744
+            // 
+            label744.AutoSize = true;
+            label744.Font = new Font("Segoe UI", 10F);
+            label744.Location = new Point(340, 160);
+            label744.Name = "label744";
+            label744.Size = new Size(126, 23);
+            label744.TabIndex = 378;
+            label744.Text = "??:??:??:??:??:??";
+            // 
+            // label745
+            // 
+            label745.AutoSize = true;
+            label745.Font = new Font("Segoe UI", 10F);
+            label745.Location = new Point(340, 130);
+            label745.Name = "label745";
+            label745.Size = new Size(126, 23);
+            label745.TabIndex = 377;
+            label745.Text = "??:??:??:??:??:??";
+            // 
+            // label746
+            // 
+            label746.AutoSize = true;
+            label746.Font = new Font("Segoe UI", 10F);
+            label746.Location = new Point(340, 100);
+            label746.Name = "label746";
+            label746.Size = new Size(126, 23);
+            label746.TabIndex = 376;
+            label746.Text = "??:??:??:??:??:??";
+            // 
+            // label747
+            // 
+            label747.AutoSize = true;
+            label747.Font = new Font("Segoe UI", 10F);
+            label747.Location = new Point(340, 70);
+            label747.Name = "label747";
+            label747.Size = new Size(126, 23);
+            label747.TabIndex = 375;
+            label747.Text = "??:??:??:??:??:??";
+            // 
+            // label748
+            // 
+            label748.AutoSize = true;
+            label748.Font = new Font("Segoe UI", 10F);
+            label748.Location = new Point(210, 430);
+            label748.Name = "label748";
+            label748.Size = new Size(103, 23);
+            label748.TabIndex = 374;
+            label748.Text = "10.82.130.24";
+            // 
+            // label749
+            // 
+            label749.AutoSize = true;
+            label749.Font = new Font("Segoe UI", 10F);
+            label749.Location = new Point(210, 400);
+            label749.Name = "label749";
+            label749.Size = new Size(103, 23);
+            label749.TabIndex = 373;
+            label749.Text = "10.82.130.23";
+            // 
+            // label750
+            // 
+            label750.AutoSize = true;
+            label750.Font = new Font("Segoe UI", 10F);
+            label750.Location = new Point(210, 370);
+            label750.Name = "label750";
+            label750.Size = new Size(103, 23);
+            label750.TabIndex = 372;
+            label750.Text = "10.82.130.22";
+            // 
+            // label751
+            // 
+            label751.AutoSize = true;
+            label751.Font = new Font("Segoe UI", 10F);
+            label751.Location = new Point(210, 340);
+            label751.Name = "label751";
+            label751.Size = new Size(103, 23);
+            label751.TabIndex = 371;
+            label751.Text = "10.82.130.21";
+            // 
+            // label752
+            // 
+            label752.AutoSize = true;
+            label752.Font = new Font("Segoe UI", 10F);
+            label752.Location = new Point(210, 310);
+            label752.Name = "label752";
+            label752.Size = new Size(103, 23);
+            label752.TabIndex = 370;
+            label752.Text = "10.82.130.20";
+            // 
+            // label753
+            // 
+            label753.AutoSize = true;
+            label753.Font = new Font("Segoe UI", 10F);
+            label753.Location = new Point(210, 280);
+            label753.Name = "label753";
+            label753.Size = new Size(103, 23);
+            label753.TabIndex = 369;
+            label753.Text = "10.82.130.19";
+            // 
+            // label754
+            // 
+            label754.AutoSize = true;
+            label754.Font = new Font("Segoe UI", 10F);
+            label754.Location = new Point(210, 250);
+            label754.Name = "label754";
+            label754.Size = new Size(103, 23);
+            label754.TabIndex = 368;
+            label754.Text = "10.82.130.18";
+            // 
+            // label755
+            // 
+            label755.AutoSize = true;
+            label755.Font = new Font("Segoe UI", 10F);
+            label755.Location = new Point(210, 220);
+            label755.Name = "label755";
+            label755.Size = new Size(103, 23);
+            label755.TabIndex = 367;
+            label755.Text = "10.82.130.17";
+            // 
+            // label756
+            // 
+            label756.AutoSize = true;
+            label756.Font = new Font("Segoe UI", 10F);
+            label756.Location = new Point(210, 190);
+            label756.Name = "label756";
+            label756.Size = new Size(103, 23);
+            label756.TabIndex = 366;
+            label756.Text = "10.82.130.16";
+            // 
+            // label757
+            // 
+            label757.AutoSize = true;
+            label757.Font = new Font("Segoe UI", 10F);
+            label757.Location = new Point(210, 160);
+            label757.Name = "label757";
+            label757.Size = new Size(103, 23);
+            label757.TabIndex = 365;
+            label757.Text = "10.82.130.15";
+            // 
+            // label758
+            // 
+            label758.AutoSize = true;
+            label758.Font = new Font("Segoe UI", 10F);
+            label758.Location = new Point(210, 130);
+            label758.Name = "label758";
+            label758.Size = new Size(103, 23);
+            label758.TabIndex = 364;
+            label758.Text = "10.82.130.14";
+            // 
+            // label759
+            // 
+            label759.AutoSize = true;
+            label759.Font = new Font("Segoe UI", 10F);
+            label759.Location = new Point(210, 100);
+            label759.Name = "label759";
+            label759.Size = new Size(103, 23);
+            label759.TabIndex = 363;
+            label759.Text = "10.82.130.13";
+            // 
+            // label760
+            // 
+            label760.AutoSize = true;
+            label760.Font = new Font("Segoe UI", 10F);
+            label760.Location = new Point(210, 70);
+            label760.Name = "label760";
+            label760.Size = new Size(103, 23);
+            label760.TabIndex = 362;
+            label760.Text = "10.82.130.12";
+            // 
+            // label761
+            // 
+            label761.AutoSize = true;
+            label761.Location = new Point(600, 10);
+            label761.Name = "label761";
+            label761.Size = new Size(174, 20);
+            label761.TabIndex = 341;
+            label761.Text = "System operational since";
+            // 
+            // label762
+            // 
+            label762.AutoSize = true;
+            label762.Location = new Point(600, 70);
+            label762.Name = "label762";
+            label762.Size = new Size(174, 20);
+            label762.TabIndex = 343;
+            label762.Text = "System operational since";
+            // 
+            // label763
+            // 
+            label763.AutoSize = true;
+            label763.Font = new Font("Segoe UI", 10F);
+            label763.Location = new Point(6, 10);
+            label763.Name = "label763";
+            label763.Size = new Size(179, 23);
+            label763.TabIndex = 333;
+            label763.Text = "Line A - Counter SA01";
+            // 
+            // label764
+            // 
+            label764.AutoSize = true;
+            label764.Location = new Point(600, 100);
+            label764.Name = "label764";
+            label764.Size = new Size(174, 20);
+            label764.TabIndex = 345;
+            label764.Text = "System operational since";
+            // 
+            // pictureBox121
+            // 
+            pictureBox121.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox121.Location = new Point(500, 70);
+            pictureBox121.Name = "pictureBox121";
+            pictureBox121.Size = new Size(70, 23);
+            pictureBox121.TabIndex = 338;
+            pictureBox121.TabStop = false;
+            // 
+            // label765
+            // 
+            label765.AutoSize = true;
+            label765.Location = new Point(600, 130);
+            label765.Name = "label765";
+            label765.Size = new Size(174, 20);
+            label765.TabIndex = 344;
+            label765.Text = "System operational since";
+            // 
+            // label766
+            // 
+            label766.AutoSize = true;
+            label766.Font = new Font("Segoe UI", 10F);
+            label766.Location = new Point(210, 10);
+            label766.Name = "label766";
+            label766.Size = new Size(103, 23);
+            label766.TabIndex = 334;
+            label766.Text = "10.82.130.10";
+            // 
+            // label767
+            // 
+            label767.AutoSize = true;
+            label767.Location = new Point(600, 40);
+            label767.Name = "label767";
+            label767.Size = new Size(174, 20);
+            label767.TabIndex = 342;
+            label767.Text = "System operational since";
+            // 
+            // label768
+            // 
+            label768.AutoSize = true;
+            label768.Font = new Font("Segoe UI", 10F);
+            label768.Location = new Point(6, 70);
+            label768.Name = "label768";
+            label768.Size = new Size(170, 23);
+            label768.TabIndex = 349;
+            label768.Text = "Line A - Counter A02";
+            // 
+            // pictureBox123
+            // 
+            pictureBox123.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox123.Location = new Point(500, 130);
+            pictureBox123.Name = "pictureBox123";
+            pictureBox123.Size = new Size(70, 23);
+            pictureBox123.TabIndex = 340;
+            pictureBox123.TabStop = false;
+            // 
+            // pictureBox120
+            // 
+            pictureBox120.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox120.Location = new Point(500, 40);
+            pictureBox120.Name = "pictureBox120";
+            pictureBox120.Size = new Size(70, 23);
+            pictureBox120.TabIndex = 337;
+            pictureBox120.TabStop = false;
+            // 
+            // pictureBox122
+            // 
+            pictureBox122.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox122.Location = new Point(500, 100);
+            pictureBox122.Name = "pictureBox122";
+            pictureBox122.Size = new Size(70, 23);
+            pictureBox122.TabIndex = 339;
+            pictureBox122.TabStop = false;
+            // 
+            // label5119
+            // 
+            label5119.AutoSize = true;
+            label5119.Font = new Font("Segoe UI", 10F);
+            label5119.Location = new Point(340, 10);
+            label5119.Name = "label5119";
+            label5119.Size = new Size(126, 23);
+            label5119.TabIndex = 335;
+            label5119.Text = "??:??:??:??:??:??";
+            // 
+            // label770
+            // 
+            label770.AutoSize = true;
+            label770.Font = new Font("Segoe UI", 10F);
+            label770.Location = new Point(340, 40);
+            label770.Name = "label770";
+            label770.Size = new Size(126, 23);
+            label770.TabIndex = 348;
+            label770.Text = "??:??:??:??:??:??";
+            // 
+            // pictureBox119
+            // 
+            pictureBox119.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox119.Location = new Point(500, 10);
+            pictureBox119.Name = "pictureBox119";
+            pictureBox119.Size = new Size(70, 23);
+            pictureBox119.TabIndex = 336;
+            pictureBox119.TabStop = false;
+            // 
+            // label771
+            // 
+            label771.AutoSize = true;
+            label771.Font = new Font("Segoe UI", 10F);
+            label771.Location = new Point(210, 40);
+            label771.Name = "label771";
+            label771.Size = new Size(103, 23);
+            label771.TabIndex = 347;
+            label771.Text = "10.82.130.11";
+            // 
+            // label772
+            // 
+            label772.AutoSize = true;
+            label772.Font = new Font("Segoe UI", 10F);
+            label772.Location = new Point(6, 40);
+            label772.Name = "label772";
+            label772.Size = new Size(170, 23);
+            label772.TabIndex = 346;
+            label772.Text = "Line A - Counter A01";
+            // 
+            // label773
+            // 
+            label773.AutoSize = true;
+            label773.Font = new Font("Segoe UI", 10F);
+            label773.Location = new Point(6, 100);
+            label773.Name = "label773";
+            label773.Size = new Size(170, 23);
+            label773.TabIndex = 350;
+            label773.Text = "Line A - Counter A03";
+            // 
+            // label774
+            // 
+            label774.AutoSize = true;
+            label774.Font = new Font("Segoe UI", 10F);
+            label774.Location = new Point(6, 130);
+            label774.Name = "label774";
+            label774.Size = new Size(170, 23);
+            label774.TabIndex = 351;
+            label774.Text = "Line A - Counter A04";
+            // 
+            // label775
+            // 
+            label775.AutoSize = true;
+            label775.Font = new Font("Segoe UI", 10F);
+            label775.Location = new Point(6, 160);
+            label775.Name = "label775";
+            label775.Size = new Size(170, 23);
+            label775.TabIndex = 352;
+            label775.Text = "Line A - Counter A05";
+            // 
+            // label776
+            // 
+            label776.AutoSize = true;
+            label776.Font = new Font("Segoe UI", 10F);
+            label776.Location = new Point(6, 190);
+            label776.Name = "label776";
+            label776.Size = new Size(170, 23);
+            label776.TabIndex = 353;
+            label776.Text = "Line A - Counter A06";
+            // 
+            // label777
+            // 
+            label777.AutoSize = true;
+            label777.Font = new Font("Segoe UI", 10F);
+            label777.Location = new Point(6, 220);
+            label777.Name = "label777";
+            label777.Size = new Size(170, 23);
+            label777.TabIndex = 355;
+            label777.Text = "Line A - Counter A07";
+            // 
+            // label778
+            // 
+            label778.AutoSize = true;
+            label778.Font = new Font("Segoe UI", 10F);
+            label778.Location = new Point(6, 430);
+            label778.Name = "label778";
+            label778.Size = new Size(170, 23);
+            label778.TabIndex = 359;
+            label778.Text = "Line A - Counter A14";
+            // 
+            // label779
+            // 
+            label779.AutoSize = true;
+            label779.Font = new Font("Segoe UI", 10F);
+            label779.Location = new Point(6, 400);
+            label779.Name = "label779";
+            label779.Size = new Size(170, 23);
+            label779.TabIndex = 360;
+            label779.Text = "Line A - Counter A13";
+            // 
+            // label780
+            // 
+            label780.AutoSize = true;
+            label780.Font = new Font("Segoe UI", 10F);
+            label780.Location = new Point(6, 250);
+            label780.Name = "label780";
+            label780.Size = new Size(170, 23);
+            label780.TabIndex = 354;
+            label780.Text = "Line A - Counter A08";
+            // 
+            // label781
+            // 
+            label781.AutoSize = true;
+            label781.Font = new Font("Segoe UI", 10F);
+            label781.Location = new Point(6, 370);
+            label781.Name = "label781";
+            label781.Size = new Size(170, 23);
+            label781.TabIndex = 361;
+            label781.Text = "Line A - Counter A12";
+            // 
+            // label782
+            // 
+            label782.AutoSize = true;
+            label782.Font = new Font("Segoe UI", 10F);
+            label782.Location = new Point(6, 280);
+            label782.Name = "label782";
+            label782.Size = new Size(170, 23);
+            label782.TabIndex = 356;
+            label782.Text = "Line A - Counter A09";
+            // 
+            // label783
+            // 
+            label783.AutoSize = true;
+            label783.Font = new Font("Segoe UI", 10F);
+            label783.Location = new Point(6, 310);
+            label783.Name = "label783";
+            label783.Size = new Size(170, 23);
+            label783.TabIndex = 357;
+            label783.Text = "Line A - Counter A10";
+            // 
+            // label784
+            // 
+            label784.AutoSize = true;
+            label784.Font = new Font("Segoe UI", 10F);
+            label784.Location = new Point(6, 340);
+            label784.Name = "label784";
+            label784.Size = new Size(170, 23);
+            label784.TabIndex = 358;
+            label784.Text = "Line A - Counter A11";
             // 
             // InventoryScreens
             // 
@@ -11349,6 +14171,38 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox100).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox102).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox99).EndInit();
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1190).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1200).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1210).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1220).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1230).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1240).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1250).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1260).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1270).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1280).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1290).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1300).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1310).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1320).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1330).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox133).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox132).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox131).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox130).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox129).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox128).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox127).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox126).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox125).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox124).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox121).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox123).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox120).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox122).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox119).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -11716,8 +14570,8 @@
         private Label label135;
         private Label label136;
         private PictureBox pictureBox60;
-        private Label label139;
-        private Label label140;
+        private Label label5047;
+        private Label label5046;
         private PictureBox pictureBox59;
         private PictureBox pictureBox58;
         private PictureBox pictureBox57;
@@ -11752,24 +14606,24 @@
         private PictureBox pictureBox48;
         private Label label168;
         private PictureBox pictureBox49;
-        private Label label169;
+        private Label label5048;
         private PictureBox pictureBox50;
-        private Label label170;
+        private Label label5049;
         private PictureBox pictureBox51;
-        private Label label171;
+        private Label label5050;
         private PictureBox pictureBox52;
-        private Label label172;
+        private Label label5051;
         private PictureBox pictureBox53;
-        private Label label173;
+        private Label label5052;
         private PictureBox pictureBox54;
-        private Label label174;
-        private Label label175;
-        private Label label176;
-        private Label label177;
-        private Label label178;
-        private Label label179;
-        private Label label180;
-        private Label label181;
+        private Label label5053;
+        private Label label5054;
+        private Label label5060;
+        private Label label5055;
+        private Label label5059;
+        private Label label5056;
+        private Label label5058;
+        private Label label5057;
         private Label label6031;
         private Label label4031;
         private Label label3031;
@@ -11811,14 +14665,14 @@
         private Label label220;
         private Label label221;
         private Label label222;
-        private Label label223;
-        private Label label224;
-        private Label label225;
-        private Label label226;
-        private Label label227;
-        private Label label228;
-        private Label label229;
-        private Label label230;
+        private Label label5045;
+        private Label label5044;
+        private Label label5043;
+        private Label label5042;
+        private Label label5041;
+        private Label label5040;
+        private Label label5039;
+        private Label label5038;
         private Label label5037;
         private Label label5036;
         private Label label5035;
@@ -11942,8 +14796,8 @@
         private Label label349;
         private Label label350;
         private PictureBox pictureBox90;
-        private Label label351;
-        private Label label352;
+        private Label label5077;
+        private Label label5076;
         private PictureBox pictureBox89;
         private PictureBox pictureBox88;
         private PictureBox pictureBox87;
@@ -11978,24 +14832,24 @@
         private PictureBox pictureBox78;
         private Label label378;
         private PictureBox pictureBox79;
-        private Label label379;
+        private Label label5078;
         private PictureBox pictureBox80;
-        private Label label380;
+        private Label label5079;
         private PictureBox pictureBox81;
-        private Label label381;
+        private Label label5080;
         private PictureBox pictureBox82;
-        private Label label382;
+        private Label label5081;
         private PictureBox pictureBox83;
-        private Label label383;
+        private Label label5082;
         private PictureBox pictureBox84;
-        private Label label384;
-        private Label label385;
-        private Label label386;
-        private Label label387;
-        private Label label388;
-        private Label label389;
-        private Label label390;
-        private Label label391;
+        private Label label5083;
+        private Label label5084;
+        private Label label5090;
+        private Label label5085;
+        private Label label5089;
+        private Label label5086;
+        private Label label5088;
+        private Label label5087;
         private Button button5;
         private Label label6061;
         private Label label4061;
@@ -12048,19 +14902,19 @@
         private PictureBox pictureBox68;
         private PictureBox pictureBox67;
         private PictureBox pictureBox66;
-        private Label label433;
-        private Label label434;
-        private Label label435;
-        private Label label436;
-        private Label label437;
-        private Label label438;
-        private Label label439;
-        private Label label440;
-        private Label label441;
-        private Label label442;
-        private Label label443;
-        private Label label444;
-        private Label label445;
+        private Label label5075;
+        private Label label5074;
+        private Label label5073;
+        private Label label5072;
+        private Label label5071;
+        private Label label5070;
+        private Label label5069;
+        private Label label5068;
+        private Label label5067;
+        private Label label5066;
+        private Label label5065;
+        private Label label5064;
+        private Label label5063;
         private Label label446;
         private Label label447;
         private Label label448;
@@ -12088,7 +14942,7 @@
         private PictureBox pictureBox62;
         private PictureBox pictureBox64;
         private Label label5061;
-        private Label label468;
+        private Label label5062;
         private PictureBox pictureBox61;
         private Label label469;
         private Label label470;
@@ -12134,12 +14988,12 @@
         private PictureBox pictureBox98;
         private PictureBox pictureBox97;
         private PictureBox pictureBox96;
-        private Label label650;
-        private Label label651;
-        private Label label652;
-        private Label label653;
-        private Label label654;
-        private Label label655;
+        private Label label5098;
+        private Label label5097;
+        private Label label5096;
+        private Label label5095;
+        private Label label5094;
+        private Label label5093;
         private Label label663;
         private Label label664;
         private Label label665;
@@ -12159,7 +15013,7 @@
         private PictureBox pictureBox92;
         private PictureBox pictureBox94;
         private Label label5091;
-        private Label label678;
+        private Label label5092;
         private PictureBox pictureBox91;
         private Label label679;
         private Label label680;
@@ -12205,8 +15059,8 @@
         private Label label517;
         private Label label525;
         private Label label526;
-        private Label label527;
-        private Label label528;
+        private Label label5117;
+        private Label label5114;
         private Label label529;
         private Label label530;
         private Label label531;
@@ -12218,10 +15072,10 @@
         private PictureBox pictureBox117;
         private PictureBox pictureBox115;
         private PictureBox pictureBox118;
-        private Label label536;
+        private Label label5115;
         private PictureBox pictureBox116;
-        private Label label537;
-        private Label label538;
+        private Label label5118;
+        private Label label5116;
         private Button button7;
         private Label label6099;
         private Label label4099;
@@ -12274,19 +15128,19 @@
         private PictureBox pictureBox106;
         private PictureBox pictureBox105;
         private PictureBox pictureBox104;
-        private Label label580;
-        private Label label581;
-        private Label label582;
-        private Label label583;
-        private Label label584;
-        private Label label585;
-        private Label label586;
-        private Label label587;
-        private Label label588;
-        private Label label589;
-        private Label label590;
-        private Label label591;
-        private Label label592;
+        private Label label5113;
+        private Label label5112;
+        private Label label5111;
+        private Label label5110;
+        private Label label5109;
+        private Label label5108;
+        private Label label5107;
+        private Label label5106;
+        private Label label5105;
+        private Label label5104;
+        private Label label5103;
+        private Label label5102;
+        private Label label5101;
         private Label label593;
         private Label label594;
         private Label label595;
@@ -12314,7 +15168,7 @@
         private PictureBox pictureBox100;
         private PictureBox pictureBox102;
         private Label label5099;
-        private Label label632;
+        private Label label5100;
         private PictureBox pictureBox99;
         private Label label633;
         private Label label634;
@@ -12331,5 +15185,250 @@
         private Label label648;
         private Label label649;
         private Button button9;
+        private Button button12;
+        private Button button11;
+        private Button button10;
+        private TabPage tabPage12;
+        private TabPage tabPage13;
+        private Label label139;
+        private Label label140;
+        private Label label169;
+        private Label label170;
+        private Label label171;
+        private Label label172;
+        private Label label173;
+        private Label label174;
+        private Label label175;
+        private Label label176;
+        private Label label177;
+        private Label label178;
+        private Label label179;
+        private Label label180;
+        private Label label181;
+        private Label label182;
+        private Label label183;
+        private Label label184;
+        private Label label223;
+        private Label label224;
+        private Label label225;
+        private Label label226;
+        private Label label227;
+        private Label label228;
+        private Label label229;
+        private Label label230;
+        private Label label231;
+        private Label label232;
+        private Label label233;
+        private Label label234;
+        private Label label235;
+        private Label label249;
+        private Label label257;
+        private Label label258;
+        private Label label351;
+        private Label label352;
+        private Label label379;
+        private Label label380;
+        private Label label381;
+        private Label label382;
+        private Label label383;
+        private Label label384;
+        private Label label385;
+        private Label label386;
+        private Label label387;
+        private Label label388;
+        private Label label389;
+        private Label label390;
+        private Label label391;
+        private Label label392;
+        private Label label393;
+        private Label label394;
+        private Label label433;
+        private Label label434;
+        private Label label435;
+        private Label label436;
+        private Label label437;
+        private Label label438;
+        private Label label439;
+        private Label label440;
+        private Label label441;
+        private PictureBox pictureBox1190;
+        private Label label442;
+        private Label label443;
+        private Label label444;
+        private Label label445;
+        private Label label459;
+        private Label label467;
+        private Label label468;
+        private Label label527;
+        private Label label528;
+        private Label label536;
+        private Label label537;
+        private Label label538;
+        private Label label539;
+        private Label label540;
+        private Label label541;
+        private Label label580;
+        private Label label581;
+        private PictureBox pictureBox1200;
+        private Label label582;
+        private Label label583;
+        private PictureBox pictureBox1210;
+        private PictureBox pictureBox1220;
+        private PictureBox pictureBox1230;
+        private Label label584;
+        private Label label585;
+        private PictureBox pictureBox1240;
+        private Label label586;
+        private Label label587;
+        private Label label588;
+        private Label label589;
+        private Label label590;
+        private Label label591;
+        private Label label592;
+        private Label label602;
+        private Label label603;
+        private Label label604;
+        private Label label609;
+        private Label label631;
+        private Label label632;
+        private Label label650;
+        private Label label651;
+        private Label label652;
+        private Label label653;
+        private Label label654;
+        private Label label655;
+        private Label label656;
+        private Label label657;
+        private PictureBox pictureBox1250;
+        private Label label658;
+        private PictureBox pictureBox1260;
+        private Label label659;
+        private PictureBox pictureBox1270;
+        private Label label660;
+        private PictureBox pictureBox1280;
+        private Label label661;
+        private PictureBox pictureBox1290;
+        private Label label662;
+        private PictureBox pictureBox1300;
+        private Label label669;
+        private PictureBox pictureBox1310;
+        private Label label677;
+        private PictureBox pictureBox1320;
+        private Label label678;
+        private PictureBox pictureBox1330;
+        private Label label686;
+        private Label label687;
+        private Label label688;
+        private Label label689;
+        private Label label690;
+        private Label label691;
+        private Label label692;
+        private Label label693;
+        private Label label694;
+        private Label label695;
+        private Label label696;
+        private Label label697;
+        private Label label698;
+        private Label label699;
+        private Label label700;
+        private Label label701;
+        private Label label702;
+        private Label label703;
+        private Label label704;
+        private Label label705;
+        private Label label706;
+        private Label label707;
+        private Label label708;
+        private Label label709;
+        private Label label710;
+        private Label label711;
+        private Label label712;
+        private Label label713;
+        private Label label714;
+        private Label label715;
+        private Label label716;
+        private Label label717;
+        private Label label718;
+        private Label label719;
+        private Label label720;
+        private Label label721;
+        private Label label722;
+        private Label label723;
+        private Label label724;
+        private Label label725;
+        private Label label726;
+        private Label label727;
+        private Label label728;
+        private Label label729;
+        private Label label730;
+        private Label label731;
+        private Label label732;
+        private Label label733;
+        private Label label734;
+        private PictureBox pictureBox133;
+        private PictureBox pictureBox132;
+        private PictureBox pictureBox131;
+        private PictureBox pictureBox130;
+        private PictureBox pictureBox129;
+        private PictureBox pictureBox128;
+        private PictureBox pictureBox127;
+        private PictureBox pictureBox126;
+        private PictureBox pictureBox125;
+        private PictureBox pictureBox124;
+        private Label label735;
+        private Label label736;
+        private Label label737;
+        private Label label738;
+        private Label label739;
+        private Label label740;
+        private Label label741;
+        private Label label742;
+        private Label label743;
+        private Label label744;
+        private Label label745;
+        private Label label746;
+        private Label label747;
+        private Label label748;
+        private Label label749;
+        private Label label750;
+        private Label label751;
+        private Label label752;
+        private Label label753;
+        private Label label754;
+        private Label label755;
+        private Label label756;
+        private Label label757;
+        private Label label758;
+        private Label label759;
+        private Label label760;
+        private Label label761;
+        private Label label762;
+        private Label label763;
+        private Label label764;
+        private PictureBox pictureBox121;
+        private Label label765;
+        private Label label766;
+        private Label label767;
+        private Label label768;
+        private PictureBox pictureBox123;
+        private PictureBox pictureBox120;
+        private PictureBox pictureBox122;
+        private Label label5119;
+        private Label label770;
+        private PictureBox pictureBox119;
+        private Label label771;
+        private Label label772;
+        private Label label773;
+        private Label label774;
+        private Label label775;
+        private Label label776;
+        private Label label777;
+        private Label label778;
+        private Label label779;
+        private Label label780;
+        private Label label781;
+        private Label label782;
+        private Label label783;
+        private Label label784;
     }
 }

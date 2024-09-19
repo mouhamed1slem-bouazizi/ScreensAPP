@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             label2 = new Label();
             label1 = new Label();
             label3 = new Label();
@@ -109,6 +114,9 @@
             pictureBox38 = new PictureBox();
             pictureBox39 = new PictureBox();
             label40 = new Label();
+            pictureBox40 = new PictureBox();
+            label41 = new Label();
+            notifyIcon1 = new NotifyIcon(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -149,17 +157,59 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox37).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox38).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox40).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.Crimson;
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(label2);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1382, 125);
             panel1.TabIndex = 0;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(220, 80);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 5;
+            button4.Text = "Details";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(220, 20);
+            button3.Name = "button3";
+            button3.Size = new Size(94, 29);
+            button3.TabIndex = 4;
+            button3.Text = "Server List";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(40, 80);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 3;
+            button2.Text = "Screen List";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(40, 20);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Home";
+            button1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -170,7 +220,7 @@
             label2.Name = "label2";
             label2.Size = new Size(1382, 93);
             label2.TabIndex = 1;
-            label2.Text = "Inventory management";
+            label2.Text = "Server List";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             label2.UseMnemonic = false;
             // 
@@ -805,7 +855,7 @@
             // pictureBox37
             // 
             pictureBox37.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox37.Location = new Point(1290, 135);
+            pictureBox37.Location = new Point(1297, 135);
             pictureBox37.Name = "pictureBox37";
             pictureBox37.Size = new Size(76, 35);
             pictureBox37.TabIndex = 63;
@@ -948,7 +998,7 @@
             label38.AutoSize = true;
             label38.Font = new Font("Calibri", 16.2F);
             label38.ForeColor = Color.Black;
-            label38.Location = new Point(1015, 135);
+            label38.Location = new Point(1022, 135);
             label38.Name = "label38";
             label38.Size = new Size(269, 35);
             label38.TabIndex = 76;
@@ -960,7 +1010,7 @@
             label39.AutoSize = true;
             label39.Font = new Font("Calibri", 16.2F);
             label39.ForeColor = Color.Black;
-            label39.Location = new Point(1015, 176);
+            label39.Location = new Point(1022, 176);
             label39.Name = "label39";
             label39.Size = new Size(256, 35);
             label39.TabIndex = 78;
@@ -970,7 +1020,7 @@
             // pictureBox38
             // 
             pictureBox38.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox38.Location = new Point(1290, 176);
+            pictureBox38.Location = new Point(1297, 176);
             pictureBox38.Name = "pictureBox38";
             pictureBox38.Size = new Size(76, 35);
             pictureBox38.TabIndex = 77;
@@ -997,11 +1047,39 @@
             label40.Text = "RMS APP - 10.82.100.147";
             label40.TextAlign = ContentAlignment.TopCenter;
             // 
+            // pictureBox40
+            // 
+            pictureBox40.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox40.Location = new Point(1297, 217);
+            pictureBox40.Name = "pictureBox40";
+            pictureBox40.Size = new Size(76, 35);
+            pictureBox40.TabIndex = 81;
+            pictureBox40.TabStop = false;
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Font = new Font("Calibri", 16.2F);
+            label41.ForeColor = Color.Black;
+            label41.Location = new Point(1022, 217);
+            label41.Name = "label41";
+            label41.Size = new Size(219, 35);
+            label41.TabIndex = 82;
+            label41.Text = "IB - 10.82.100.143";
+            label41.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // notifyIcon1
+            // 
+            notifyIcon1.Text = "notifyIcon1";
+            notifyIcon1.Visible = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1382, 1074);
+            Controls.Add(label41);
+            Controls.Add(pictureBox40);
             Controls.Add(pictureBox39);
             Controls.Add(label40);
             Controls.Add(label39);
@@ -1083,7 +1161,7 @@
             Controls.Add(panel1);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Form1";
+            Text = "Inventory App";
             WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             panel1.ResumeLayout(false);
@@ -1126,6 +1204,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox37).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox38).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox39).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox40).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1213,5 +1292,12 @@
         private PictureBox pictureBox38;
         private PictureBox pictureBox39;
         private Label label40;
+        private Button button4;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private PictureBox pictureBox40;
+        private Label label41;
+        private NotifyIcon notifyIcon1;
     }
 }
